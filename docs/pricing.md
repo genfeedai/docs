@@ -2,106 +2,92 @@
 sidebar_position: 1
 ---
 
-# Pricing & Plans
+# Pricing
 
-GenFeed.ai offers flexible pricing plans designed to meet the needs of businesses of all sizes. Choose the plan that best fits your content generation requirements.
+GenFeed.ai offers simple, transparent pricing to power your content creation.
 
-## Pricing Plans
+## Subscription Plans
 
-### Starter Plan - $29/month
-Perfect for small businesses and individual creators
+### Monthly Plan
+**$299/month**
+- Unlimited content generation
+- Access to all AI models
+- All features included
+- Priority support
+- Cancel anytime
 
-- **5,000 credits** per month
-- Access to **GPT-3.5 Turbo** and **Claude 3 Haiku**
-- **1 user seat**
-- Basic templates
-- Email support
-- Export to TXT and PDF
+### Yearly Plan
+**$2,990/year** 
+- Everything in Monthly Plan
+- Save $598 (2 months free!)
+- Annual billing
+- Best value for committed users
 
-### Professional Plan - $99/month
-Ideal for growing businesses and marketing teams
+## Credit Packs
 
-- **25,000 credits** per month
-- Access to all **GPT-4**, **Claude 3 Sonnet**, and base models
-- **5 user seats**
-- Advanced templates and custom prompts
-- Voice recognition enabled
-- Priority email support
-- Export to all formats (TXT, PDF, DOCX, MD)
-- API access (1,000 calls/month)
+Prefer pay-as-you-go? Purchase credits that never expire:
 
-### Business Plan - $299/month
-Best for agencies and large teams
+### Starter Pack
+**100 Credits - $10**
+- Perfect for trying GenFeed.ai
+- No expiration date
+- Use across all features
 
-- **100,000 credits** per month
-- Access to **all premium models** including GPT-4 Turbo and Claude 3 Opus
-- **20 user seats**
-- Custom templates and brand voice profiles
-- Advanced voice recognition with custom commands
-- Dedicated support manager
-- Unlimited export formats
-- API access (10,000 calls/month)
-- Team collaboration features
-- Usage analytics dashboard
+### Pro Pack
+**500 Credits - $45**
+- 10% savings vs Starter Pack
+- Great for regular users
+- Flexible usage
 
-### Enterprise Plan - Custom Pricing
-Tailored solutions for large organizations
+### Enterprise Pack
+**2,000 Credits - $160**
+- 20% savings vs Starter Pack
+- Best value for power users
+- Bulk discount pricing
 
-- **Unlimited credits**
-- Access to all models including exclusive beta models
-- **Unlimited user seats**
-- Custom model fine-tuning
-- White-label options
-- 24/7 phone and email support
-- Custom integrations
-- SLA guarantees
-- Advanced security features
-- Dedicated account manager
+## How Credits Work
 
-## Credit System
+Different AI features consume different amounts of credits:
 
-Credits are consumed based on the model used and output length:
+### Text Generation
+- **Quick Posts**: 1-2 credits
+- **Long Articles**: 3-5 credits
+- **SEO Content**: 2-4 credits
 
-| Model | Credits per 1K tokens |
-|-------|----------------------|
-| GPT-3.5 Turbo | 1 credit |
-| GPT-4 | 10 credits |
-| GPT-4 Turbo | 15 credits |
-| Claude 3 Haiku | 1 credit |
-| Claude 3 Sonnet | 5 credits |
-| Claude 3 Opus | 20 credits |
+### Image Generation
+- **Simple Images**: 5-10 credits
+- **Complex Artwork**: 15-20 credits
+- **Multiple Variations**: 20-30 credits
 
-## Add-Ons
+### Video Generation
+- **Short Clips**: 20-30 credits
+- **Full Videos**: 40-50 credits
 
-Enhance your plan with additional features:
+### Audio Generation
+- **Voice Overs**: 10-15 credits
+- **Music/SFX**: 20-30 credits
 
-- **Extra Credits**: $10 per 5,000 credits
-- **Additional Seats**: $10 per seat/month
-- **Advanced Analytics**: $50/month
-- **Custom Integration**: Starting at $500 (one-time)
+## Which Plan is Right for You?
 
-## Billing Information
+### Choose Subscription if:
+- You create content daily
+- You want predictable costs
+- You need unlimited generation
+- You use multiple AI models regularly
 
-- All plans are billed monthly
-- Annual billing available with 20% discount
-- Credits reset at the beginning of each billing cycle
-- Unused credits do not roll over
-- Cancel anytime with no penalties
+### Choose Credits if:
+- You create content occasionally
+- You want to control spending
+- You're just getting started
+- You have variable content needs
 
-## Frequently Asked Questions
+## Payment & Billing
 
-### Can I change my plan?
-Yes, you can upgrade or downgrade your plan at any time. Changes take effect at the next billing cycle.
+- **Payment Methods**: All major credit/debit cards
+- **Secure Processing**: Bank-level encryption
+- **Instant Access**: Start creating immediately
+- **Flexible Management**: Change or cancel anytime
 
-### What happens if I run out of credits?
-You can purchase additional credits as needed, or upgrade to a higher plan for better value.
+## Get Started Today
 
-### Do you offer a free trial?
-Yes, we offer a 7-day free trial for all new users with 1,000 credits to test our platform.
-
-### Are there any setup fees?
-No, there are no setup fees for any of our standard plans. Enterprise custom integrations may have one-time setup costs.
-
-## Get Started
-
-Ready to transform your content creation process? [Sign up now](https://genfeed.ai/signup) and start your free trial today!
+Ready to supercharge your content creation? [Sign up now](https://genfeed.ai) and start creating amazing content with AI!

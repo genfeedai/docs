@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-# Welcome to GenFeed.ai Documentation
+# Welcome
 
 GenFeed.ai is the best platform to generate AI-powered content for your business. Our intuitive platform helps you create high-quality content at scale, saving time and resources while maintaining your brand voice.
 

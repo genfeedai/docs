@@ -18,12 +18,12 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Getting Started",
-      items: ["getting-started", "pricing"],
+      items: ["getting-started", "features", "pricing"],
     },
     {
       type: "category",
-      label: "AI Models & Features",
-      items: ["available-models", "models"],
+      label: "AI Models",
+      items: ["models"],
     },
     {
       type: "category",
@@ -37,13 +37,13 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Publishing & Growth",
-      items: ["social-media-setup"],
+      label: "Publish",
+      items: ["publish"],
     },
     {
       type: "category",
       label: "Advanced",
-      items: ["advanced-features", "admin-guide"],
+      items: ["advanced-features", "admin-guide", "members-guide"],
     },
     {
       type: "category",

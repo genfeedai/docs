@@ -1,145 +1,366 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 # Available AI Models
 
-GenFeed.ai provides access to a diverse range of cutting-edge AI models, each optimized for different use cases and content types. Choose the right model for your specific needs.
+GenFeed.ai provides access to cutting-edge AI models from leading providers. Each model is optimized for specific use cases and content types.
 
-## OpenAI Models
+## Image Generation Models
 
-### GPT-4 Turbo
-**Best for**: Complex content, technical writing, creative storytelling
+### Leonardo AI
+**Provider**: Leonardo.ai  
+**Model ID**: `leonardoai`  
+**Best for**: Artistic and stylized imagery, creative concepts
 
-- **Strengths**: Most advanced reasoning, nuanced understanding, creative capabilities
-- **Context Window**: 128,000 tokens
-- **Speed**: Moderate
-- **Cost**: 15 credits per 1K tokens
+- **Strengths**: 
+  - Excellent artistic interpretation
+  - Wide range of style options (anime, fashion, vibrant, monochrome, photography)
+  - Great for creative and conceptual work
+  - Strong community-trained models
+- **Output Quality**: High-resolution images up to 1024x1024
+- **Generation Speed**: Fast (10-20 seconds)
+- **Credit Cost**: 10 credits per image
 
-### GPT-4
-**Best for**: High-quality content, professional writing, detailed analysis
+**Prompt Tips**:
+```
+Subject: futuristic cityscape
+Medium/Style: digital art, cyberpunk aesthetic
+Environment: neon-lit streets, rain
+Details: flying cars, holographic billboards
+Composition: wide shot, dramatic perspective
+```
 
-- **Strengths**: Excellent reasoning, reliable outputs, strong consistency
-- **Context Window**: 8,192 tokens
-- **Speed**: Moderate
-- **Cost**: 10 credits per 1K tokens
+### Google Imagen 3
+**Provider**: Google (via Replicate)  
+**Model ID**: `google/imagen-3`  
+**Best for**: Balanced quality and speed
 
-### GPT-3.5 Turbo
-**Best for**: Quick drafts, simple content, high-volume generation
+- **Strengths**: 
+  - Good understanding of complex prompts
+  - Consistent quality output
+  - Reliable for various styles
+- **Output Quality**: High-resolution, photorealistic capable
+- **Generation Speed**: Moderate (15-25 seconds)
+- **Credit Cost**: 15 credits per image
 
-- **Strengths**: Fast response, cost-effective, good for basic tasks
-- **Context Window**: 16,384 tokens
-- **Speed**: Very fast
-- **Cost**: 1 credit per 1K tokens
+### Google Imagen 3 Fast
+**Provider**: Google (via Replicate)  
+**Model ID**: `google/imagen-3-fast`  
+**Best for**: Quick iterations and drafts
 
-## Anthropic Claude Models
+- **Strengths**: 
+  - Very fast generation
+  - Good for testing concepts
+  - Lower credit cost
+- **Output Quality**: Good quality, slightly less detailed
+- **Generation Speed**: Very fast (5-10 seconds)
+- **Credit Cost**: 8 credits per image
 
-### Claude 3 Opus
-**Best for**: Research, analysis, complex creative projects
+### Google Imagen 4
+**Provider**: Google (via Replicate)  
+**Model ID**: `google/imagen-4`  
+**Best for**: Professional photography and commercial work
 
-- **Strengths**: Superior reasoning, excellent at following complex instructions
-- **Context Window**: 200,000 tokens
-- **Speed**: Moderate
-- **Cost**: 20 credits per 1K tokens
+- **Strengths**: 
+  - Photorealistic quality
+  - Excellent lighting and composition
+  - Professional-grade outputs
+  - Superior detail rendering
+- **Output Quality**: Ultra high-resolution, professional quality
+- **Generation Speed**: Moderate (20-30 seconds)
+- **Credit Cost**: 25 credits per image
 
-### Claude 3 Sonnet
-**Best for**: Business content, marketing copy, general writing
+### Google Imagen 4 Fast
+**Provider**: Google (via Replicate)  
+**Model ID**: `google/imagen-4-fast`  
+**Best for**: High-quality with faster generation
 
-- **Strengths**: Balanced performance, strong creative abilities
-- **Context Window**: 200,000 tokens
-- **Speed**: Fast
-- **Cost**: 5 credits per 1K tokens
+- **Strengths**: 
+  - Balance of quality and speed
+  - Great for production workflows
+  - Maintains Imagen 4 quality
+- **Output Quality**: High-resolution, near Imagen 4 quality
+- **Generation Speed**: Fast (10-15 seconds)
+- **Credit Cost**: 18 credits per image
 
-### Claude 3 Haiku
-**Best for**: Quick responses, simple tasks, high-volume needs
+### Google Imagen 4 Ultra
+**Provider**: Google (via Replicate)  
+**Model ID**: `google/imagen-4-ultra`  
+**Best for**: Maximum quality requirements
 
-- **Strengths**: Lightning fast, efficient, cost-effective
-- **Context Window**: 200,000 tokens
-- **Speed**: Ultra-fast
-- **Cost**: 1 credit per 1K tokens
+- **Strengths**: 
+  - Highest quality available
+  - Incredible detail and realism
+  - Perfect for hero images
+  - Best-in-class photorealism
+- **Output Quality**: Ultra high-resolution, maximum detail
+- **Generation Speed**: Slower (30-45 seconds)
+- **Credit Cost**: 40 credits per image
+
+### DALL-E 3 (GPT Image 1)
+**Provider**: OpenAI  
+**Model ID**: `gpt-image-1`  
+**Best for**: Creative concepts and text integration
+
+- **Strengths**: 
+  - Excellent prompt understanding
+  - Can include readable text in images
+  - Great for conceptual work
+  - Strong artistic capabilities
+- **Output Quality**: High-resolution, versatile styles
+- **Generation Speed**: Moderate (15-25 seconds)
+- **Credit Cost**: 20 credits per image
+
+### Stable Diffusion XL (SDXL)
+**Provider**: Stability AI (via Replicate)  
+**Model ID**: `sdxl`  
+**Best for**: Open-source flexibility and customization
+
+- **Strengths**: 
+  - Highly customizable
+  - Good for specific styles
+  - Community models available
+  - Cost-effective
+- **Output Quality**: High-resolution, style-dependent
+- **Generation Speed**: Fast (10-20 seconds)
+- **Credit Cost**: 8 credits per image
+
+## Video Generation Models
+
+### Kling AI V2
+**Provider**: Kling AI  
+**Model ID**: `klingai-v2`  
+**Best for**: Creative video content and animations
+
+- **Strengths**: 
+  - Smooth motion generation
+  - Good scene understanding
+  - Creative interpretations
+  - Consistent character movement
+- **Output Quality**: HD video, up to 10 seconds
+- **Generation Speed**: 2-5 minutes
+- **Credit Cost**: 50 credits per video
+
+**Prompt Structure**:
+```
+Scene description: serene lake at dawn
+Primary objects: swan gliding across water
+Camera: slow pan following the swan
+Action: ripples spreading, mist rising
+Mood: peaceful, ethereal
+Duration: 8 seconds
+```
+
+### Google Veo 2
+**Provider**: Google (via Replicate)  
+**Model ID**: `google/veo-2`  
+**Best for**: High-quality cinematic videos
+
+- **Strengths**: 
+  - Cinematic quality
+  - Excellent motion coherence
+  - Professional-grade output
+  - Complex scene understanding
+- **Output Quality**: Full HD, cinematic quality
+- **Generation Speed**: 3-6 minutes
+- **Credit Cost**: 80 credits per video
+
+### Google Veo 3
+**Provider**: Google (via Replicate)  
+**Model ID**: `google/veo-3`  
+**Best for**: Next-generation video quality
+
+- **Strengths**: 
+  - Latest technology
+  - Superior motion quality
+  - Advanced scene composition
+  - Realistic physics
+- **Output Quality**: Full HD+, premium quality
+- **Generation Speed**: 4-7 minutes
+- **Credit Cost**: 100 credits per video
+
+### Google Veo 3 Fast
+**Provider**: Google (via Replicate)  
+**Model ID**: `google/veo-3-fast`  
+**Best for**: Quick high-quality videos
+
+- **Strengths**: 
+  - Faster Veo 3 variant
+  - Maintains quality
+  - Good for iterations
+  - Production-ready
+- **Output Quality**: Full HD, excellent quality
+- **Generation Speed**: 2-4 minutes
+- **Credit Cost**: 70 credits per video
+
+### Runway ML
+**Provider**: Runway  
+**Model ID**: `runwayml`  
+**Best for**: Creative and artistic videos
+
+- **Strengths**: 
+  - Artistic styles
+  - Creative effects
+  - Good for experimental content
+  - Unique visual treatments
+- **Output Quality**: HD, artistic quality
+- **Generation Speed**: 2-4 minutes
+- **Credit Cost**: 60 credits per video
+
+**Prompt Tips**:
+```
+Concept: paper airplane journey through clouds
+Key visuals: origami plane, fluffy clouds
+Motion style: smooth gliding, dreamy
+Transitions: seamless flow
+Style: whimsical, soft colors
+Duration: 6 seconds
+```
+
+## Audio Generation Models
+
+### ElevenLabs
+**Provider**: ElevenLabs  
+**Model ID**: `elevenlabs`  
+**Type**: Text-to-Speech  
+**Best for**: Natural voiceovers and narration
+
+- **Strengths**: 
+  - Most natural-sounding voices
+  - Multiple voice options
+  - Emotional control
+  - Multiple languages
+- **Output Quality**: Studio-quality audio
+- **Generation Speed**: Real-time to 30 seconds
+- **Credit Cost**: 15 credits per minute
+
+**Voice Options**:
+- Professional narrators
+- Character voices
+- Custom voice cloning
+- Multiple accents and languages
+
+### Meta MusicGen
+**Provider**: Meta (via Replicate)  
+**Model ID**: `meta/musicgen`  
+**Type**: Text-to-Music  
+**Best for**: Background music and soundtracks
+
+- **Strengths**: 
+  - Creates original music
+  - Multiple genres
+  - Customizable length
+  - Royalty-free output
+- **Output Quality**: High-quality stereo
+- **Generation Speed**: 30-60 seconds
+- **Credit Cost**: 20 credits per 30 seconds
+
+**Music Styles**:
+- Electronic, Ambient, Classical
+- Jazz, Rock, Pop
+- Cinematic, Corporate
+- Lo-fi, Chill, Upbeat
+
+## Specialized Models
+
+### Image-to-Video Models
+Transform static images into dynamic videos using:
+- **Kling AI V2**: Best for creative transformations
+- **Google Veo Models**: Best for realistic motion
+- **Runway ML**: Best for artistic effects
+
+### Whisper (Speech-to-Text)
+**Provider**: OpenAI  
+**Model ID**: `whisper`  
+**Best for**: Transcription and subtitles
+
+- **Strengths**: 
+  - Accurate transcription
+  - Multiple language support
+  - Punctuation and formatting
+- **Credit Cost**: 5 credits per minute
+
+### HegeAI Avatar
+**Provider**: Heygen  
+**Model ID**: `heygen`  
+**Best for**: AI avatar videos
+
+- **Strengths**: 
+  - Realistic avatars
+  - Lip-sync accuracy
+  - Professional presenters
+- **Credit Cost**: 100 credits per minute
 
 ## Model Selection Guide
 
-### By Content Type
+### By Quality Requirements
 
-**Marketing Copy**
-- Recommended: Claude 3 Sonnet, GPT-4
-- Why: Balance of creativity and brand consistency
+**Maximum Quality**
+- Images: Google Imagen 4 Ultra
+- Videos: Google Veo 3
+- Audio: ElevenLabs (premium voices)
 
-**Technical Documentation**
-- Recommended: GPT-4 Turbo, Claude 3 Opus
-- Why: Accuracy and detailed explanations
+**Balanced Quality/Speed**
+- Images: Google Imagen 4, Leonardo AI
+- Videos: Kling AI V2, Google Veo 3 Fast
+- Audio: ElevenLabs (standard voices)
 
-**Social Media Posts**
-- Recommended: GPT-3.5 Turbo, Claude 3 Haiku
-- Why: Quick generation, cost-effective
-
-**Blog Articles**
-- Recommended: GPT-4, Claude 3 Sonnet
-- Why: Quality writing with good structure
-
-**Creative Writing**
-- Recommended: GPT-4 Turbo, Claude 3 Opus
-- Why: Maximum creativity and nuance
+**Fast Generation**
+- Images: Google Imagen 3 Fast, SDXL
+- Videos: Runway ML
+- Audio: Meta MusicGen
 
 ### By Use Case
 
-**High Volume Generation**
-- Use GPT-3.5 Turbo or Claude 3 Haiku
-- Optimize for speed and cost
+**Social Media Content**
+- Instagram: Leonardo AI (stylized), Google Imagen 4 (realistic)
+- TikTok: Kling AI V2, Runway ML
+- YouTube: Google Veo 3, ElevenLabs
 
-**Quality-Critical Content**
-- Use GPT-4 Turbo or Claude 3 Opus
-- Prioritize accuracy and sophistication
+**Professional/Business**
+- Presentations: Google Imagen 4 Ultra
+- Marketing: Google Veo 3, ElevenLabs
+- Product Shots: Google Imagen 4
 
-**Balanced Needs**
-- Use GPT-4 or Claude 3 Sonnet
-- Good mix of quality and efficiency
+**Creative Projects**
+- Art: Leonardo AI, DALL-E 3
+- Experimental: Runway ML, SDXL
+- Music Videos: Google Veo 3 + Meta MusicGen
 
-## Model Features Comparison
+## Credit Optimization Tips
 
-| Feature | GPT-4 Turbo | GPT-4 | GPT-3.5 | Claude 3 Opus | Claude 3 Sonnet | Claude 3 Haiku |
-|---------|-------------|--------|----------|---------------|-----------------|----------------|
-| Context Length | 128K | 8K | 16K | 200K | 200K | 200K |
-| Response Speed | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| Creativity | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
-| Accuracy | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
-| Cost Efficiency | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+1. **Test with Fast Models**: Use fast/cheap models for concept testing
+2. **Batch Similar Content**: Generate variations in one session
+3. **Use Appropriate Quality**: Don't use Ultra for thumbnails
+4. **Plan Generations**: Outline needs before starting
+5. **Reuse Assets**: Build a library of reusable content
 
-## Advanced Features by Model
+## Model Updates and Beta Access
 
-### Function Calling
-- **Supported**: All GPT models, Claude 3 models
-- **Best Performance**: GPT-4 Turbo, Claude 3 Opus
+GenFeed.ai regularly adds new models and features:
+- Check announcements for new model releases
+- Beta models available to premium subscribers
+- Provide feedback to influence model selection
+- Request specific models via support
 
-### Image Understanding
-- **Supported**: GPT-4 Turbo, GPT-4, All Claude 3 models
-- **Best Performance**: Claude 3 Opus, GPT-4 Turbo
+## Technical Specifications
 
-### Code Generation
-- **All models support code generation**
-- **Best Performance**: GPT-4 Turbo, Claude 3 Opus
+### Output Formats
+- **Images**: PNG, JPEG, WebP
+- **Videos**: MP4, MOV, GIF
+- **Audio**: MP3, WAV
 
-### Multilingual Support
-- **All models support multiple languages**
-- **Best Performance**: GPT-4 Turbo, Claude 3 Opus
+### Resolution Options
+- **Images**: Up to 4K (model dependent)
+- **Videos**: Up to 1080p Full HD
+- **Audio**: Up to 320kbps
 
-## Tips for Model Selection
+### API Integration
+All models are accessible via API for developers:
+- RESTful API endpoints
+- WebSocket for real-time updates
+- Batch processing available
+- Webhook notifications
 
-1. **Start with mid-tier models** (GPT-4, Claude 3 Sonnet) and adjust based on results
-2. **Use faster models** for iterative work and drafts
-3. **Switch to premium models** for final versions and critical content
-4. **Consider context length** for long documents or conversations
-5. **Test different models** for your specific use case
-
-## Model Updates
-
-We regularly update our model offerings to include the latest AI advancements. Check back frequently for:
-- New model releases
-- Performance improvements
-- Feature updates
-- Beta access opportunities
-
-## Need Help Choosing?
-
-Contact our support team at support@genfeed.ai for personalized model recommendations based on your specific use case and requirements.
+Need help choosing the right model? Contact support@genfeed.ai for personalized recommendations!

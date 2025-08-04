@@ -42,6 +42,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          routeBasePath: "/",
         },
         blog: false,
         theme: {
@@ -51,14 +52,41 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    function (context, options) {
+      return {
+        name: "webpack-polyfill-plugin",
+        configureWebpack(config, isServer, utils) {
+          const webpack = require("webpack");
+          return {
+            resolve: {
+              fallback: {
+                buffer: require.resolve("buffer/"),
+                process: require.resolve("process/browser"),
+                stream: require.resolve("stream-browserify"),
+              },
+            },
+            plugins: [
+              new webpack.ProvidePlugin({
+                Buffer: ["buffer", "Buffer"],
+                process: "process/browser",
+              }),
+            ],
+          };
+        },
+      };
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
-    image: "img/genfeed-social-card.jpg",
+    image: "https://assets.genfeed.ai/cards/default.jpg",
     navbar: {
       title: "GenFeed.ai",
       logo: {
         alt: "GenFeed.ai Logo",
-        src: "img/logo.svg",
+        src: "https://assets.genfeed.ai/branding/logo-dark.png",
+        srcDark: "https://assets.genfeed.ai/branding/logo-white.png",
       },
       items: [
         {
@@ -66,6 +94,12 @@ const config: Config = {
           sidebarId: "tutorialSidebar",
           position: "left",
           label: "Documentation",
+          to: "/",
+        },
+        {
+          to: "/api/",
+          label: "API",
+          position: "left",
         },
         {
           href: "https://genfeed.ai",
@@ -82,11 +116,11 @@ const config: Config = {
           items: [
             {
               label: "Pricing",
-              to: "/docs/pricing",
+              to: "/pricing",
             },
             {
-              label: "Available Models",
-              to: "/docs/models",
+              label: "Models",
+              to: "/models",
             },
           ],
         },
@@ -95,19 +129,19 @@ const config: Config = {
           items: [
             {
               label: "Prompting Tutorial",
-              to: "/docs/prompting-guide",
+              to: "/prompting-guide",
             },
             {
               label: "Admin Guide",
-              to: "/docs/admin-guide",
+              to: "/admin-guide",
             },
             {
               label: "Voice Recognition",
-              to: "/docs/voice-recognition",
+              to: "/voice-recognition",
             },
             {
               label: "Keyboard Shortcuts",
-              to: "/docs/keyboard-shortcuts",
+              to: "/keyboard-shortcuts",
             },
           ],
         },
@@ -116,11 +150,36 @@ const config: Config = {
           items: [
             {
               label: "FAQ",
-              to: "/docs/faq",
+              to: "/faq",
             },
             {
               label: "GenFeed.ai",
               href: "https://genfeed.ai",
+            },
+          ],
+        },
+        {
+          title: "Connect",
+          items: [
+            {
+              label: "Discord",
+              href: "https://discord.gg/genfeedai",
+            },
+            {
+              label: "Twitter",
+              href: "https://x.com/genfeedai",
+            },
+            {
+              label: "Instagram",
+              href: "https://instagram.com/genfeedai",
+            },
+            {
+              label: "TikTok",
+              href: "https://tiktok.com/@genfeedai",
+            },
+            {
+              label: "YouTube",
+              href: "https://youtube.com/@genfeedai",
             },
           ],
         },

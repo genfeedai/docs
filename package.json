@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "pre:install": "pnpm up !next && pnpm i",
+    "pre:install": "pnpm up && pnpm i",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "start:dev": "docusaurus start --port 3000 --host local.genfeed.ai",
@@ -20,10 +20,14 @@
     "@docusaurus/core": "3.8.1",
     "@docusaurus/preset-classic": "3.8.1",
     "@mdx-js/react": "3.0.0",
+    "buffer": "^6.0.3",
     "clsx": "2.0.0",
     "prism-react-renderer": "2.3.0",
+    "process": "^0.11.10",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "stream-browserify": "^3.0.0",
+    "swagger-ui-react": "^5.27.1"
   },
   "packageManager": "pnpm@10.14.0",
   "devDependencies": {
