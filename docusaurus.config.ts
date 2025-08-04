@@ -105,14 +105,18 @@ const config: Config = {
               label: "Voice Recognition",
               to: "/docs/voice-recognition",
             },
+            {
+              label: "Keyboard Shortcuts",
+              to: "/docs/keyboard-shortcuts",
+            },
           ],
         },
         {
           title: "Resources",
           items: [
             {
-              label: "Keyboard Shortcuts",
-              to: "/docs/keyboard-shortcuts",
+              label: "FAQ",
+              to: "/docs/faq",
             },
             {
               label: "GenFeed.ai",
