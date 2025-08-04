@@ -1,4 +1,4 @@
-import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
+import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -14,54 +14,41 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  */
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
-    'intro',
+    "home",
     {
-      type: 'category',
-      label: 'Getting Started',
+      type: "category",
+      label: "Getting Started",
+      items: ["getting-started", "pricing"],
+    },
+    {
+      type: "category",
+      label: "AI Models & Features",
+      items: ["available-models", "models"],
+    },
+    {
+      type: "category",
+      label: "Content Creation",
       items: [
-        'getting-started',
-        'pricing',
+        "prompting-guide",
+        "asset-prompting-guide",
+        "voice-recognition",
+        "keyboard-shortcuts",
       ],
     },
     {
-      type: 'category',
-      label: 'AI Models & Features',
-      items: [
-        'available-models',
-        'models',
-      ],
+      type: "category",
+      label: "Publishing & Growth",
+      items: ["social-media-setup"],
     },
     {
-      type: 'category',
-      label: 'Content Creation',
-      items: [
-        'prompting-guide',
-        'asset-prompting-guide',
-        'voice-recognition',
-        'keyboard-shortcuts',
-      ],
+      type: "category",
+      label: "Advanced",
+      items: ["advanced-features", "admin-guide"],
     },
     {
-      type: 'category',
-      label: 'Publishing & Growth',
-      items: [
-        'social-media-setup',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Advanced',
-      items: [
-        'advanced-features',
-        'admin-guide',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Help & Support',
-      items: [
-        'faq',
-      ],
+      type: "category",
+      label: "Help & Support",
+      items: ["faq"],
     },
   ],
 };
