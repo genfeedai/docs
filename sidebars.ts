@@ -19,24 +19,48 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Getting Started',
       items: [
+        'getting-started',
         'pricing',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'AI Models & Features',
+      items: [
+        'available-models',
         'models',
       ],
     },
     {
       type: 'category',
-      label: 'User Guides',
+      label: 'Content Creation',
       items: [
         'prompting-guide',
+        'asset-prompting-guide',
         'voice-recognition',
         'keyboard-shortcuts',
       ],
     },
     {
       type: 'category',
-      label: 'Admin Guide',
+      label: 'Publishing & Growth',
       items: [
+        'social-media-setup',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Advanced',
+      items: [
+        'advanced-features',
         'admin-guide',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Help & Support',
+      items: [
+        'faq',
       ],
     },
   ],
