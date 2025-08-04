@@ -6,6 +6,7 @@
     "pre:install": "pnpm up !next && pnpm i",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
+    "start:dev": "docusaurus start --port 3000 --host local.genfeed.ai",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
