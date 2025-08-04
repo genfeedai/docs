@@ -1,41 +1,36 @@
-# Website
+# GenFeed.ai Documentation Site
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This repository contains the documentation for GenFeed.ai, built with [Docusaurus](https://docusaurus.io/).
 
 ## Installation
 
 ```bash
-yarn
+pnpm install
 ```
 
 ## Local Development
 
 ```bash
-yarn start
+pnpm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+This command starts a local development server and opens a browser window. Most changes are reflected live without needing to restart the server.
 
 ## Build
 
 ```bash
-yarn build
+pnpm build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+The static site is generated in the `build` directory.
 
 ## Deployment
 
-Using SSH:
+This site is deployed to Vercel. Pushing to the `main` branch will trigger a deployment using the settings in `vercel.json`.
+To preview the production build locally:
 
 ```bash
-USE_SSH=true yarn deploy
+pnpm build
+pnpm serve
 ```
 
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

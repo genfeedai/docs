@@ -83,7 +83,7 @@ You can reach our support team at [support@genfeed.ai](mailto:support@genfeed.ai
 
 ### Where can I find more help?
 
-- Visit our [Documentation Home](/docs/intro)
+- Visit our [Documentation Home](/docs/)
 - Check out our [Prompting Guide](/docs/prompting-guide)
 - Contact support if you need further assistance
 
