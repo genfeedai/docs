@@ -81,10 +81,6 @@ const config: Config = {
           title: "Documentation",
           items: [
             {
-              label: "Getting Started",
-              to: "/docs/intro",
-            },
-            {
               label: "Pricing",
               to: "/docs/pricing",
             },
