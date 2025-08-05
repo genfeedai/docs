@@ -22,12 +22,12 @@ GenFeed.ai is an AI-powered content generation platform designed specifically fo
 
 ## Quick Navigation
 
-- **[Pricing & Plans](/docs/pricing)** - Explore our flexible pricing options
-- **[Available Models](/docs/models)** - Learn about the AI models we offer
-- **[Prompting Guide](/docs/prompting-guide)** - Master the art of effective prompting
-- **[Admin Guide](/docs/admin-guide)** - Manage your team and settings
-- **[Voice Recognition](/docs/voice-recognition)** - Set up voice input features
-- **[Keyboard Shortcuts](/docs/keyboard-shortcuts)** - Speed up your workflow
+- **[Pricing & Plans](/pricing)** - Explore our flexible pricing options
+- **[Available Models](/models)** - Learn about the AI models we offer
+- **[Prompting Guide](/prompting-guide)** - Master the art of effective prompting
+- **[Admin Guide](/admin-guide)** - Manage your team and settings
+- **[Voice Recognition](/voice-recognition)** - Set up voice input features
+- **[Keyboard Shortcuts](/keyboard-shortcuts)** - Speed up your workflow
 
 ## Getting Started
 
@@ -40,4 +40,4 @@ GenFeed.ai is an AI-powered content generation platform designed specifically fo
 
 - Contact our support team at support@genfeed.ai
 - Visit our [main website](https://genfeed.ai) for more information
-- Check our [FAQ section](/docs/faq) for common questions
+- Check our [FAQ section](/faq) for common questions

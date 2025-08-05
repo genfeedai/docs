@@ -35,15 +35,15 @@ You can generate:
 
 ### What AI models are available?
 
-GenFeed.ai offers access to multiple state-of-the-art language models. See our [Available Models](/docs/models) page for details.
+GenFeed.ai offers access to multiple state-of-the-art language models. See our [Available Models](/models) page for details.
 
 ### Can I use voice input to create content?
 
-Yes! GenFeed.ai supports voice recognition for hands-free content creation. See our [Voice Recognition Guide](/docs/voice-recognition) for setup instructions.
+Yes! GenFeed.ai supports voice recognition for hands-free content creation. See our [Voice Recognition Guide](/voice-recognition) for setup instructions.
 
 ### Can I collaborate with my team?
 
-Absolutely. GenFeed.ai supports team collaboration, seat management, and role-based permissions. Learn more in our [Admin Guide](/docs/admin-guide).
+Absolutely. GenFeed.ai supports team collaboration, seat management, and role-based permissions. Learn more in our [Admin Guide](/admin-guide).
 
 ### How do I maintain my brand voice?
 
@@ -59,7 +59,7 @@ Yes, we offer a free trial so you can explore GenFeed.ai before committing to a 
 
 ### What plans are available?
 
-We offer several plans to fit different needs. See our [Pricing & Plans](/docs/pricing) page for details.
+We offer several plans to fit different needs. See our [Pricing & Plans](/pricing) page for details.
 
 ### How do I upgrade or downgrade my plan?
 
@@ -67,7 +67,7 @@ You can manage your subscription from your account dashboard at any time.
 
 ### Can I purchase additional seats?
 
-Yes, you can add more seats to your team. See the [Admin Guide](/docs/admin-guide) for instructions.
+Yes, you can add more seats to your team. See the [Admin Guide](/admin-guide) for instructions.
 
 ---
 
@@ -83,8 +83,8 @@ You can reach our support team at [support@genfeed.ai](mailto:support@genfeed.ai
 
 ### Where can I find more help?
 
-- Visit our [Documentation Home](/docs/)
-- Check out our [Prompting Guide](/docs/prompting-guide)
+- Visit our [Documentation Home](/)
+- Check out our [Prompting Guide](/prompting-guide)
 - Contact support if you need further assistance
 
 ---

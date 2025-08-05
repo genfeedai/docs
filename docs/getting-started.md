@@ -161,9 +161,9 @@ Keep an eye on your credit usage to optimize your workflow.
 
 Now that you understand the basics:
 
-1. Read our [Prompting Guide](/docs/prompting-guide) to master content generation
-2. Explore [Available Models](/docs/models) to choose the best for your needs
-3. Set up [Social Media Accounts](/docs/social-media-setup) for publishing
-4. Learn about [Advanced Features](/docs/advanced-features)
+1. Read our [Prompting Guide](/prompting-guide) to master content generation
+2. Explore [Available Models](/models) to choose the best for your needs
+3. Set up [Social Media Accounts](/publish) for publishing
+4. Learn about [Advanced Features](/advanced-features)
 
 Welcome to the GenFeed.ai community! We're excited to see what you create.
