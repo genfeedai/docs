@@ -1,0 +1,269 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+// Color Variables
+$primary-color: #000000;
+$primary-dark: #000000;
+$primary-darker: #000000;
+$primary-darkest: #000000;
+$primary-light: #ffffff;
+$primary-lighter: #ffffff;
+$primary-lightest: #ffffff;
+
+// Dark theme colors
+$dark-bg: #0a0a0a;
+$dark-navbar-bg: #111111;
+$dark-footer-bg: #000000;
+$dark-emphasis-100: #1a1a1a;
+$dark-emphasis-200: #262626;
+$dark-emphasis-300: #333333;
+$dark-emphasis-400: #404040;
+$dark-emphasis-500: #4d4d4d;
+$dark-emphasis-600: #666666;
+$dark-emphasis-700: #808080;
+$dark-emphasis-800: #999999;
+$dark-emphasis-900: #b3b3b3;
+$dark-emphasis-1000: #cccccc;
+
+// Light theme colors
+$light-bg: #ffffff;
+$light-navbar-bg: #ffffff;
+$light-footer-bg: #1a1a1a;
+$light-hero-bg: #f9fafb;
+
+// Transition settings
+$transition-speed: 0.3s;
+$transition-ease: ease;
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #{$primary-color};
+  --ifm-color-primary-dark: #{$primary-dark};
+  --ifm-color-primary-darker: #{$primary-darker};
+  --ifm-color-primary-darkest: #{$primary-darkest};
+  --ifm-color-primary-light: #{$primary-light};
+  --ifm-color-primary-lighter: #{$primary-lighter};
+  --ifm-color-primary-lightest: #{$primary-lightest};
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-background-color: #{$light-bg};
+  --ifm-navbar-background-color: #{$light-navbar-bg};
+  --ifm-footer-background-color: #{$light-footer-bg};
+  --ifm-hero-background-color: #{$light-hero-bg};
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #{$primary-light};
+  --ifm-color-primary-dark: #{$primary-color};
+  --ifm-color-primary-darker: #{$primary-dark};
+  --ifm-color-primary-darkest: #{$primary-darker};
+  --ifm-color-primary-light: #{$primary-lighter};
+  --ifm-color-primary-lighter: #{$primary-lightest};
+  --ifm-color-primary-lightest: #e0e7ff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-background-color: #{$dark-bg};
+  --ifm-navbar-background-color: #{$dark-navbar-bg};
+  --ifm-footer-background-color: #{$dark-footer-bg};
+  --ifm-color-emphasis-100: #{$dark-emphasis-100};
+  --ifm-color-emphasis-200: #{$dark-emphasis-200};
+  --ifm-color-emphasis-300: #{$dark-emphasis-300};
+  --ifm-color-emphasis-400: #{$dark-emphasis-400};
+  --ifm-color-emphasis-500: #{$dark-emphasis-500};
+  --ifm-color-emphasis-600: #{$dark-emphasis-600};
+  --ifm-color-emphasis-700: #{$dark-emphasis-700};
+  --ifm-color-emphasis-800: #{$dark-emphasis-800};
+  --ifm-color-emphasis-900: #{$dark-emphasis-900};
+  --ifm-color-emphasis-1000: #{$dark-emphasis-1000};
+  --ifm-navbar-shadow: 0 1px 2px 0 rgba(255, 255, 255, 0.1);
+  --ifm-toc-border-color: #{$dark-emphasis-200};
+  --ifm-table-border-color: #{$dark-emphasis-200};
+
+  // Dark theme specific styles
+  .navbar {
+    border-bottom: 1px solid $dark-emphasis-200;
+  }
+
+  .menu {
+    background-color: $dark-bg;
+  }
+
+  .pagination-nav__link {
+    background-color: $dark-emphasis-100;
+    border-color: $dark-emphasis-200;
+
+    &:hover {
+      background-color: $dark-emphasis-200;
+      border-color: $dark-emphasis-300;
+    }
+  }
+
+  code {
+    background-color: $dark-emphasis-100;
+    border-color: $dark-emphasis-200;
+  }
+
+  .admonition {
+    background-color: $dark-emphasis-100;
+    border-left-color: var(--ifm-color-primary);
+  }
+
+  .hero {
+    background-color: $dark-bg;
+    background-image: linear-gradient(180deg, $dark-bg 0%, $dark-navbar-bg 100%);
+  }
+
+  .button--primary {
+    background-color: var(--ifm-color-primary);
+    border-color: var(--ifm-color-primary);
+
+    &:hover {
+      background-color: var(--ifm-color-primary-dark);
+      border-color: var(--ifm-color-primary-dark);
+    }
+  }
+
+  // Swagger UI Dark Theme
+  .swagger-ui {
+    background-color: transparent;
+
+    .topbar {
+      background-color: $dark-emphasis-100;
+    }
+
+    .opblock {
+      &.opblock-post {
+        border-color: #49cc90;
+        background: rgba(73, 204, 144, 0.1);
+      }
+
+      &.opblock-get {
+        border-color: #61affe;
+        background: rgba(97, 175, 254, 0.1);
+      }
+
+      &.opblock-put {
+        border-color: #fca130;
+        background: rgba(252, 161, 48, 0.1);
+      }
+
+      &.opblock-delete {
+        border-color: #f93e3e;
+        background: rgba(249, 62, 62, 0.1);
+      }
+
+      .opblock-section-header {
+        background: $dark-emphasis-100;
+        color: $light-bg;
+      }
+    }
+
+    .opblock-summary {
+      border-color: $dark-emphasis-200;
+    }
+
+    .btn {
+      background-color: $primary-color;
+      color: white;
+      border: none;
+
+      &:hover {
+        background-color: $primary-dark;
+      }
+    }
+
+    select {
+      background-color: $dark-emphasis-100;
+      color: $light-bg;
+      border-color: $dark-emphasis-200;
+    }
+
+    input[type='text'],
+    textarea {
+      background-color: $dark-emphasis-100;
+      color: $light-bg;
+      border-color: $dark-emphasis-200;
+    }
+
+    .info {
+      color: $light-bg;
+    }
+
+    .scheme-container {
+      background-color: $dark-emphasis-100;
+      box-shadow: none;
+    }
+
+    table {
+      thead {
+        tr {
+          th,
+          td {
+            border-color: $dark-emphasis-200;
+            color: $light-bg;
+          }
+        }
+      }
+    }
+
+    .parameter__name,
+    .parameter__type,
+    .response-col_status,
+    .response-col_description {
+      color: $light-bg;
+    }
+  }
+}
+
+/* Light theme adjustments */
+.hero {
+  background-image: linear-gradient(180deg, $light-bg 0%, $light-hero-bg 100%);
+}
+
+/* Footer specific styles */
+.footer {
+  background-color: $light-footer-bg !important;
+}
+
+.footer--dark {
+  background-color: $light-footer-bg !important;
+  --ifm-footer-background-color: #{$light-footer-bg};
+  --ifm-footer-link-color: #ffffff;
+  --ifm-footer-title-color: #ffffff;
+  
+  .footer__title {
+    color: #ffffff;
+  }
+  
+  .footer__link-item {
+    color: rgba(255, 255, 255, 0.8);
+    
+    &:hover {
+      color: #ffffff;
+    }
+  }
+  
+  .footer__copyright {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+[data-theme='dark'] {
+  .footer {
+    background-color: $dark-footer-bg !important;
+  }
+  
+  .footer--dark {
+    background-color: $dark-footer-bg !important;
+    --ifm-footer-background-color: #{$dark-footer-bg};
+  }
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color $transition-speed $transition-ease, border-color $transition-speed $transition-ease,
+    color $transition-speed $transition-ease;
+}

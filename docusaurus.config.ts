@@ -46,13 +46,14 @@ const config: Config = {
         },
         blog: false,
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: "./src/css/custom.scss",
         },
       } satisfies Preset.Options,
     ],
   ],
 
   plugins: [
+    "docusaurus-plugin-sass",
     function (context, options) {
       return {
         name: "webpack-polyfill-plugin",
@@ -132,8 +133,8 @@ const config: Config = {
               to: "/prompting-guide",
             },
             {
-              label: "Admin Guide",
-              to: "/admin-guide",
+              label: "Team Members Guide",
+              to: "/members-guide",
             },
             {
               label: "Voice Recognition",

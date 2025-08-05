@@ -25,7 +25,7 @@ GenFeed.ai is an AI-powered content generation platform designed specifically fo
 - **[Pricing & Plans](/pricing)** - Explore our flexible pricing options
 - **[Available Models](/models)** - Learn about the AI models we offer
 - **[Prompting Guide](/prompting-guide)** - Master the art of effective prompting
-- **[Admin Guide](/admin-guide)** - Manage your team and settings
+- **[Team Members Guide](/members-guide)** - Manage your team and understand roles
 - **[Voice Recognition](/voice-recognition)** - Set up voice input features
 - **[Keyboard Shortcuts](/keyboard-shortcuts)** - Speed up your workflow
 

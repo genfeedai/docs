@@ -1,286 +1,171 @@
 ---
-sidebar_position: 5
+sidebar_position: 1
 ---
 
-# Social Media Setup Guide
+# Publishing Overview
 
-Connect your social media accounts to GenFeed.ai and start publishing AI-generated content directly to your platforms.
-
-## Overview
-
-GenFeed.ai supports direct publishing to major social media platforms. Each platform has its own setup process and features.
+GenFeed.ai makes it easy to publish your AI-generated content directly to multiple social media platforms. Connect your accounts once and publish everywhere with a single click.
 
 ## Supported Platforms
 
-- [Discord Setup](#discord)
-- [Twitter/X Setup](#twitter)
-- [Instagram Setup](#instagram)
-- [TikTok Setup](#tiktok)
-- [YouTube Setup](#youtube)
+We currently support direct publishing to these major platforms:
 
----
+- **[YouTube](/youtube-setup)** - Long-form videos, Shorts, and live streams
+- **[Instagram](/instagram-setup)** - Posts, Reels, Stories, and carousels
+- **[TikTok](/tiktok-setup)** - Short-form videos and trending content
+- **[LinkedIn](/linkedin-setup)** - Professional content and thought leadership
+- **Discord** - Community announcements and engagement
+- **Twitter/X** - Real-time updates and threads
 
-## Discord
+## Quick Start
 
-### Connecting Discord
+### 1. Connect Your Accounts
+Navigate to **Accounts** → **Add Account** and select the platforms you want to connect. Each platform has its own authentication process to ensure secure access.
 
-1. Navigate to **Accounts** → **Add Account**
-2. Select **Discord**
-3. Choose connection type:
-   - **Webhook**: For posting to specific channels
-   - **Bot**: For advanced interactions
+### 2. Create Content
+Use GenFeed.ai's AI tools to generate images, videos, audio, or text content. All content is automatically optimized for each platform's specifications.
 
-#### Webhook Setup
-1. In Discord, go to Server Settings → Integrations → Webhooks
-2. Create a new webhook
-3. Copy the webhook URL
-4. Paste into GenFeed.ai
-5. Test the connection
-
-#### Bot Setup
-1. Create a Discord application at discord.com/developers
-2. Add a bot to your application
-3. Copy the bot token
-4. Invite bot to your server
-5. Configure in GenFeed.ai
-
-### Discord Features
-- Post text and media to channels
-- Schedule announcements
-- Auto-format content for Discord
-- Embed rich content
-- Mention roles and users
-
----
-
-## Twitter
-
-### Connecting Twitter/X
-
-1. Navigate to **Accounts** → **Add Account**
-2. Select **Twitter**
-3. Click **Connect with Twitter**
-4. Authorize GenFeed.ai to access your account
-5. Grant permissions for:
-   - Posting tweets
-   - Uploading media
-   - Reading analytics
-
-### Twitter Features
-- Post tweets with images/videos
-- Thread creation for long content
-- Schedule tweets for optimal times
-- Auto-hashtag suggestions
-- Analytics tracking
-
-### Twitter Best Practices
-- Keep tweets under 280 characters
-- Use 1-2 relevant hashtags
-- Post during peak hours (9am, 12pm, 5pm)
-- Include media for 2x engagement
-- Engage with replies
-
----
-
-## Instagram
-
-### Connecting Instagram
-
-**Requirements**: Instagram Business or Creator account
-
-1. Navigate to **Accounts** → **Add Account**
-2. Select **Instagram**
-3. Log in through Facebook Business
-4. Select your Instagram Business account
-5. Grant these permissions:
-   - Content publishing
-   - Insights access
-   - Comment management
-
-### Instagram Features
-- Post photos and carousels
-- Publish Reels (up to 90 seconds)
-- Share Stories
-- Schedule posts
-- Auto-resize images
-- Hashtag research tools
-
-### Instagram Content Types
-
-#### Posts
-- Single images or carousels (up to 10)
-- Aspect ratios: 1:1 (square), 4:5 (portrait)
-- Max file size: 30MB
-
-#### Reels
-- Vertical videos (9:16)
-- Duration: 15-90 seconds
-- Add music and effects
-
-#### Stories
-- Images or videos
-- 24-hour visibility
-- Interactive stickers available
-
-### Instagram Best Practices
-- Use all 30 hashtags
-- Post consistently (1-2 times daily)
-- Optimize for mobile viewing
-- Write engaging captions
-- Use location tags
-
----
-
-## TikTok
-
-### Connecting TikTok
-
-1. Navigate to **Accounts** → **Add Account**
-2. Select **TikTok**
-3. Log in to your TikTok account
-4. Authorize GenFeed.ai for:
-   - Video uploads
-   - Profile access
-   - Analytics viewing
-
-### TikTok Features
-- Upload videos up to 10 minutes
-- Auto-optimize for TikTok format
-- Trending sound suggestions
-- Hashtag recommendations
-- Performance analytics
-
-### TikTok Content Specs
-- Aspect ratio: 9:16 (vertical)
-- Resolution: 1080x1920 recommended
-- File size: Up to 287MB
-- Formats: MP4, MOV
-
-### TikTok Best Practices
-- Hook viewers in first 3 seconds
-- Use trending sounds and effects
-- Post 1-4 times daily
-- Optimal times: 6-10am, 7-11pm
-- Engage with comments quickly
-
----
-
-## YouTube
-
-### Connecting YouTube
-
-1. Navigate to **Accounts** → **Add Account**
-2. Select **YouTube**
-3. Sign in with Google account
-4. Select your YouTube channel
-5. Grant permissions for:
-   - Video uploads
-   - Channel management
-   - Analytics access
-
-### YouTube Features
-- Upload long-form videos
-- Create YouTube Shorts
-- Generate thumbnails
-- SEO optimization
-- Playlist management
-- Analytics dashboard
-
-### YouTube Content Types
-
-#### Regular Videos
-- Length: Up to 12 hours
-- Resolution: Up to 4K
-- Aspect ratio: 16:9
-- Max file size: 128GB
-
-#### YouTube Shorts
-- Length: Up to 60 seconds
-- Aspect ratio: 9:16
-- Must be vertical
-
-### YouTube Best Practices
-- Create eye-catching thumbnails
-- Write detailed descriptions
-- Use relevant tags
-- Add timestamps/chapters
-- Maintain consistent schedule
-- Engage with comments
-
----
+### 3. Publish
+Select your content and choose where to publish. You can:
+- Publish immediately to one or multiple platforms
+- Schedule posts for optimal times
+- Customize content for each platform
+- Track performance across all channels
 
 ## Multi-Platform Publishing
 
-### Bulk Publishing
-1. Select content from your library
-2. Click **Publish to Multiple**
-3. Choose target platforms
-4. Customize per platform:
-   - Captions
-   - Hashtags
-   - Scheduling
+### One-Click Distribution
+- Select content from your library
+- Choose target platforms
+- Customize per platform
+- Publish or schedule
 
 ### Platform Optimization
 GenFeed.ai automatically:
-- Resizes content for each platform
-- Adjusts video formats
-- Optimizes captions
-- Suggests best posting times
+- Resizes images and videos
+- Adjusts aspect ratios
+- Optimizes file formats
+- Adapts caption length
+- Suggests relevant hashtags
 
----
+### Smart Scheduling
+- AI-powered optimal timing
+- Time zone management
+- Avoid platform conflicts
+- Consistent posting cadence
 
-## Analytics & Tracking
+## Content Management
 
-### Cross-Platform Analytics
-View all your social media performance in one dashboard:
+### Centralized Library
+- All generated content in one place
+- Organized by type and platform
+- Easy search and filtering
+- Bulk operations support
+
+### Version Control
+- Platform-specific versions
+- Edit history tracking
+- Revert changes easily
+- A/B testing support
+
+## Analytics Dashboard
+
+Track performance across all platforms:
+
+### Unified Metrics
+- Total reach and impressions
 - Engagement rates
 - Follower growth
 - Best performing content
-- Optimal posting times
+- ROI tracking
 
-### Platform-Specific Metrics
-- **Discord**: Message reactions, member growth
-- **Twitter**: Impressions, retweets, likes
-- **Instagram**: Reach, saves, shares
-- **TikTok**: Views, completion rate, shares
-- **YouTube**: Watch time, subscribers, revenue
+### Platform Insights
+- Platform-specific analytics
+- Comparative performance
+- Audience overlap analysis
+- Content type performance
 
----
+## Best Practices
 
-## Troubleshooting
+### Content Strategy
+1. **Consistency**: Maintain regular posting schedule
+2. **Quality**: High-quality content performs better
+3. **Adaptation**: Customize for each platform
+4. **Timing**: Post when your audience is active
+5. **Engagement**: Respond to comments quickly
 
-### Common Issues
+### Platform Considerations
+- Each platform has unique audiences
+- Adapt tone and style accordingly
+- Respect platform-specific features
+- Follow community guidelines
+- Monitor trending topics
 
-**Account Disconnected**
-- Re-authenticate the account
-- Check if tokens expired
-- Verify platform permissions
+## Workflow Automation
 
-**Publishing Failed**
-- Check content meets platform specs
-- Verify account is in good standing
-- Review error messages
+### Templates
+- Save posting templates
+- Reuse successful formats
+- Quick customization
+- Brand consistency
 
-**Rate Limiting**
-- Reduce posting frequency
-- Check platform limits
-- Use scheduling to spread posts
+### Rules & Triggers
+- Auto-publish conditions
+- Content approval workflows
+- Team collaboration
+- Performance-based actions
 
----
+## Team Collaboration
 
-## Security
+### Roles & Permissions
+- Content creators
+- Publishers
+- Reviewers
+- Analytics viewers
 
-- OAuth 2.0 authentication
-- Encrypted token storage
+### Workflow Features
+- Content approval process
+- Team notifications
+- Activity logs
+- Performance sharing
+
+## Security & Compliance
+
+### Authentication
+- OAuth 2.0 for all platforms
 - No password storage
+- Encrypted connections
 - Regular security audits
-- Minimal permission requests
 
----
+### Content Rights
+- Copyright compliance tools
+- Usage rights tracking
+- Attribution management
+- DMCA handling
 
-## Need Help?
+## Getting Started
 
-- Check our [FAQ](/faq)
-- Email: support@genfeed.ai
-- Join our Discord community
-- Follow @genfeedai on all platforms
+1. **Connect Accounts**: Link your social media profiles
+2. **Set Preferences**: Configure posting defaults
+3. **Create Content**: Use AI tools to generate
+4. **Review & Customize**: Adapt for each platform
+5. **Publish**: Share with your audience
+6. **Analyze**: Track performance and optimize
+
+## Platform-Specific Guides
+
+For detailed setup and optimization instructions, see our platform-specific guides:
+
+- [YouTube Setup & Best Practices](/youtube-setup)
+- [Instagram Setup & Growth Tips](/instagram-setup)
+- [TikTok Setup & Algorithm Insights](/tiktok-setup)
+- [LinkedIn Setup & Professional Strategy](/linkedin-setup)
+
+## Support Resources
+
+- **Help Center**: Detailed documentation
+- **Video Tutorials**: Step-by-step guides
+- **Community Forum**: Tips from other users
+- **Support Team**: support@genfeed.ai
+
+Ready to amplify your content? Connect your first social media account and start publishing!

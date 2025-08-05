@@ -1,4 +1,4 @@
-import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
+import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -14,42 +14,34 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
  */
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
-    "home",
+    'home',
+    'getting-started',
+    'features',
+    'pricing',
+    'models',
     {
-      type: "category",
-      label: "Getting Started",
-      items: ["getting-started", "features", "pricing"],
+      type: 'category',
+      label: 'Content Creation',
+      items: ['prompting-guide', 'asset-prompting-guide', 'voice-recognition', 'keyboard-shortcuts'],
     },
     {
-      type: "category",
-      label: "AI Models",
-      items: ["models"],
-    },
-    {
-      type: "category",
-      label: "Content Creation",
+      type: 'category',
+      label: 'Publish',
       items: [
-        "prompting-guide",
-        "asset-prompting-guide",
-        "voice-recognition",
-        "keyboard-shortcuts",
+        'publish',
+        {
+          type: 'category',
+          label: 'Social Media Setup',
+          items: ['youtube-setup', 'instagram-setup', 'tiktok-setup', 'linkedin-setup'],
+        },
       ],
     },
     {
-      type: "category",
-      label: "Publish",
-      items: ["publish"],
+      type: 'category',
+      label: 'Advanced',
+      items: ['advanced-features', 'members-guide'],
     },
-    {
-      type: "category",
-      label: "Advanced",
-      items: ["advanced-features", "admin-guide", "members-guide"],
-    },
-    {
-      type: "category",
-      label: "Help & Support",
-      items: ["faq"],
-    },
+    'faq',
   ],
 };
 

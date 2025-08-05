@@ -43,7 +43,7 @@ Yes! GenFeed.ai supports voice recognition for hands-free content creation. See 
 
 ### Can I collaborate with my team?
 
-Absolutely. GenFeed.ai supports team collaboration, seat management, and role-based permissions. Learn more in our [Admin Guide](/admin-guide).
+Absolutely. GenFeed.ai supports team collaboration, seat management, and role-based permissions. Learn more in our [Team Members Guide](/members-guide).
 
 ### How do I maintain my brand voice?
 
@@ -67,7 +67,7 @@ You can manage your subscription from your account dashboard at any time.
 
 ### Can I purchase additional seats?
 
-Yes, you can add more seats to your team. See the [Admin Guide](/admin-guide) for instructions.
+Yes, you can add more seats to your team. See the [Team Members Guide](/members-guide) for instructions.
 
 ---
 
