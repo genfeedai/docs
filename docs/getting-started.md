@@ -6,6 +6,13 @@ sidebar_position: 2
 
 Welcome to GenFeed.ai! This guide will walk you through the basics of using our platform to generate AI-powered content for your business.
 
+## Workflow Overview
+
+1. **Create your business organization** – Sign up or join an organization to keep your projects and team members under one roof.
+2. **Create an AI influencer account** – Inside the organization, set up an account that represents the AI influencer or satellite profile you want to manage.
+3. **Connect social networks** – Link the relevant social media profiles to this account so GenFeed.ai can publish on your behalf.
+4. **Prompt videos in the Studio** – With everything connected, head to the Studio to start prompting and generating videos.
+
 ## Quick Start
 
 ### 1. Sign Up and Login
