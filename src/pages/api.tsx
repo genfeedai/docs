@@ -11,7 +11,7 @@ export default function ApiPage() {
         {() => {
           return (
             <div style={{ height: 'calc(100vh - 60px)' }}>
-              <SwaggerUI url="https://api.genfeed.ai/openapi.json" />
+              <SwaggerUI url="https://api.genfeed.ai/docs/openapi.json" />
             </div>
           );
         }}

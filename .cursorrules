@@ -1,0 +1,68 @@
+# Cursor Rules - GenFeed Docs
+
+**Project:** Documentation (`docs.genfeed.ai`)  
+**Framework:** Docusaurus + React + TypeScript
+
+## 📁 Documentation Structure
+
+This project uses the **GenFeed multi-project .agent/ system**:
+
+### 🎯 Start Here
+
+1. **Workspace Rules**: `../.agent/SYSTEM/CROSS-PROJECT-RULES.md` - Rules applying to ALL projects
+2. **Project Guide**: `.agent/README.md` - Docs-specific documentation
+3. **Architecture**: `.agent/SYSTEM/ARCHITECTURE.md` - What's implemented
+4. **Project Rules**: `.agent/SYSTEM/RULES.md` - Docs coding standards
+
+### 📚 Quick Navigation
+
+```
+docs.genfeed.ai/
+├── .agent/                          # 👈 Project-specific docs
+│   ├── README.md                    # Start here for docs work
+│   ├── SYSTEM/
+│   │   ├── ARCHITECTURE.md          # Docs architecture
+│   │   ├── RULES.md                 # Docs coding rules
+│   │   └── SUMMARY.md               # Current state
+│   ├── TASKS/                       # Docs-specific tasks
+│   └── SOP/                         # Docs-specific SOPs
+│
+└── ../.agent/                       # 👈 Workspace-level docs (shared)
+    ├── SYSTEM/CROSS-PROJECT-RULES.md # Global rules
+    ├── SOP/                         # Shared SOPs
+    └── SESSIONS/                    # Workspace sessions
+```
+
+## 📖 Reading Order (Mandatory)
+
+Before making ANY changes:
+
+1. Read `../.agent/SYSTEM/CROSS-PROJECT-RULES.md` - Global rules FIRST
+2. Read `.agent/README.md` - Docs project guide
+3. Read `.agent/SYSTEM/ARCHITECTURE.md` - What's implemented
+4. Read `.agent/SYSTEM/RULES.md` - Docs-specific rules
+5. Check `.agent/TASKS/` - Current tasks
+
+## 🔄 Workflow
+
+**Before coding:**
+- Read workspace rules (step 1 above)
+- Read project docs (steps 2-4 above)
+- Check task file
+
+**During work:**
+- Follow project + workspace rules
+- Update task status
+- Document decisions
+
+**After session:**
+- Update SUMMARY.md
+- Mark tasks complete
+
+---
+
+**Single source of truth:** Everything is in `.agent/` folders - workspace-level for shared, project-level for specific.
+
+**Version:** 2.0.0 (Multi-project structure)  
+**Last Updated:** 2025-10-07
+

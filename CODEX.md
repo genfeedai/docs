@@ -1,4 +1,4 @@
-# Claude AI Instructions - Documentation Site
+# Codex AI Instructions - Documentation Site
 
 **Working in:** `docs.genfeed.ai` (Docusaurus)
 
