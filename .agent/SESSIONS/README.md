@@ -1,11 +1,11 @@
-# Documentation Project Sessions
+# Docs Project Sessions
 
 This folder contains session logs for work done on the **docs.genfeed.ai** project.
 
 ## Purpose
 
 - Track project-specific development sessions
-- Document decisions made during documentation updates
+- Document decisions made during documentation site development
 - Provide context for future work
 
 ## Structure
@@ -14,30 +14,54 @@ This folder contains session logs for work done on the **docs.genfeed.ai** proje
 SESSIONS/
 ├── README.md (this file)
 ├── TEMPLATE.md (session template)
-└── [date]-[description].md (session files)
+└── YYYY-MM-DD.md (session files - ONE PER DAY)
 ```
 
 ## Session Naming
 
-Format: `YYYY-MM-DD-[brief-description].md`
+**Format:** `YYYY-MM-DD.md` (DATE-BASED, ONE FILE PER DAY)
 
 Examples:
 
-- `2025-10-07-api-docs-update.md`
-- `2025-10-08-tutorial-creation.md`
-- `2025-10-09-docusaurus-upgrade.md`
+- `2025-10-07.md`
+- `2025-10-08.md`
+- `2025-10-09.md`
 
 ## When to Create Sessions
 
-Create a session log when:
+Create a new session log file for each day you work on the docs project.
 
-- Adding new documentation pages
-- Restructuring documentation
-- Updating major features documentation
-- Making configuration changes
-- Upgrading Docusaurus
-- Adding new plugins/features
+**Within the session file, organize by session number:**
+
+```markdown
+# Sessions: 2025-10-09
+
+## Session 1: Feature Name
+
+**Duration:** ~2 hours
+**Status:** ✅ Complete
+
+### What Was Done
+
+...
+
+## Session 2: Another Feature
+
+**Duration:** ~3 hours
+**Status:** ✅ Complete
+
+### What Was Done
+
+...
+```
 
 ## Cross-Reference
 
 For workspace-level sessions (cross-project work), see: `../../.agent/SESSIONS/`
+
+## Important Rules
+
+- ✅ ONE file per day (date-based: `YYYY-MM-DD.md`)
+- ✅ Multiple sessions within one file
+- ❌ NO topic-based file names
+- ❌ NO separate files per feature
