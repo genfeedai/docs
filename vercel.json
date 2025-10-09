@@ -1,6 +1,5 @@
 {
   "buildCommand": "pnpm build",
-  "outputDirectory": "build",
-  "framework": "docusaurus"
+  "framework": "docusaurus",
+  "outputDirectory": "build"
 }
-
