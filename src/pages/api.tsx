@@ -8,13 +8,7 @@ export default function ApiPage() {
   return (
     <Layout title="API Documentation" description="GenFeed.ai API Documentation">
       <BrowserOnly fallback={<div>Loading...</div>}>
-        {() => {
-          return (
-            <div style={{ height: 'calc(100vh - 60px)' }}>
-              <SwaggerUI url="https://api.genfeed.ai/v1/openapi.json" />
-            </div>
-          );
-        }}
+        {() => <SwaggerUI url="https://api.genfeed.ai/v1/openapi.json" />}
       </BrowserOnly>
     </Layout>
   );

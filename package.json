@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "pre:install": "pnpm up && pnpm i",
+    "pre:install": "pnpm up --latest --recursive && pnpm i",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "start:dev": "docusaurus start --port 3000 --host local.genfeed.ai",
@@ -17,25 +17,25 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "3.8.1",
-    "@docusaurus/preset-classic": "3.8.1",
-    "@mdx-js/react": "3.0.0",
+    "@docusaurus/core": "3.9.1",
+    "@docusaurus/preset-classic": "3.9.1",
+    "@mdx-js/react": "3.1.1",
     "buffer": "6.0.3",
-    "clsx": "2.0.0",
+    "clsx": "2.1.1",
     "docusaurus-plugin-sass": "0.2.6",
-    "prism-react-renderer": "2.3.0",
+    "prism-react-renderer": "2.4.1",
     "process": "0.11.10",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
-    "sass": "1.89.2",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "sass": "1.93.2",
     "stream-browserify": "3.0.0",
-    "swagger-ui-react": "5.27.1"
+    "swagger-ui-react": "5.29.4"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.8.1",
-    "@docusaurus/tsconfig": "3.8.1",
-    "@docusaurus/types": "3.8.1",
-    "typescript": "~5.6.3"
+    "@docusaurus/module-type-aliases": "3.9.1",
+    "@docusaurus/tsconfig": "3.9.1",
+    "@docusaurus/types": "3.9.1",
+    "typescript": "~5.9.3"
   },
   "browserslist": {
     "production": [

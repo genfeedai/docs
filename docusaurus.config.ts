@@ -1,13 +1,13 @@
-import type * as Preset from "@docusaurus/preset-classic";
-import type { Config } from "@docusaurus/types";
-import { themes as prismThemes } from "prism-react-renderer";
+import type * as Preset from '@docusaurus/preset-classic';
+import type { Config } from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "GenFeed.ai Documentation",
-  tagline: "Generate AI-powered content for your business",
-  favicon: "img/favicon.ico",
+  title: 'GenFeed.ai Documentation',
+  tagline: 'Generate AI-powered content for your business',
+  favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -15,62 +15,68 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://docs.genfeed.ai",
+  url: 'https://docs.genfeed.ai',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "genfeedai", // Usually your GitHub org/user name.
-  projectName: "docs", // Usually your repo name.
+  organizationName: 'genfeedai', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: 'throw',
+
+  // Markdown configuration for v4 compatibility
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
     [
-      "classic",
+      'classic',
       {
         docs: {
-          sidebarPath: "./sidebars.ts",
-          routeBasePath: "/",
+          sidebarPath: './sidebars.ts',
+          routeBasePath: '/',
         },
         blog: false,
         theme: {
-          customCss: "./src/css/custom.scss",
+          customCss: './src/css/custom.scss',
         },
       } satisfies Preset.Options,
     ],
   ],
 
   plugins: [
-    "docusaurus-plugin-sass",
+    'docusaurus-plugin-sass',
     function (context, options) {
       return {
-        name: "webpack-polyfill-plugin",
+        name: 'webpack-polyfill-plugin',
         configureWebpack(config, isServer, utils) {
-          const webpack = require("webpack");
+          const webpack = require('webpack');
           return {
             resolve: {
               fallback: {
-                buffer: require.resolve("buffer/"),
-                process: require.resolve("process/browser"),
-                stream: require.resolve("stream-browserify"),
+                buffer: require.resolve('buffer/'),
+                process: require.resolve('process/browser'),
+                stream: require.resolve('stream-browserify'),
               },
             },
             plugins: [
               new webpack.ProvidePlugin({
-                Buffer: ["buffer", "Buffer"],
-                process: "process/browser",
+                Buffer: ['buffer', 'Buffer'],
+                process: 'process/browser',
               }),
             ],
           };
@@ -81,106 +87,106 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "https://assets.genfeed.ai/cards/default.jpg",
+    image: 'https://cdn.genfeed.ai/assets/cards/default.jpg',
     navbar: {
-      title: "GenFeed.ai",
+      title: 'GenFeed.ai',
       logo: {
-        alt: "GenFeed.ai Logo",
-        src: "https://assets.genfeed.ai/branding/logo-dark.png",
-        srcDark: "https://assets.genfeed.ai/branding/logo-white.png",
+        alt: 'GenFeed.ai',
+        src: 'https://cdn.genfeed.ai/assets/branding/logo-dark.png',
+        srcDark: 'https://cdn.genfeed.ai/assets/branding/logo-white.png',
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Documentation",
-          to: "/",
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Documentation',
+          to: '/',
         },
         {
-          to: "/api/",
-          label: "API",
-          position: "left",
+          to: '/api/',
+          label: 'API',
+          position: 'left',
         },
         {
-          href: "https://genfeed.ai",
-          label: "Back to GenFeed.ai",
-          position: "right",
+          href: 'https://genfeed.ai',
+          label: 'Back to GenFeed.ai',
+          position: 'right',
         },
       ],
     },
     footer: {
-      style: "dark",
+      style: 'dark',
       links: [
         {
-          title: "Documentation",
+          title: 'Documentation',
           items: [
             {
-              label: "Pricing",
-              to: "/pricing",
+              label: 'Pricing',
+              to: '/pricing',
             },
             {
-              label: "Models",
-              to: "/models",
+              label: 'Models',
+              to: '/models',
             },
           ],
         },
         {
-          title: "Guides",
+          title: 'Guides',
           items: [
             {
-              label: "Prompting Tutorial",
-              to: "/prompting-guide",
+              label: 'Prompting Tutorial',
+              to: '/prompting-guide',
             },
             {
-              label: "Team Members Guide",
-              to: "/members-guide",
+              label: 'Team Members Guide',
+              to: '/members-guide',
             },
             {
-              label: "Voice Recognition",
-              to: "/voice-recognition",
+              label: 'Voice Recognition',
+              to: '/voice-recognition',
             },
             {
-              label: "Keyboard Shortcuts",
-              to: "/keyboard-shortcuts",
+              label: 'Keyboard Shortcuts',
+              to: '/keyboard-shortcuts',
             },
           ],
         },
         {
-          title: "Resources",
+          title: 'Resources',
           items: [
             {
-              label: "FAQ",
-              to: "/faq",
+              label: 'FAQ',
+              to: '/faq',
             },
             {
-              label: "GenFeed.ai",
-              href: "https://genfeed.ai",
+              label: 'GenFeed.ai',
+              href: 'https://genfeed.ai',
             },
           ],
         },
         {
-          title: "Connect",
+          title: 'Connect',
           items: [
             {
-              label: "Discord",
-              href: "https://discord.gg/genfeedai",
+              label: 'Discord',
+              href: 'https://discord.gg/genfeedai',
             },
             {
-              label: "Twitter",
-              href: "https://x.com/genfeedai",
+              label: 'Twitter',
+              href: 'https://x.com/genfeedai',
             },
             {
-              label: "Instagram",
-              href: "https://instagram.com/genfeedai",
+              label: 'Instagram',
+              href: 'https://instagram.com/genfeedai',
             },
             {
-              label: "TikTok",
-              href: "https://tiktok.com/@genfeedai",
+              label: 'TikTok',
+              href: 'https://tiktok.com/@genfeedai',
             },
             {
-              label: "YouTube",
-              href: "https://youtube.com/@genfeedai",
+              label: 'YouTube',
+              href: 'https://youtube.com/@genfeedai',
             },
           ],
         },
