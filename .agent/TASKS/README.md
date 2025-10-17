@@ -11,10 +11,10 @@ This folder contains tasks for the documentation website.
 
 **Use `.cursor/commands/new-task.md` for creating tasks.**
 
-**Relevant Context7 libraries:**
+**Relevant MCP Context libraries:**
 
-- **Docusaurus** (Context7 ID: `/facebook/docusaurus`)
-- **React** (Context7 ID: `/facebook/react`)
+- **Docusaurus** (MCP Context ID: `/facebook/docusaurus`)
+- **React** (MCP Context ID: `/facebook/react`)
 - **MDX** - For documentation content
 
 **See:** `.cursor/commands/upt-doc.md` for complete library reference table

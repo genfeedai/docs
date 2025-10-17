@@ -334,7 +334,7 @@ static/
 // ✅ CORRECT - When adding API docs
 import { ApiDocs } from '@docusaurus/preset-openapi';
 
-<ApiDocs spec="https://api.genfeed.ai/openapi.json" route="/api" />;
+<ApiDocs spec="https://api.genfeed.ai/v1/openapi.json" route="/api" />;
 ```
 
 ---

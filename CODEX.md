@@ -1,24 +1,20 @@
-# Codex AI Instructions - Documentation Site
+# Codex AI Instructions
 
-**Working in:** `docs.genfeed.ai` (Docusaurus)
+**All documentation lives in `.agent/` folders.**
 
-👉 **Start here:** `.agent/README.md`
+👉 **Start here:** `AGENTS.md` or `.agent/README.md`
 
 ---
 
 ## Quick Navigation
 
-**Project-Specific:**
-
-- `.agent/SYSTEM/ARCHITECTURE.md` - Docs architecture
-- `.agent/SYSTEM/RULES.md` - Coding standards
-- `.agent/TASKS/` - Documentation tasks
-
-**Workspace-Level:**
-
-- `../.agent/SYSTEM/CROSS-PROJECT-RULES.md` - Workspace rules
-- `../.agent/SOP/` - Standard procedures
+- **Workspace rules**: `.agent/SYSTEM/CROSS-PROJECT-RULES.md`
+- **Project docs**: `[project]/.agent/README.md`
+- **Architecture**: `.agent/SYSTEM/WORKSPACE-ARCHITECTURE.md`
+- **SOPs**: `.agent/SOP/`
+- **Tasks**: `.agent/TASKS/`
+- **Sessions**: `.agent/SESSIONS/`
 
 ---
 
-**Single source of truth:** Everything is in `.agent/` folders.
+**Single source of truth:** Everything is in `.agent/` folders - no duplication.
