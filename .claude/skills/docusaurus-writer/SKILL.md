@@ -695,7 +695,7 @@ Based on `/docs/getting-started.md`:
 sidebar_position: 2
 ---
 
-# Getting Started with Genfeed.ai
+# Getting Started
 
 Welcome message and brief overview.
 
@@ -841,7 +841,7 @@ Links to related guides.
 1. **Descriptive Titles**: Use clear, keyword-rich titles
 
    ```markdown
-   # Getting Started with AI Video Generation
+   # Getting Started
    ```
 
 2. **Meta Descriptions**: Add description in frontmatter

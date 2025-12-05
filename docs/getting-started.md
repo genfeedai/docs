@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Getting Started with GenFeed.ai
+# Getting Started
 
 Welcome to GenFeed.ai! This guide will walk you through the basics of using our platform to generate AI-powered content for your business.
 

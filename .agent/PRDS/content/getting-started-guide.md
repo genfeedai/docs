@@ -69,7 +69,7 @@ New users need guidance to understand Genfeed's capabilities and get started qui
 ### Content Structure
 
 ```markdown
-# Getting Started with Genfeed
+# Getting Started
 
 ## Introduction
 

@@ -131,14 +131,14 @@ const ingredient = service.create(data);
 
 ---
 
-title: Getting Started with Genfeed
+title: Getting Started
 description: Quick start guide for new users
 sidebar_position: 1
 keywords: [tutorial, getting started, setup]
 
 ---
 
-# Getting Started with Genfeed
+# Getting Started
 
 Your content here...
 ```
