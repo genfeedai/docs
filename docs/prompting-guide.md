@@ -9,6 +9,7 @@ Master the art of prompting to get the best results from GenFeed.ai. This compre
 ## Understanding Prompting Basics
 
 ### What is a Prompt?
+
 A prompt is the instruction or request you give to the AI model. The quality of your prompt directly affects the quality of the generated content.
 
 ### The CLEAR Framework
@@ -24,25 +25,31 @@ Use the CLEAR framework for effective prompts:
 ## Basic Prompting Techniques
 
 ### 1. Be Specific
+
 ❌ **Poor**: "Write about marketing"
 ✅ **Better**: "Write a 500-word blog post about email marketing strategies for e-commerce businesses targeting millennials"
 
 ### 2. Provide Context
+
 ❌ **Poor**: "Create product description"
 ✅ **Better**: "Create a product description for our new eco-friendly water bottle. Key features: BPA-free, 24-hour insulation, 750ml capacity, made from recycled materials. Target audience: environmentally conscious outdoor enthusiasts."
 
 ### 3. Define the Format
+
 ❌ **Poor**: "Give me social media content"
 ✅ **Better**: "Create 5 Instagram captions for a fitness brand. Each caption should be 2-3 sentences, include a call-to-action, and use 3-5 relevant hashtags."
 
 ### 4. Specify Tone and Style
+
 ❌ **Poor**: "Write an email"
 ✅ **Better**: "Write a professional yet friendly follow-up email to a potential client who showed interest in our consulting services. Use a conversational tone while maintaining business professionalism."
 
 ## Advanced Prompting Strategies
 
 ### Chain of Thought Prompting
+
 Break complex tasks into steps:
+
 ```
 First, analyze the target audience for luxury watches.
 Then, identify their main pain points.
@@ -50,7 +57,9 @@ Finally, write a product description that addresses these pain points.
 ```
 
 ### Few-Shot Prompting
+
 Provide examples of desired output:
+
 ```
 Write product titles in this style:
 Example 1: "Premium Leather Wallet - RFID Protection, Slim Design"
@@ -60,15 +69,19 @@ Now create a title for noise-canceling headphones.
 ```
 
 ### Role-Based Prompting
+
 Assign expertise to the AI:
+
 ```
-Act as an experienced SEO copywriter. Write a meta description for a 
-blog post about remote work productivity tips. Include relevant keywords 
+Act as an experienced SEO copywriter. Write a meta description for a
+blog post about remote work productivity tips. Include relevant keywords
 and keep it under 160 characters.
 ```
 
 ### Constraint-Based Prompting
+
 Set specific limitations:
+
 ```
 Write a product description with these constraints:
 - Exactly 100 words
@@ -80,6 +93,7 @@ Write a product description with these constraints:
 ## Prompting for Different Content Types
 
 ### Blog Posts
+
 ```
 Topic: [Your Topic]
 Target audience: [Describe audience]
@@ -90,6 +104,7 @@ SEO keywords: [List keywords]
 ```
 
 ### Social Media Posts
+
 ```
 Platform: [Instagram/Twitter/LinkedIn/etc.]
 Brand voice: [Describe brand personality]
@@ -99,6 +114,7 @@ Character limit: [Platform-specific limit]
 ```
 
 ### Email Marketing
+
 ```
 Email type: [Welcome/Promotional/Newsletter]
 Subject line: [Provide or request]
@@ -109,6 +125,7 @@ Include: Personalization, clear value, single CTA
 ```
 
 ### Product Descriptions
+
 ```
 Product: [Name and category]
 Key features: [List main features]
@@ -121,31 +138,39 @@ Technical specifications: [If applicable]
 ## Common Prompting Mistakes to Avoid
 
 ### 1. Being Too Vague
+
 - ❌ "Write something good"
 - ✅ "Write a compelling opening paragraph for a blog post about sustainable fashion"
 
 ### 2. Information Overload
+
 - ❌ Providing 20+ requirements in one prompt
 - ✅ Focus on 3-5 key requirements
 
 ### 3. Conflicting Instructions
+
 - ❌ "Be brief but comprehensive and detailed"
 - ✅ "Provide a concise overview with the 3 most important points"
 
 ### 4. Missing Context
+
 - ❌ "Rewrite this better"
 - ✅ "Rewrite this paragraph to be more engaging for teenage readers"
 
 ## Pro Tips for Better Results
 
 ### 1. Iterate and Refine
+
 Start with a basic prompt and refine based on results:
+
 - Initial: "Write about coffee"
 - Refined: "Write a 300-word guide on brewing the perfect espresso at home"
 - Further refined: "Write a beginner-friendly 300-word guide on brewing espresso at home, including equipment needed and step-by-step instructions"
 
 ### 2. Use Templates
+
 Create reusable prompt templates:
+
 ```
 [BLOG POST TEMPLATE]
 Write a [word count]-word blog post about [topic].
@@ -157,15 +182,19 @@ Keywords: [SEO keywords]
 ```
 
 ### 3. Combine Techniques
+
 Layer multiple prompting strategies:
+
 ```
-Act as a content marketing expert. Using the AIDA framework (Attention, 
-Interest, Desire, Action), write a 200-word product description for 
+Act as a content marketing expert. Using the AIDA framework (Attention,
+Interest, Desire, Action), write a 200-word product description for
 [product]. Include 3 customer benefits and end with a compelling CTA.
 ```
 
 ### 4. Test Different Models
+
 Different models excel at different tasks:
+
 - Use GPT-4 Turbo for complex, creative content
 - Use Claude 3 Haiku for quick, simple tasks
 - Experiment to find the best model for each use case
@@ -173,29 +202,33 @@ Different models excel at different tasks:
 ## Prompt Library Examples
 
 ### Marketing Copy
+
 ```
-Create a compelling headline and 3 supporting bullet points for a 
-landing page promoting [product/service]. Focus on benefits over 
+Create a compelling headline and 3 supporting bullet points for a
+landing page promoting [product/service]. Focus on benefits over
 features and use action-oriented language.
 ```
 
 ### Technical Writing
+
 ```
-Explain [technical concept] in simple terms for a non-technical 
-audience. Use analogies and avoid jargon. Include a practical 
+Explain [technical concept] in simple terms for a non-technical
+audience. Use analogies and avoid jargon. Include a practical
 example of how it's used in everyday life.
 ```
 
 ### Creative Content
+
 ```
-Write the opening paragraph of a story about [theme/topic]. Set the 
-scene with vivid descriptions, introduce a compelling character, and 
+Write the opening paragraph of a story about [theme/topic]. Set the
+scene with vivid descriptions, introduce a compelling character, and
 create immediate tension or intrigue.
 ```
 
 ## Measuring Prompt Effectiveness
 
 Evaluate your prompts based on:
+
 1. **Relevance**: Does the output match your intent?
 2. **Quality**: Is the content well-written and error-free?
 3. **Completeness**: Are all requirements addressed?

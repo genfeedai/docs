@@ -9,7 +9,9 @@ GenFeed.ai offers simple, transparent pricing to power your content creation.
 ## Subscription Plans
 
 ### Monthly Plan
+
 **$299/month**
+
 - Unlimited content generation
 - Access to all AI models
 - All features included
@@ -17,7 +19,9 @@ GenFeed.ai offers simple, transparent pricing to power your content creation.
 - Cancel anytime
 
 ### Yearly Plan
-**$2,990/year** 
+
+**$2,990/year**
+
 - Everything in Monthly Plan
 - Save $598 (2 months free!)
 - Annual billing
@@ -28,19 +32,25 @@ GenFeed.ai offers simple, transparent pricing to power your content creation.
 Prefer pay-as-you-go? Purchase credits that never expire:
 
 ### Starter Pack
+
 **100 Credits - $10**
+
 - Perfect for trying GenFeed.ai
 - No expiration date
 - Use across all features
 
 ### Pro Pack
+
 **500 Credits - $45**
+
 - 10% savings vs Starter Pack
 - Great for regular users
 - Flexible usage
 
 ### Enterprise Pack
+
 **2,000 Credits - $160**
+
 - 20% savings vs Starter Pack
 - Best value for power users
 - Bulk discount pricing
@@ -50,32 +60,38 @@ Prefer pay-as-you-go? Purchase credits that never expire:
 Different AI features consume different amounts of credits:
 
 ### Text Generation
+
 - **Quick Posts**: 1-2 credits
 - **Long Articles**: 3-5 credits
 - **SEO Content**: 2-4 credits
 
 ### Image Generation
+
 - **Simple Images**: 5-10 credits
 - **Complex Artwork**: 15-20 credits
 - **Multiple Variations**: 20-30 credits
 
 ### Video Generation
+
 - **Short Clips**: 20-30 credits
 - **Full Videos**: 40-50 credits
 
 ### Audio Generation
+
 - **Voice Overs**: 10-15 credits
 - **Music/SFX**: 20-30 credits
 
 ## Which Plan is Right for You?
 
 ### Choose Subscription if:
+
 - You create content daily
 - You want predictable costs
 - You need unlimited generation
 - You use multiple AI models regularly
 
 ### Choose Credits if:
+
 - You create content occasionally
 - You want to control spending
 - You're just getting started

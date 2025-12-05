@@ -8,9 +8,9 @@ Speed up your workflow with GenFeed.ai's keyboard shortcut.
 
 ## Available Shortcut
 
-| Action | Windows/Linux | macOS | Description |
-|--------|--------------|-------|-------------|
-| **Open Account Selector** | `Ctrl + K` | `Cmd + K` | Quickly switch between accounts or access account settings |
+| Action                    | Windows/Linux | macOS     | Description                                                |
+| ------------------------- | ------------- | --------- | ---------------------------------------------------------- |
+| **Open Account Selector** | `Ctrl + K`    | `Cmd + K` | Quickly switch between accounts or access account settings |
 
 ## How to Use
 

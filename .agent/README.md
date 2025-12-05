@@ -20,13 +20,14 @@ Get started quickly with essential context!
 
 - `SYSTEM/ARCHITECTURE.md` - Documentation architecture
 - `SYSTEM/SUMMARY.md` - Current state
+- `SYSTEM/DOCUMENTATION-GUIDELINES.md` - ⚠️ **READ FIRST** - What to document and what NOT to document
 - `TASKS/` - Documentation tasks
 - `SESSIONS/` - Documentation-specific session history
 - `SOP/` - Documentation-specific standard operating procedures
 
 ### Workspace
 
-- [`../../.agent/SYSTEM/CROSS-PROJECT-RULES.md`](../../.agent/SYSTEM/CROSS-PROJECT-RULES.md)
+- [`../../.agent/SYSTEM/critical/CROSS-PROJECT-RULES.md`](../../.agent/SYSTEM/critical/CROSS-PROJECT-RULES.md)
 - [`../../.agent/SOP/`](../../.agent/SOP/) - Shared SOPs
 - [`../../.agent/SESSIONS/`](../../.agent/SESSIONS/) - Workspace sessions
 
@@ -34,14 +35,31 @@ Get started quickly with essential context!
 
 ## 🎯 What is docs.genfeed.ai?
 
-User documentation and guides for GenFeed platform.
+**User documentation** to help people use GenFeed apps and improve their prompting skills.
+
+### ⚠️ Important: Documentation Scope
+
+**DO Document:**
+
+- Studio, Manager, Publisher, Analytics, Automation, Dashboard apps
+- User-facing features
+- Prompting guides and techniques
+
+**DO NOT Document:**
+
+- Login app (authentication is automatic)
+- Admin app (internal tools, not for end users)
+- Stock app (not launched yet)
+
+See `SYSTEM/DOCUMENTATION-GUIDELINES.md` for complete guidelines.
 
 ### Content
 
 - Getting started guides
-- Feature documentation
-- API reference (future)
-- Video tutorials
+- App-specific guides (Studio, Manager, Publisher, Analytics, Automation, Dashboard)
+- Prompting guides and techniques
+- Feature documentation (user-facing only)
+- Video tutorials (future)
 - FAQs
 
 ### Tech Stack

@@ -25,6 +25,7 @@ This directory contains Claude skills specific to technical documentation and co
 **Purpose:** Expert technical writer for creating clear, comprehensive documentation with Docusaurus, MDX, and modern documentation patterns
 
 **Covers:**
+
 - Docusaurus 3.9.1 configuration and architecture
 - MDX syntax and advanced markdown patterns
 - Frontmatter standards for SEO and navigation
@@ -45,6 +46,7 @@ This directory contains Claude skills specific to technical documentation and co
 - Build and deployment processes
 
 **When to use:**
+
 - Writing new documentation pages
 - Updating existing docs
 - Creating API documentation
@@ -61,6 +63,7 @@ This directory contains Claude skills specific to technical documentation and co
 ## Quick Start
 
 ### To work on documentation:
+
 ```bash
 # Skills activate automatically based on your task context
 # Just start working on documentation tasks
@@ -128,11 +131,11 @@ Content starts here...
 ````markdown
 ```typescript title="src/types/user.ts" {2,4-6}
 function example() {
-  const highlighted = true;  // This line is highlighted
+  const highlighted = true; // This line is highlighted
   const normal = false;
   // Lines 4-6 are highlighted
   return {
-    result: true
+    result: true,
   };
 }
 ```
@@ -160,28 +163,22 @@ This action is irreversible and will delete all data!
 
 #### Interactive Tabs
 
-```mdx
+````mdx
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="npm" label="npm" default>
-    ```bash
-    npm install @genfeed/sdk
-    ```
+    ```bash npm install @genfeed/sdk ```
   </TabItem>
   <TabItem value="yarn" label="Yarn">
-    ```bash
-    yarn add @genfeed/sdk
-    ```
+    ```bash yarn add @genfeed/sdk ```
   </TabItem>
   <TabItem value="pnpm" label="pnpm">
-    ```bash
-    pnpm add @genfeed/sdk
-    ```
+    ```bash pnpm add @genfeed/sdk ```
   </TabItem>
 </Tabs>
-```
+````
 
 ## Documentation Hierarchy
 
@@ -220,6 +217,7 @@ import TabItem from '@theme/TabItem';
 ## Writing Style Guide
 
 ### Voice and Tone
+
 - **Active voice**: "Click the button" not "The button should be clicked"
 - **Present tense**: "This generates a video" not "This will generate a video"
 - **Direct address**: "You can configure" not "Users can configure"
@@ -229,6 +227,7 @@ import TabItem from '@theme/TabItem';
 ### Formatting Standards
 
 #### Code References
+
 - Use `inline code` for:
   - Commands: `npm install`
   - File names: `docusaurus.config.ts`
@@ -243,8 +242,9 @@ import TabItem from '@theme/TabItem';
   - API responses
 
 #### Emphasis
+
 - **Bold** for UI elements: **Button**, **Settings**, **Dashboard**
-- *Italics* for emphasis or new terms on first use
+- _Italics_ for emphasis or new terms on first use
 - Use sparingly - too much emphasis = no emphasis
 
 ## Documentation Checklist
@@ -252,6 +252,7 @@ import TabItem from '@theme/TabItem';
 Before publishing:
 
 ### Content Quality
+
 - [ ] Clear, descriptive title
 - [ ] One-sentence summary at top
 - [ ] Proper heading hierarchy (H1 → H2 → H3)
@@ -261,6 +262,7 @@ Before publishing:
 - [ ] All claims supported with examples
 
 ### Structure
+
 - [ ] Frontmatter with sidebar_position
 - [ ] Logical flow (overview → details → examples)
 - [ ] Quick start near the top
@@ -268,6 +270,7 @@ Before publishing:
 - [ ] Related links at the end
 
 ### Code Examples
+
 - [ ] All code blocks have language specified
 - [ ] Examples are complete and runnable
 - [ ] Complex examples have explanatory comments
@@ -275,18 +278,21 @@ Before publishing:
 - [ ] Error cases documented
 
 ### Media
+
 - [ ] All images have descriptive alt text
 - [ ] Screenshots are up-to-date
 - [ ] Images compressed for web
 - [ ] Dark mode screenshots if relevant
 
 ### Links
+
 - [ ] All internal links tested
 - [ ] External links open appropriately
 - [ ] No broken links
 - [ ] Anchor links work correctly
 
 ### Accessibility
+
 - [ ] Semantic heading structure
 - [ ] Alt text for all images
 - [ ] Color contrast meets WCAG AA
@@ -294,6 +300,7 @@ Before publishing:
 - [ ] No information conveyed by color alone
 
 ### SEO
+
 - [ ] Meta description in frontmatter
 - [ ] Keywords specified
 - [ ] Title is clear and descriptive
@@ -318,7 +325,7 @@ pnpm run deploy             # Deploy to hosting
 
 ### API Endpoint Documentation Template
 
-```markdown
+````markdown
 ## Generate Video
 
 Create a new AI-generated video from a text prompt.
@@ -328,6 +335,7 @@ Create a new AI-generated video from a text prompt.
 ```http
 POST /api/v1/generate/video
 ```
+````
 
 ### Authentication
 
@@ -371,7 +379,8 @@ curl -X POST https://api.genfeed.ai/v1/generate/video \
   "estimatedTime": 120
 }
 ```
-```
+
+````
 
 ### Feature Comparison Table
 
@@ -382,7 +391,7 @@ curl -X POST https://api.genfeed.ai/v1/generate/video \
 | Team members | 1 | 5 | Unlimited |
 | Priority support | ❌ | ✅ | ✅ |
 | API access | ❌ | ✅ | ✅ |
-```
+````
 
 ### Troubleshooting Guide Template
 
@@ -394,11 +403,13 @@ curl -X POST https://api.genfeed.ai/v1/generate/video \
 #### Video Generation Fails
 
 **Symptoms:**
+
 - Generation spinner stops
 - Error message appears
 - Credit is not refunded
 
 **Possible Causes:**
+
 1. Insufficient credits
 2. Invalid prompt
 3. Model temporarily unavailable

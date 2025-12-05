@@ -9,7 +9,7 @@ This project uses the **GenFeed multi-project .agent/ system**:
 
 ### 🎯 Start Here
 
-1. **Workspace Rules**: `../.agent/SYSTEM/CROSS-PROJECT-RULES.md` - Rules applying to ALL projects
+1. **Workspace Rules**: `../.agent/SYSTEM/critical/CROSS-PROJECT-RULES.md` - Rules applying to ALL projects
 2. **Project Guide**: `.agent/README.md` - Docs-specific documentation
 3. **Architecture**: `.agent/SYSTEM/ARCHITECTURE.md` - What's implemented
 4. **Project Rules**: `.agent/SYSTEM/RULES.md` - Docs coding standards
@@ -28,7 +28,7 @@ docs.genfeed.ai/
 │   └── SOP/                         # Docs-specific SOPs
 │
 └── ../.agent/                       # 👈 Workspace-level docs (shared)
-    ├── SYSTEM/CROSS-PROJECT-RULES.md # Global rules
+    ├── SYSTEM/critical/CROSS-PROJECT-RULES.md # Global rules
     ├── SOP/                         # Shared SOPs
     └── SESSIONS/                    # Workspace sessions
 ```
@@ -37,7 +37,7 @@ docs.genfeed.ai/
 
 Before making ANY changes:
 
-1. Read `../.agent/SYSTEM/CROSS-PROJECT-RULES.md` - Global rules FIRST
+1. Read `../.agent/SYSTEM/critical/CROSS-PROJECT-RULES.md` - Global rules FIRST
 2. Read `.agent/README.md` - Docs project guide
 3. Read `.agent/SYSTEM/ARCHITECTURE.md` - What's implemented
 4. Read `.agent/SYSTEM/RULES.md` - Docs-specific rules
@@ -65,4 +65,3 @@ Before making ANY changes:
 
 **Version:** 2.0.0 (Multi-project structure)  
 **Last Updated:** 2025-10-07
-

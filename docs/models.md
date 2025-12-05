@@ -9,11 +9,12 @@ GenFeed.ai provides access to cutting-edge AI models from leading providers. Eac
 ## Image Generation Models
 
 ### Leonardo AI
+
 **Provider**: Leonardo.ai  
 **Model ID**: `leonardoai`  
 **Best for**: Artistic and stylized imagery, creative concepts
 
-- **Strengths**: 
+- **Strengths**:
   - Excellent artistic interpretation
   - Wide range of style options (anime, fashion, vibrant, monochrome, photography)
   - Great for creative and conceptual work
@@ -23,6 +24,7 @@ GenFeed.ai provides access to cutting-edge AI models from leading providers. Eac
 - **Credit Cost**: 10 credits per image
 
 **Prompt Tips**:
+
 ```
 Subject: futuristic cityscape
 Medium/Style: digital art, cyberpunk aesthetic
@@ -32,11 +34,12 @@ Composition: wide shot, dramatic perspective
 ```
 
 ### Google Imagen 3
+
 **Provider**: Google (via Replicate)  
 **Model ID**: `google/imagen-3`  
 **Best for**: Balanced quality and speed
 
-- **Strengths**: 
+- **Strengths**:
   - Good understanding of complex prompts
   - Consistent quality output
   - Reliable for various styles
@@ -45,11 +48,12 @@ Composition: wide shot, dramatic perspective
 - **Credit Cost**: 15 credits per image
 
 ### Google Imagen 3 Fast
+
 **Provider**: Google (via Replicate)  
 **Model ID**: `google/imagen-3-fast`  
 **Best for**: Quick iterations and drafts
 
-- **Strengths**: 
+- **Strengths**:
   - Very fast generation
   - Good for testing concepts
   - Lower credit cost
@@ -58,11 +62,12 @@ Composition: wide shot, dramatic perspective
 - **Credit Cost**: 8 credits per image
 
 ### Google Imagen 4
+
 **Provider**: Google (via Replicate)  
 **Model ID**: `google/imagen-4`  
 **Best for**: Professional photography and commercial work
 
-- **Strengths**: 
+- **Strengths**:
   - Photorealistic quality
   - Excellent lighting and composition
   - Professional-grade outputs
@@ -72,11 +77,12 @@ Composition: wide shot, dramatic perspective
 - **Credit Cost**: 25 credits per image
 
 ### Google Imagen 4 Fast
+
 **Provider**: Google (via Replicate)  
 **Model ID**: `google/imagen-4-fast`  
 **Best for**: High-quality with faster generation
 
-- **Strengths**: 
+- **Strengths**:
   - Balance of quality and speed
   - Great for production workflows
   - Maintains Imagen 4 quality
@@ -85,11 +91,12 @@ Composition: wide shot, dramatic perspective
 - **Credit Cost**: 18 credits per image
 
 ### Google Imagen 4 Ultra
+
 **Provider**: Google (via Replicate)  
 **Model ID**: `google/imagen-4-ultra`  
 **Best for**: Maximum quality requirements
 
-- **Strengths**: 
+- **Strengths**:
   - Highest quality available
   - Incredible detail and realism
   - Perfect for hero images
@@ -99,11 +106,12 @@ Composition: wide shot, dramatic perspective
 - **Credit Cost**: 40 credits per image
 
 ### DALL-E 3 (GPT Image 1)
+
 **Provider**: OpenAI  
 **Model ID**: `gpt-image-1`  
 **Best for**: Creative concepts and text integration
 
-- **Strengths**: 
+- **Strengths**:
   - Excellent prompt understanding
   - Can include readable text in images
   - Great for conceptual work
@@ -113,11 +121,12 @@ Composition: wide shot, dramatic perspective
 - **Credit Cost**: 20 credits per image
 
 ### Stable Diffusion XL (SDXL)
+
 **Provider**: Stability AI (via Replicate)  
 **Model ID**: `sdxl`  
 **Best for**: Open-source flexibility and customization
 
-- **Strengths**: 
+- **Strengths**:
   - Highly customizable
   - Good for specific styles
   - Community models available
@@ -129,11 +138,12 @@ Composition: wide shot, dramatic perspective
 ## Video Generation Models
 
 ### Kling AI V2
+
 **Provider**: Kling AI  
 **Model ID**: `klingai-v2`  
 **Best for**: Creative video content and animations
 
-- **Strengths**: 
+- **Strengths**:
   - Smooth motion generation
   - Good scene understanding
   - Creative interpretations
@@ -143,6 +153,7 @@ Composition: wide shot, dramatic perspective
 - **Credit Cost**: 50 credits per video
 
 **Prompt Structure**:
+
 ```
 Scene description: serene lake at dawn
 Primary objects: swan gliding across water
@@ -153,11 +164,12 @@ Duration: 8 seconds
 ```
 
 ### Google Veo 2
+
 **Provider**: Google (via Replicate)  
 **Model ID**: `google/veo-2`  
 **Best for**: High-quality cinematic videos
 
-- **Strengths**: 
+- **Strengths**:
   - Cinematic quality
   - Excellent motion coherence
   - Professional-grade output
@@ -167,11 +179,12 @@ Duration: 8 seconds
 - **Credit Cost**: 80 credits per video
 
 ### Google Veo 3
+
 **Provider**: Google (via Replicate)  
 **Model ID**: `google/veo-3`  
 **Best for**: Next-generation video quality
 
-- **Strengths**: 
+- **Strengths**:
   - Latest technology
   - Superior motion quality
   - Advanced scene composition
@@ -181,11 +194,12 @@ Duration: 8 seconds
 - **Credit Cost**: 100 credits per video
 
 ### Google Veo 3 Fast
+
 **Provider**: Google (via Replicate)  
 **Model ID**: `google/veo-3-fast`  
 **Best for**: Quick high-quality videos
 
-- **Strengths**: 
+- **Strengths**:
   - Faster Veo 3 variant
   - Maintains quality
   - Good for iterations
@@ -195,11 +209,12 @@ Duration: 8 seconds
 - **Credit Cost**: 70 credits per video
 
 ### Runway ML
+
 **Provider**: Runway  
 **Model ID**: `runwayml`  
 **Best for**: Creative and artistic videos
 
-- **Strengths**: 
+- **Strengths**:
   - Artistic styles
   - Creative effects
   - Good for experimental content
@@ -209,6 +224,7 @@ Duration: 8 seconds
 - **Credit Cost**: 60 credits per video
 
 **Prompt Tips**:
+
 ```
 Concept: paper airplane journey through clouds
 Key visuals: origami plane, fluffy clouds
@@ -221,12 +237,13 @@ Duration: 6 seconds
 ## Audio Generation Models
 
 ### ElevenLabs
+
 **Provider**: ElevenLabs  
 **Model ID**: `elevenlabs`  
 **Type**: Text-to-Speech  
 **Best for**: Natural voiceovers and narration
 
-- **Strengths**: 
+- **Strengths**:
   - Most natural-sounding voices
   - Multiple voice options
   - Emotional control
@@ -236,18 +253,20 @@ Duration: 6 seconds
 - **Credit Cost**: 15 credits per minute
 
 **Voice Options**:
+
 - Professional narrators
 - Character voices
 - Custom voice cloning
 - Multiple accents and languages
 
 ### Meta MusicGen
+
 **Provider**: Meta (via Replicate)  
 **Model ID**: `meta/musicgen`  
 **Type**: Text-to-Music  
 **Best for**: Background music and soundtracks
 
-- **Strengths**: 
+- **Strengths**:
   - Creates original music
   - Multiple genres
   - Customizable length
@@ -257,6 +276,7 @@ Duration: 6 seconds
 - **Credit Cost**: 20 credits per 30 seconds
 
 **Music Styles**:
+
 - Electronic, Ambient, Classical
 - Jazz, Rock, Pop
 - Cinematic, Corporate
@@ -265,28 +285,32 @@ Duration: 6 seconds
 ## Specialized Models
 
 ### Image-to-Video Models
+
 Transform static images into dynamic videos using:
+
 - **Kling AI V2**: Best for creative transformations
 - **Google Veo Models**: Best for realistic motion
 - **Runway ML**: Best for artistic effects
 
 ### Whisper (Speech-to-Text)
+
 **Provider**: OpenAI  
 **Model ID**: `whisper`  
 **Best for**: Transcription and subtitles
 
-- **Strengths**: 
+- **Strengths**:
   - Accurate transcription
   - Multiple language support
   - Punctuation and formatting
 - **Credit Cost**: 5 credits per minute
 
 ### HegeAI Avatar
+
 **Provider**: Heygen  
 **Model ID**: `heygen`  
 **Best for**: AI avatar videos
 
-- **Strengths**: 
+- **Strengths**:
   - Realistic avatars
   - Lip-sync accuracy
   - Professional presenters
@@ -297,16 +321,19 @@ Transform static images into dynamic videos using:
 ### By Quality Requirements
 
 **Maximum Quality**
+
 - Images: Google Imagen 4 Ultra
 - Videos: Google Veo 3
 - Audio: ElevenLabs (premium voices)
 
 **Balanced Quality/Speed**
+
 - Images: Google Imagen 4, Leonardo AI
 - Videos: Kling AI V2, Google Veo 3 Fast
 - Audio: ElevenLabs (standard voices)
 
 **Fast Generation**
+
 - Images: Google Imagen 3 Fast, SDXL
 - Videos: Runway ML
 - Audio: Meta MusicGen
@@ -314,16 +341,19 @@ Transform static images into dynamic videos using:
 ### By Use Case
 
 **Social Media Content**
+
 - Instagram: Leonardo AI (stylized), Google Imagen 4 (realistic)
 - TikTok: Kling AI V2, Runway ML
 - YouTube: Google Veo 3, ElevenLabs
 
 **Professional/Business**
+
 - Presentations: Google Imagen 4 Ultra
 - Marketing: Google Veo 3, ElevenLabs
 - Product Shots: Google Imagen 4
 
 **Creative Projects**
+
 - Art: Leonardo AI, DALL-E 3
 - Experimental: Runway ML, SDXL
 - Music Videos: Google Veo 3 + Meta MusicGen
@@ -339,6 +369,7 @@ Transform static images into dynamic videos using:
 ## Model Updates and Beta Access
 
 GenFeed.ai regularly adds new models and features:
+
 - Check announcements for new model releases
 - Beta models available to premium subscribers
 - Provide feedback to influence model selection
@@ -347,17 +378,21 @@ GenFeed.ai regularly adds new models and features:
 ## Technical Specifications
 
 ### Output Formats
+
 - **Images**: PNG, JPEG, WebP
 - **Videos**: MP4, MOV, GIF
 - **Audio**: MP3, WAV
 
 ### Resolution Options
+
 - **Images**: Up to 4K (model dependent)
 - **Videos**: Up to 1080p Full HD
 - **Audio**: Up to 320kbps
 
 ### API Integration
+
 All models are accessible via API for developers:
+
 - RESTful API endpoints
 - WebSocket for real-time updates
 - Batch processing available

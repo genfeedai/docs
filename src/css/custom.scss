@@ -233,19 +233,19 @@ $transition-ease: ease;
   --ifm-footer-background-color: #{$light-footer-bg};
   --ifm-footer-link-color: #ffffff;
   --ifm-footer-title-color: #ffffff;
-  
+
   .footer__title {
     color: #ffffff;
   }
-  
+
   .footer__link-item {
     color: rgba(255, 255, 255, 0.8);
-    
+
     &:hover {
       color: #ffffff;
     }
   }
-  
+
   .footer__copyright {
     color: rgba(255, 255, 255, 0.6);
   }
@@ -255,7 +255,7 @@ $transition-ease: ease;
   .footer {
     background-color: $dark-footer-bg !important;
   }
-  
+
   .footer--dark {
     background-color: $dark-footer-bg !important;
     --ifm-footer-background-color: #{$dark-footer-bg};
@@ -264,6 +264,8 @@ $transition-ease: ease;
 
 /* Smooth transitions */
 * {
-  transition: background-color $transition-speed $transition-ease, border-color $transition-speed $transition-ease,
+  transition:
+    background-color $transition-speed $transition-ease,
+    border-color $transition-speed $transition-ease,
     color $transition-speed $transition-ease;
 }

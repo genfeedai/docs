@@ -15,6 +15,7 @@ GenFeed.ai offers three distinct roles for team members, each with specific perm
 The Owner has complete control over the workspace and all its settings.
 
 #### Owner Permissions
+
 - ✅ Full administrative access
 - ✅ Manage billing and subscriptions
 - ✅ Add/remove team members
@@ -26,6 +27,7 @@ The Owner has complete control over the workspace and all its settings.
 - ✅ View detailed usage reports
 
 #### Owner Responsibilities
+
 - Managing team access
 - Overseeing billing and credits
 - Setting workspace policies
@@ -33,6 +35,7 @@ The Owner has complete control over the workspace and all its settings.
 - Managing integrations
 
 #### Best Practices for Owners
+
 1. Regularly review team member access
 2. Monitor credit usage and costs
 3. Set clear content guidelines
@@ -46,6 +49,7 @@ The Owner has complete control over the workspace and all its settings.
 Creators are the content producers who use AI models to generate assets.
 
 #### Creator Permissions
+
 - ✅ Generate content using all AI models
 - ✅ Access personal content library
 - ✅ Publish to connected social accounts
@@ -57,6 +61,7 @@ Creators are the content producers who use AI models to generate assets.
 - ❌ Cannot view other members' content
 
 #### Creator Features
+
 - **Content Generation**: Full access to all AI models
 - **Asset Library**: Store and organize generated content
 - **Publishing**: Direct posting to social media
@@ -64,6 +69,7 @@ Creators are the content producers who use AI models to generate assets.
 - **Voice Input**: Use voice commands for generation
 
 #### Creator Workflow
+
 1. **Generate**: Create content using AI models
 2. **Refine**: Edit and optimize outputs
 3. **Organize**: Save to library with tags
@@ -71,6 +77,7 @@ Creators are the content producers who use AI models to generate assets.
 5. **Track**: Monitor engagement metrics
 
 #### Tips for Creators
+
 - Use descriptive names for saved content
 - Tag assets for easy searching
 - Create templates for repeated tasks
@@ -84,6 +91,7 @@ Creators are the content producers who use AI models to generate assets.
 Analytics members focus on performance tracking and optimization.
 
 #### Analytics Permissions
+
 - ✅ View all workspace analytics
 - ✅ Access performance reports
 - ✅ Export analytics data
@@ -95,6 +103,7 @@ Analytics members focus on performance tracking and optimization.
 - ❌ Cannot modify workspace settings
 
 #### Analytics Features
+
 - **Dashboard Access**: Comprehensive analytics views
 - **Custom Reports**: Create tailored reports
 - **Export Options**: Download data in various formats
@@ -102,6 +111,7 @@ Analytics members focus on performance tracking and optimization.
 - **Trend Analysis**: Identify patterns and opportunities
 
 #### Key Metrics Available
+
 1. **Content Performance**
    - Generation success rates
    - Most used AI models
@@ -121,6 +131,7 @@ Analytics members focus on performance tracking and optimization.
    - Cost per content type
 
 #### Analytics Best Practices
+
 - Set up regular reporting schedules
 - Create custom dashboards for stakeholders
 - Monitor credit usage trends
@@ -134,6 +145,7 @@ Analytics members focus on performance tracking and optimization.
 ### Adding Team Members
 
 **As an Owner:**
+
 1. Navigate to **Settings** → **Team**
 2. Click **Invite Member**
 3. Enter email address
@@ -184,11 +196,13 @@ Analytics members focus on performance tracking and optimization.
 ### Shared Resources
 
 #### Templates
+
 - Owners create master templates
 - Creators use and customize
 - Analytics track template performance
 
 #### Brand Guidelines
+
 - Centralized brand voice
 - Approved hashtags
 - Content policies
@@ -197,12 +211,14 @@ Analytics members focus on performance tracking and optimization.
 ### Communication
 
 #### In-App Notifications
+
 - New content alerts
 - Performance milestones
 - System updates
 - Team announcements
 
 #### Integration Options
+
 - Slack notifications
 - Email summaries
 - Webhook alerts
@@ -213,18 +229,21 @@ Analytics members focus on performance tracking and optimization.
 ## Security by Role
 
 ### Owner Security
+
 - Two-factor authentication required
 - Session management
 - API key controls
 - Audit logs access
 
 ### Creator Security
+
 - Personal content isolation
 - Social account encryption
 - Secure asset storage
 - Activity logging
 
 ### Analytics Security
+
 - Read-only access
 - Data export controls
 - Report sharing limits
@@ -234,35 +253,38 @@ Analytics members focus on performance tracking and optimization.
 
 ## Role Comparison Table
 
-| Feature | Owner | Creator | Analytics |
-|---------|-------|---------|-----------|
-| Generate Content | ✅ | ✅ | ❌ |
-| View All Analytics | ✅ | ❌ | ✅ |
-| Manage Billing | ✅ | ❌ | ❌ |
-| Invite Members | ✅ | ❌ | ❌ |
-| Publish Content | ✅ | ✅ | ❌ |
-| Export Reports | ✅ | ❌ | ✅ |
-| Manage Settings | ✅ | ❌ | ❌ |
-| Use Templates | ✅ | ✅ | ❌ |
-| API Access | ✅ | Limited | Read-only |
+| Feature            | Owner | Creator | Analytics |
+| ------------------ | ----- | ------- | --------- |
+| Generate Content   | ✅    | ✅      | ❌        |
+| View All Analytics | ✅    | ❌      | ✅        |
+| Manage Billing     | ✅    | ❌      | ❌        |
+| Invite Members     | ✅    | ❌      | ❌        |
+| Publish Content    | ✅    | ✅      | ❌        |
+| Export Reports     | ✅    | ❌      | ✅        |
+| Manage Settings    | ✅    | ❌      | ❌        |
+| Use Templates      | ✅    | ✅      | ❌        |
+| API Access         | ✅    | Limited | Read-only |
 
 ---
 
 ## Transitioning Roles
 
 ### From Creator to Analytics
+
 - Loses content generation access
 - Gains full analytics visibility
 - Existing content remains accessible
 - Publishing permissions removed
 
 ### From Analytics to Creator
+
 - Gains content generation
 - Loses company-wide analytics
 - Can view own content metrics
 - Publishing enabled
 
 ### Promoting to Owner
+
 - Contact current owner
 - Transfer requires confirmation
 - Billing access transferred
@@ -273,18 +295,23 @@ Analytics members focus on performance tracking and optimization.
 ## FAQs
 
 ### Can one person have multiple roles?
+
 No, each member has one role. Choose the role that best matches primary responsibilities.
 
 ### What happens to content when a creator leaves?
+
 Content remains in the workspace. Owners can reassign or archive it.
 
 ### Can Analytics members see individual creator performance?
+
 Yes, but data can be anonymized in settings if preferred.
 
 ### How many members can I add?
+
 Depends on your subscription plan. Check your plan details for limits.
 
 ### Can roles be customized?
+
 Currently, the three roles are fixed. Custom permissions are on our roadmap.
 
 ---
@@ -292,6 +319,7 @@ Currently, the three roles are fixed. Custom permissions are on our roadmap.
 ## Support
 
 Need help with team management?
+
 - **Documentation**: This guide
 - **Email**: support@genfeed.ai
 - **In-app chat**: Available for Owners

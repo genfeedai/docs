@@ -8,7 +8,7 @@
 
 ## Quick Navigation
 
-- **Workspace rules**: `.agent/SYSTEM/CROSS-PROJECT-RULES.md`
+- **Workspace rules**: `.agent/SYSTEM/critical/CROSS-PROJECT-RULES.md`
 - **Project docs**: `[project]/.agent/README.md`
 - **Architecture**: `.agent/SYSTEM/WORKSPACE-ARCHITECTURE.md`
 - **SOPs**: `.agent/SOP/`

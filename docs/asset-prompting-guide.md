@@ -22,6 +22,7 @@ A well-crafted image prompt includes:
 ### Image Prompt Templates
 
 #### Portrait Photography
+
 ```
 Subject: [person description]
 Style: [photography style - portrait, fashion, editorial]
@@ -34,6 +35,7 @@ Details: [clothing, expressions, props]
 **Example**: "Professional headshot of a confident businesswoman, studio photography style, soft box lighting, neutral gray backdrop, warm and approachable expression, wearing a navy blazer"
 
 #### Product Photography
+
 ```
 Product: [item description]
 Style: [commercial, lifestyle, minimalist]
@@ -46,6 +48,7 @@ Props: [complementary items, hands, lifestyle elements]
 **Example**: "Minimalist product shot of a luxury watch, pure white background, dramatic side lighting creating reflections, 45-degree angle, emphasis on craftsmanship details"
 
 #### Digital Art & Illustrations
+
 ```
 Concept: [main idea or theme]
 Art style: [digital painting, vector art, 3D render, anime]
@@ -60,18 +63,21 @@ Mood: [energetic, calm, mysterious, playful]
 ### Model-Specific Tips
 
 #### Leonardo AI
+
 - Excels at artistic and stylized content
 - Include style references: "in the style of [artist]"
 - Use descriptive adjectives for textures and materials
 - Specify aspect ratios for social media formats
 
 #### Google Imagen 4
+
 - Best for photorealistic images
 - Be specific about real-world details
 - Include camera settings for photography: "shot with 85mm lens, f/1.4"
 - Great for product and commercial photography
 
 #### DALL-E 3 (GPT Image)
+
 - Excellent at understanding complex concepts
 - Can handle abstract ideas and metaphors
 - Good for editorial illustrations
@@ -91,6 +97,7 @@ Mood: [energetic, calm, mysterious, playful]
 ### Video Prompt Templates
 
 #### Kling AI Template
+
 ```
 Scene: [environment and setting]
 Primary objects: [main subjects in frame]
@@ -104,6 +111,7 @@ Special effects: [particles, lighting changes]
 **Example**: "Aerial drone shot of a misty forest at sunrise, camera slowly descending through the canopy, golden sunlight filtering through trees, photorealistic style, 10-second smooth descent, fog particles drifting between trees"
 
 #### Google Veo 3 Template
+
 ```
 Opening shot: [initial frame]
 Main action: [primary movement or event]
@@ -116,6 +124,7 @@ Ending: [final frame or transition]
 **Example**: "Close-up of coffee being poured into a white ceramic cup, slow-motion capture, steam rising dramatically, minimalist kitchen background, smooth camera pull-back revealing breakfast table, 8 seconds, ends with wide shot"
 
 #### Runway ML Template
+
 ```
 Concept: [overall creative idea]
 Key visuals: [important elements to feature]
@@ -144,6 +153,7 @@ When converting images to videos, focus on:
 ### Voice Generation (ElevenLabs)
 
 #### Voice Prompt Structure
+
 ```
 Voice profile: [speaker characteristics or voice ID]
 Style/Emotion: [calm, energetic, professional, friendly]
@@ -158,6 +168,7 @@ Special instructions: [emphasis on certain words, pauses]
 ### Music Generation (Meta MusicGen)
 
 #### Music Prompt Structure
+
 ```
 Genre: [electronic, orchestral, jazz, ambient]
 Mood: [uplifting, mysterious, energetic, calm]
@@ -172,25 +183,33 @@ Use case: [background music, intro/outro, emotional scene]
 ## Advanced Prompting Techniques
 
 ### 1. Progressive Refinement
+
 Start with a basic prompt and add details:
+
 - Basic: "Mountain landscape"
 - Better: "Mountain landscape at sunset"
 - Best: "Majestic mountain range at golden hour, dramatic clouds, alpine lake in foreground reflecting the sky, shot with wide-angle lens, high dynamic range"
 
 ### 2. Style Mixing
+
 Combine multiple styles for unique results:
+
 - "Cyberpunk meets Art Nouveau"
 - "Minimalist Japanese ink painting style with modern elements"
 - "Retro 80s aesthetic with contemporary fashion"
 
 ### 3. Emotional Prompting
+
 Include emotional context for more impactful content:
+
 - "Joyful celebration" vs. "People at a party"
 - "Melancholic solitude" vs. "Person alone"
 - "Triumphant victory" vs. "Winner"
 
 ### 4. Technical Specifications
+
 Add technical details for precision:
+
 - **Photography**: "85mm f/1.4, bokeh background, golden hour lighting"
 - **Video**: "24fps cinematic, anamorphic lens flares, handheld camera movement"
 - **Digital Art**: "4K resolution, highly detailed, octane render"
@@ -198,18 +217,22 @@ Add technical details for precision:
 ## Common Prompting Mistakes
 
 ### 1. Being Too Vague
+
 ❌ "Make a nice picture"
 ✅ "Professional product photography of a smartwatch on marble surface with soft studio lighting"
 
 ### 2. Contradictory Instructions
+
 ❌ "Bright darkness, loud silence"
 ✅ "Dimly lit scene with a single bright light source"
 
 ### 3. Overloading Details
+
 ❌ 50+ descriptors in one prompt
 ✅ 5-7 key descriptors that work together
 
 ### 4. Ignoring Model Strengths
+
 ❌ Using Leonardo AI for photorealistic portraits
 ✅ Using Google Imagen 4 for photorealistic portraits
 
@@ -218,13 +241,15 @@ Add technical details for precision:
 ### Social Media Content
 
 **Instagram Post**
+
 ```
-Square format product lifestyle shot, natural lighting, 
-shallow depth of field, trendy millennial aesthetic, 
+Square format product lifestyle shot, natural lighting,
+shallow depth of field, trendy millennial aesthetic,
 warm color grading, Instagram-worthy composition
 ```
 
 **TikTok Video**
+
 ```
 Vertical format, fast-paced transitions, bright colors,
 energetic movement, Gen-Z style editing, 9:16 aspect ratio,
@@ -232,6 +257,7 @@ trending visual effects
 ```
 
 **YouTube Thumbnail**
+
 ```
 Eye-catching thumbnail design, bold text overlay space,
 high contrast, expressive face or dramatic scene,
@@ -241,6 +267,7 @@ high contrast, expressive face or dramatic scene,
 ### Business Content
 
 **Corporate Headshot**
+
 ```
 Professional business portrait, confident expression,
 neutral background, soft even lighting, formal attire,
@@ -248,6 +275,7 @@ shoulders and up framing, slight smile
 ```
 
 **Product Hero Image**
+
 ```
 E-commerce product shot, pure white background,
 multiple angles shown, high detail, consistent lighting,
@@ -255,6 +283,7 @@ shadow for depth, lifestyle context elements
 ```
 
 **Marketing Video**
+
 ```
 Dynamic product showcase, smooth camera movements,
 professional color grading, text overlay areas,
@@ -264,13 +293,16 @@ clear brand messaging, call-to-action friendly
 ## Testing and Iteration
 
 ### A/B Testing Prompts
+
 Create variations to find what works:
+
 1. Change one element at a time
 2. Test different styles with same subject
 3. Vary technical specifications
 4. Compare model outputs
 
 ### Saving Successful Prompts
+
 - Keep a library of your best prompts
 - Note which models work best for each
 - Document successful combinations

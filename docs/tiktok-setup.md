@@ -28,12 +28,14 @@ Connect your TikTok account to publish videos directly from GenFeed.ai and grow 
    - Comment management
 
 ### Business Account Benefits
+
 - Advanced analytics
 - Commercial music library
 - Advertising capabilities
 - Link in bio (1000+ followers)
 
 To switch:
+
 1. TikTok app → Profile → Settings
 2. Manage Account → Switch to Business
 3. Select your category
@@ -42,18 +44,20 @@ To switch:
 ## Content Specifications
 
 ### Video Requirements
+
 - **Aspect Ratio**: 9:16 (vertical required)
-- **Resolution**: 
+- **Resolution**:
   - Minimum: 720x1280
   - Recommended: 1080x1920
   - Maximum: 1440x2560
-- **Duration**: 
+- **Duration**:
   - Standard: 15 seconds to 10 minutes
   - Stories: 15 seconds max
 - **File Size**: Up to 287MB
 - **Formats**: MP4, MOV, MPEG, AVI
 
 ### Audio Specifications
+
 - **Sample Rate**: 44.1kHz or 48kHz
 - **Bit Rate**: 128kbps minimum
 - **Format**: AAC or MP3
@@ -62,6 +66,7 @@ To switch:
 ## Publishing Features
 
 ### Video Upload Process
+
 1. Select video from GenFeed.ai library
 2. Choose **Publish to TikTok**
 3. Add description (up to 2200 characters)
@@ -71,6 +76,7 @@ To switch:
 7. Schedule or post immediately
 
 ### Content Optimization
+
 - **Auto-Crop**: Fit horizontal videos to vertical
 - **Thumbnail Selection**: Choose best frame
 - **Caption Generator**: AI-powered descriptions
@@ -78,6 +84,7 @@ To switch:
 - **Sound Matching**: Find trending audio
 
 ### Advanced Features
+
 - **Duet/Stitch Settings**: Enable collaborations
 - **Comment Controls**: Filter and moderate
 - **Download Permissions**: Allow/disable saves
@@ -87,6 +94,7 @@ To switch:
 ## TikTok Algorithm
 
 ### Key Factors
+
 1. **Completion Rate**: Videos watched to end
 2. **Engagement**: Likes, comments, shares
 3. **Re-watches**: Multiple views per user
@@ -94,6 +102,7 @@ To switch:
 5. **Creator Activity**: Consistent posting
 
 ### For You Page (FYP) Tips
+
 - Hook viewers in first 3 seconds
 - Use trending sounds and effects
 - Post at peak times
@@ -103,8 +112,9 @@ To switch:
 ## Best Practices
 
 ### Content Strategy
+
 1. **Consistency**: Post 1-4 times daily
-2. **Timing**: 
+2. **Timing**:
    - Morning: 6-9 AM
    - Afternoon: 12-3 PM
    - Evening: 7-11 PM
@@ -113,6 +123,7 @@ To switch:
 5. **Trends**: Jump on challenges early
 
 ### Hashtag Strategy
+
 - **Quantity**: 3-5 hashtags optimal
 - **Mix**: Trending + niche + branded
 - **Placement**: In description, not comments
@@ -120,6 +131,7 @@ To switch:
 - **Create**: Start your own challenges
 
 ### Engagement Tactics
+
 - Reply to comments with videos
 - Go live regularly (1000+ followers)
 - Create duettable content
@@ -129,6 +141,7 @@ To switch:
 ## Analytics Dashboard
 
 ### Video Metrics
+
 - **Views**: Total watch count
 - **Watch Time**: Average duration
 - **Traffic Sources**: Discovery methods
@@ -136,6 +149,7 @@ To switch:
 - **Trending Position**: FYP ranking
 
 ### Profile Analytics
+
 - **Follower Growth**: Daily/weekly changes
 - **Profile Views**: Visitor count
 - **Demographics**: Age, gender, location
@@ -143,6 +157,7 @@ To switch:
 - **Content Performance**: Top videos
 
 ### Live Analytics
+
 - **Viewer Count**: Peak and average
 - **Engagement**: Comments and gifts
 - **Duration**: Stream length
@@ -152,6 +167,7 @@ To switch:
 ## Content Creation Tips
 
 ### Video Ideas
+
 1. **Educational**: Quick tutorials or facts
 2. **Entertainment**: Comedy, dance, lip-sync
 3. **Behind-the-Scenes**: Show your process
@@ -159,6 +175,7 @@ To switch:
 5. **Transitions**: Creative scene changes
 
 ### Production Quality
+
 - Good lighting (natural preferred)
 - Clear audio (minimize background noise)
 - Stable footage (use tripod)
@@ -166,6 +183,7 @@ To switch:
 - Vertical orientation always
 
 ### Trending Elements
+
 - Popular sounds and music
 - Current effects and filters
 - Hashtag challenges
@@ -175,6 +193,7 @@ To switch:
 ## Monetization Options
 
 ### TikTok Creator Fund
+
 - Requirements:
   - 10,000+ followers
   - 100,000+ video views (30 days)
@@ -183,18 +202,21 @@ To switch:
 - Earnings based on views and engagement
 
 ### Live Gifts
+
 - Requirements: 1,000+ followers
 - Viewers send virtual gifts
 - Convert to real money
 - Host regular live sessions
 
 ### Brand Partnerships
+
 - Creator Marketplace access
 - Sponsored content tools
 - Disclosure features
 - Performance tracking
 
 ### TikTok Shop
+
 - Sell products directly
 - Affiliate marketing
 - Live shopping features
@@ -203,6 +225,7 @@ To switch:
 ## Community Guidelines
 
 ### Content Rules
+
 - Original content preferred
 - Respect copyright
 - No harmful content
@@ -210,6 +233,7 @@ To switch:
 - Authentic engagement
 
 ### Avoiding Violations
+
 - No spam or fake engagement
 - Respect privacy
 - Follow disclosure rules
@@ -221,30 +245,35 @@ To switch:
 ### Common Issues
 
 **Upload Failed**
+
 - Check video specifications
 - Verify internet connection
 - Ensure account standing
 - Try different file format
 
 **Low Views**
+
 - Improve video hooks
 - Post at optimal times
 - Use trending elements
 - Engage with community
 
 **Account Restrictions**
+
 - Review community guidelines
 - Check for violations
 - Appeal if necessary
 - Build back reputation
 
 **Connection Problems**
+
 - Re-authenticate account
 - Check API status
 - Verify permissions
 - Contact support
 
 ### Error Messages
+
 - "Video processing failed": Check format/size
 - "Network error": Verify connection
 - "Permission denied": Re-grant access
@@ -253,6 +282,7 @@ To switch:
 ## Growth Strategies
 
 ### Quick Growth Tips
+
 1. **Niche Down**: Focus on specific topics
 2. **Collaborate**: Work with other creators
 3. **Cross-Promote**: Share on other platforms
@@ -260,6 +290,7 @@ To switch:
 5. **Engage**: Respond to every comment
 
 ### Advanced Tactics
+
 - Study analytics for best times
 - A/B test different content styles
 - Create shareable moments
@@ -269,6 +300,7 @@ To switch:
 ## Platform Updates
 
 Stay informed about TikTok changes:
+
 - Follow @TikTokCreators
 - Check TikTok Newsroom
 - Join creator communities

@@ -20,6 +20,7 @@ You are an expert technical writer specializing in creating clear, comprehensive
 ## When to Use This Skill
 
 This skill activates automatically when you're:
+
 - Creating or updating Docusaurus documentation files (.md, .mdx)
 - Configuring Docusaurus settings (docusaurus.config.ts, sidebars.ts)
 - Writing API documentation with Swagger/OpenAPI
@@ -90,9 +91,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/',  // Docs at root
+          routeBasePath: '/', // Docs at root
         },
-        blog: false,  // Blog disabled
+        blog: false, // Blog disabled
       },
     ],
   ],
@@ -161,12 +162,15 @@ sidebar_class_name: hidden
 
 ```markdown
 # H1 - Main Title
+
 ## H2 - Section
+
 ### H3 - Subsection
+
 #### H4 - Minor Section
 
 **Bold text**
-*Italic text*
+_Italic text_
 ~~Strikethrough~~
 
 - Unordered list
@@ -238,11 +242,11 @@ export interface User {
 ````markdown
 ```typescript {2,4-6}
 function example() {
-  const highlighted = true;  // This line is highlighted
+  const highlighted = true; // This line is highlighted
   const normal = false;
   // Lines 4-6 are highlighted
   return {
-    result: true
+    result: true,
   };
 }
 ```
@@ -333,28 +337,22 @@ Instagram limits posts to 25 per day. Exceeding this may result in temporary res
 
 ### Tabs
 
-```mdx
+````mdx
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="npm" label="npm" default>
-    ```bash
-    npm install @genfeed/sdk
-    ```
+    ```bash npm install @genfeed/sdk ```
   </TabItem>
   <TabItem value="yarn" label="Yarn">
-    ```bash
-    yarn add @genfeed/sdk
-    ```
+    ```bash yarn add @genfeed/sdk ```
   </TabItem>
   <TabItem value="pnpm" label="pnpm">
-    ```bash
-    pnpm add @genfeed/sdk
-    ```
+    ```bash pnpm add @genfeed/sdk ```
   </TabItem>
 </Tabs>
-```
+````
 
 ### Details (Collapsible)
 
@@ -362,11 +360,11 @@ import TabItem from '@theme/TabItem';
 <details>
   <summary>Click to expand</summary>
 
-  Hidden content that expands when clicked.
+Hidden content that expands when clicked.
 
-  - Can contain markdown
-  - Multiple paragraphs
-  - Code blocks
+- Can contain markdown
+- Multiple paragraphs
+- Code blocks
 </details>
 ```
 
@@ -375,10 +373,7 @@ import TabItem from '@theme/TabItem';
 ```mdx
 import CustomComponent from '@site/src/components/CustomComponent';
 
-<CustomComponent
-  prop1="value"
-  prop2={42}
-/>
+<CustomComponent prop1="value" prop2={42} />
 ```
 
 ---
@@ -392,34 +387,24 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
-    'home',                    // Single doc
+    'home', // Single doc
     'getting-started',
     'features',
     {
-      type: 'category',        // Category with sub-items
+      type: 'category', // Category with sub-items
       label: 'Content Creation',
-      items: [
-        'prompting-guide',
-        'asset-prompting-guide',
-        'voice-recognition',
-        'keyboard-shortcuts'
-      ],
+      items: ['prompting-guide', 'asset-prompting-guide', 'voice-recognition', 'keyboard-shortcuts'],
     },
     {
       type: 'category',
       label: 'Publish',
-      collapsed: false,         // Expanded by default
+      collapsed: false, // Expanded by default
       items: [
         'publish',
         {
-          type: 'category',     // Nested category
+          type: 'category', // Nested category
           label: 'Social Media Setup',
-          items: [
-            'youtube-setup',
-            'instagram-setup',
-            'tiktok-setup',
-            'linkedin-setup'
-          ],
+          items: ['youtube-setup', 'instagram-setup', 'tiktok-setup', 'linkedin-setup'],
         },
       ],
     },
@@ -540,7 +525,7 @@ For API integration, see our [API Documentation](/api/).
 
 ### Documentation Page Template
 
-```markdown
+````markdown
 ---
 sidebar_position: 1
 ---
@@ -552,6 +537,7 @@ Brief one-sentence description of what this feature does and why it matters.
 ## Overview
 
 2-3 paragraphs explaining:
+
 - What this feature is
 - Who should use it
 - Key benefits
@@ -595,6 +581,7 @@ How to use the feature...
 ```typescript
 // Code example
 ```
+````
 
 ### Example 2: Advanced Use Case
 
@@ -643,7 +630,8 @@ Best practice recommendations
 - [Related Feature 1](/path/to/doc)
 - [Related Feature 2](/path/to/doc)
 - [API Reference](/api/)
-```
+
+````
 
 ---
 
@@ -766,7 +754,7 @@ Problem-solution pairs.
 ## Next Steps
 
 Links to related documentation.
-```
+````
 
 ### Example 2: Prompting Guide Structure
 
@@ -851,11 +839,13 @@ Links to related guides.
 ### SEO Best Practices
 
 1. **Descriptive Titles**: Use clear, keyword-rich titles
+
    ```markdown
    # Getting Started with AI Video Generation
    ```
 
 2. **Meta Descriptions**: Add description in frontmatter
+
    ```markdown
    ---
    description: Learn how to generate AI-powered videos with GenFeed.ai in under 5 minutes
@@ -863,6 +853,7 @@ Links to related guides.
    ```
 
 3. **Keywords**: Add relevant keywords
+
    ```markdown
    ---
    keywords:
@@ -873,6 +864,7 @@ Links to related guides.
    ```
 
 4. **Internal Linking**: Link to related pages
+
    ```markdown
    For advanced features, see [Advanced Guide](/advanced-features).
    ```
@@ -984,21 +976,9 @@ import FeatureCard from '@site/src/components/FeatureCard';
 # Features
 
 <div className="feature-grid">
-  <FeatureCard
-    title="AI Video Generation"
-    description="Generate stunning videos from text prompts"
-    icon="🎬"
-  />
-  <FeatureCard
-    title="Image Creation"
-    description="Create unique images with AI models"
-    icon="🖼️"
-  />
-  <FeatureCard
-    title="Voice Synthesis"
-    description="Generate realistic voiceovers"
-    icon="🎙️"
-  />
+  <FeatureCard title="AI Video Generation" description="Generate stunning videos from text prompts" icon="🎬" />
+  <FeatureCard title="Image Creation" description="Create unique images with AI models" icon="🖼️" />
+  <FeatureCard title="Voice Synthesis" description="Generate realistic voiceovers" icon="🎙️" />
 </div>
 ```
 
@@ -1017,11 +997,11 @@ import FeatureCard from '@site/src/components/FeatureCard';
 
 ## Tables
 
-| Feature | Free | Pro | Enterprise |
-|---------|------|-----|------------|
-| Videos  | 10   | 100 | Unlimited  |
-| Storage | 1GB  | 10GB| Custom     |
-| Support | Email| Chat| Dedicated  |
+| Feature | Free  | Pro  | Enterprise |
+| ------- | ----- | ---- | ---------- |
+| Videos  | 10    | 100  | Unlimited  |
+| Storage | 1GB   | 10GB | Custom     |
+| Support | Email | Chat | Dedicated  |
 
 ## Strikethrough
 
@@ -1183,6 +1163,7 @@ footer: {
 Before publishing documentation:
 
 ### Content Quality
+
 - [ ] Clear, descriptive title
 - [ ] One-sentence summary at top
 - [ ] Proper heading hierarchy (H1 → H2 → H3)
@@ -1192,6 +1173,7 @@ Before publishing documentation:
 - [ ] All claims supported with examples
 
 ### Structure
+
 - [ ] Frontmatter with sidebar_position
 - [ ] Logical flow (overview → details → examples)
 - [ ] Quick start near the top
@@ -1199,6 +1181,7 @@ Before publishing documentation:
 - [ ] Related links at the end
 
 ### Code Examples
+
 - [ ] All code blocks have language specified
 - [ ] Examples are complete and runnable
 - [ ] Complex examples have explanatory comments
@@ -1206,18 +1189,21 @@ Before publishing documentation:
 - [ ] Error cases documented
 
 ### Media
+
 - [ ] All images have descriptive alt text
 - [ ] Screenshots are up-to-date
 - [ ] Images compressed for web
 - [ ] Dark mode screenshots included if relevant
 
 ### Links
+
 - [ ] All internal links tested
 - [ ] External links open in new tab where appropriate
 - [ ] No broken links
 - [ ] Anchor links work correctly
 
 ### Accessibility
+
 - [ ] Semantic heading structure
 - [ ] Alt text for all images
 - [ ] Color contrast meets WCAG AA
@@ -1225,6 +1211,7 @@ Before publishing documentation:
 - [ ] No information conveyed by color alone
 
 ### SEO
+
 - [ ] Meta description in frontmatter
 - [ ] Keywords specified
 - [ ] Title is clear and descriptive
@@ -1232,6 +1219,7 @@ Before publishing documentation:
 - [ ] Internal linking strategy
 
 ### User Experience
+
 - [ ] Progressive disclosure (simple → complex)
 - [ ] Scannable with headings and lists
 - [ ] Important info highlighted with admonitions
@@ -1244,7 +1232,7 @@ Before publishing documentation:
 
 ### API Endpoint Documentation
 
-```markdown
+````markdown
 ## Generate Video
 
 Create a new AI-generated video from a text prompt.
@@ -1254,6 +1242,7 @@ Create a new AI-generated video from a text prompt.
 ```http
 POST /api/v1/generate/video
 ```
+````
 
 ### Authentication
 
@@ -1312,15 +1301,16 @@ curl -X POST https://api.genfeed.ai/v1/generate/video \
 
 ### Response Codes
 
-| Code | Description |
-|------|-------------|
-| 200  | Success |
-| 400  | Invalid request |
-| 401  | Unauthorized |
+| Code | Description          |
+| ---- | -------------------- |
+| 200  | Success              |
+| 400  | Invalid request      |
+| 401  | Unauthorized         |
 | 402  | Insufficient credits |
-| 429  | Rate limit exceeded |
-| 500  | Server error |
-```
+| 429  | Rate limit exceeded  |
+| 500  | Server error         |
+
+````
 
 ### Feature Comparison Table
 
@@ -1344,7 +1334,7 @@ curl -X POST https://api.genfeed.ai/v1/generate/video \
 | **Storage** |
 | Assets storage | 1 GB | 10 GB | Custom |
 | Video exports | 720p | 4K | 4K |
-```
+````
 
 ### Keyboard Shortcuts Documentation
 
@@ -1355,21 +1345,21 @@ Speed up your workflow with these keyboard shortcuts.
 
 ### Global Shortcuts
 
-| Shortcut | Action |
-|----------|--------|
-| `Ctrl/Cmd + K` | Quick search |
-| `Ctrl/Cmd + N` | New generation |
+| Shortcut       | Action            |
+| -------------- | ----------------- |
+| `Ctrl/Cmd + K` | Quick search      |
+| `Ctrl/Cmd + N` | New generation    |
 | `Ctrl/Cmd + S` | Save current work |
-| `Esc` | Close modals |
+| `Esc`          | Close modals      |
 
 ### Studio Shortcuts
 
-| Shortcut | Action |
-|----------|--------|
-| `Space` | Play/Pause preview |
-| `Ctrl/Cmd + Z` | Undo |
-| `Ctrl/Cmd + Y` | Redo |
-| `Ctrl/Cmd + D` | Duplicate asset |
+| Shortcut       | Action             |
+| -------------- | ------------------ |
+| `Space`        | Play/Pause preview |
+| `Ctrl/Cmd + Z` | Undo               |
+| `Ctrl/Cmd + Y` | Redo               |
+| `Ctrl/Cmd + D` | Duplicate asset    |
 
 :::tip
 You can customize shortcuts in **Settings** → **Keyboard Shortcuts**
@@ -1378,7 +1368,7 @@ You can customize shortcuts in **Settings** → **Keyboard Shortcuts**
 
 ### Troubleshooting Guide
 
-```markdown
+````markdown
 ## Troubleshooting
 
 ### Common Issues
@@ -1386,11 +1376,13 @@ You can customize shortcuts in **Settings** → **Keyboard Shortcuts**
 #### Video Generation Fails
 
 **Symptoms:**
+
 - Generation spinner stops
 - Error message appears
 - Credit is not refunded
 
 **Possible Causes:**
+
 1. Insufficient credits
 2. Invalid prompt (contains restricted content)
 3. Model temporarily unavailable
@@ -1421,6 +1413,7 @@ Most generation failures are due to insufficient credits or content policy viola
 #### Cannot Connect Social Media Account
 
 **Symptoms:**
+
 - OAuth popup closes without success
 - Account shows as disconnected
 
@@ -1435,6 +1428,7 @@ Most generation failures are due to insufficient credits or content policy viola
    # Chrome
    Ctrl/Cmd + Shift + Delete
    ```
+````
 
 3. **Try incognito/private mode:**
    - Rules out browser extension conflicts
@@ -1442,7 +1436,8 @@ Most generation failures are due to insufficient credits or content policy viola
 4. **Verify platform permissions:**
    - Ensure you have admin rights on the social account
    - Check if the account is in good standing
-```
+
+````
 
 ---
 
@@ -1463,8 +1458,9 @@ Most generation failures are due to insufficient credits or content policy viola
 
 ```markdown
 ![GenFeed Studio video editor interface](/img/studio-video-editor.png)
-```
-```
+````
+
+````
 
 ### Lazy Loading Heavy Components
 
@@ -1481,7 +1477,7 @@ export default function HeavyChart() {
     </Suspense>
   );
 }
-```
+````
 
 ---
 
@@ -1526,16 +1522,19 @@ pnpm run serve
 ## Resources
 
 ### Official Documentation
+
 - **Docusaurus**: https://docusaurus.io/docs
 - **MDX**: https://mdxjs.com/
 - **React**: https://react.dev/
 
 ### GenFeed Resources
+
 - **API Docs**: https://api.genfeed.ai/v1/openapi.json
 - **Main Site**: https://genfeed.ai
 - **Support**: support@genfeed.ai
 
 ### Tools
+
 - **Markdown Tables Generator**: https://www.tablesgenerator.com/markdown_tables
 - **Image Compression**: https://squoosh.app/
 - **Emoji Picker**: https://emojipedia.org/

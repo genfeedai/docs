@@ -101,6 +101,7 @@ GenFeed.ai supports multiple content types:
 ### Mobile Experience
 
 GenFeed.ai is fully responsive and works on all devices:
+
 - Use the hamburger menu for navigation on mobile
 - Swipe gestures supported for image galleries
 - Touch-optimized interface for content creation
@@ -124,18 +125,23 @@ GenFeed.ai is fully responsive and works on all devices:
 ## Best Practices
 
 ### 1. Start Simple
+
 Begin with basic prompts and gradually add complexity as you learn what works best.
 
 ### 2. Use Templates
+
 Take advantage of preset templates and styles to maintain consistency.
 
 ### 3. Batch Generation
+
 Generate multiple variations at once to find the perfect result.
 
 ### 4. Save Favorites
+
 Star your best generations for quick reference and reuse.
 
 ### 5. Monitor Usage
+
 Keep an eye on your credit usage to optimize your workflow.
 
 ## Getting Help
@@ -150,16 +156,19 @@ Keep an eye on your credit usage to optimize your workflow.
 ### Common Issues
 
 **Generation Failed**
+
 - Check your internet connection
 - Ensure you have sufficient credits
 - Try a different model or simplify your prompt
 
 **Slow Generation**
+
 - Premium models take longer but produce better results
 - Video generation typically takes 1-5 minutes
 - Use faster models for quick iterations
 
 **Quality Issues**
+
 - Be specific in your prompts
 - Use style keywords and references
 - Try different models for different results

@@ -1,10 +1,10 @@
 # Documentation Site - Coding Rules
 
 **Project:** docs.genfeed.ai  
-**Extends:** `../../../.agent/SYSTEM/CROSS-PROJECT-RULES.md`  
+**Extends:** `../../../.agent/SYSTEM/critical/CROSS-PROJECT-RULES.md`  
 **Last Updated:** 2025-10-07
 
-> **Read workspace rules first:** `../../../.agent/SYSTEM/CROSS-PROJECT-RULES.md`  
+> **Read workspace rules first:** `../../../.agent/SYSTEM/critical/CROSS-PROJECT-RULES.md`  
 > This file contains documentation-specific additions and overrides.
 
 ---

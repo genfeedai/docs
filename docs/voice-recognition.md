@@ -9,12 +9,14 @@ GenFeed.ai's voice recognition feature allows you to create content hands-free b
 ## System Requirements
 
 ### Desktop Requirements
+
 - **Operating System**: Windows 10+, macOS 10.14+, Linux (Ubuntu 20.04+)
 - **Browser**: Chrome 90+, Edge 90+, Safari 14+, Firefox 88+
 - **Microphone**: Any USB or built-in microphone
 - **Internet**: Stable connection (minimum 1 Mbps)
 
 ### Mobile Requirements
+
 - **iOS**: Version 14.0 or higher
 - **Android**: Version 8.0 or higher
 - **GenFeed.ai Mobile App**: Latest version
@@ -24,17 +26,20 @@ GenFeed.ai's voice recognition feature allows you to create content hands-free b
 ### Step 1: Check Microphone Permissions
 
 **Browser Permissions**
+
 1. Click the lock icon in your browser's address bar
 2. Find "Microphone" in the permissions list
 3. Select "Allow" for docs.genfeed.ai
 4. Refresh the page
 
 **System Permissions (Windows)**
+
 1. Go to Settings → Privacy → Microphone
 2. Enable "Allow apps to access your microphone"
 3. Ensure your browser is allowed
 
 **System Permissions (macOS)**
+
 1. Go to System Preferences → Security & Privacy → Privacy
 2. Select Microphone from the left panel
 3. Check the box next to your browser
@@ -110,6 +115,7 @@ Create your own voice shortcuts:
 5. Save and test
 
 Example custom commands:
+
 - **"My signature"** → Inserts your email signature
 - **"Company name"** → Types "GenFeed.ai"
 - **"Current date"** → Inserts today's date
@@ -135,6 +141,7 @@ Switch between languages seamlessly:
 4. AI will maintain language consistency
 
 Supported languages:
+
 - English (US, UK, AU, CA)
 - Spanish (ES, MX, AR)
 - French (FR, CA)
@@ -185,18 +192,21 @@ Supported languages:
 ### Troubleshooting Common Issues
 
 **Low Recognition Accuracy**
+
 - Check microphone quality
 - Adjust input sensitivity
 - Run voice training module
 - Update browser/app
 
 **Commands Not Working**
+
 - Verify command syntax
 - Check language settings
 - Ensure proper pausing
 - Review custom commands
 
 **Audio Cutting Out**
+
 - Test internet connection
 - Check browser permissions
 - Disable battery optimization
@@ -217,6 +227,7 @@ Improve recognition accuracy with personalized training:
 ### Voice Feedback
 
 Enable audio confirmation:
+
 1. Settings → Accessibility
 2. Toggle "Voice Feedback"
 3. Adjust feedback volume

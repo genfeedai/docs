@@ -39,8 +39,9 @@ Connect your Instagram Business or Creator account to publish content directly f
 ## Content Types
 
 ### Feed Posts
+
 - **Images**: JPG, PNG (max 30MB)
-- **Aspect Ratios**: 
+- **Aspect Ratios**:
   - Square: 1:1
   - Portrait: 4:5 (recommended)
   - Landscape: 1.91:1
@@ -48,6 +49,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 - **Carousels**: Up to 10 images/videos
 
 ### Reels
+
 - **Duration**: 15-90 seconds
 - **Aspect Ratio**: 9:16 (vertical)
 - **Resolution**: 1080x1920
@@ -55,6 +57,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 - **Format**: MP4, MOV
 
 ### Stories
+
 - **Duration**: 15 seconds per story
 - **Aspect Ratio**: 9:16
 - **Auto-expire**: After 24 hours
@@ -63,6 +66,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 ## Publishing Features
 
 ### Content Creation
+
 1. Select media from GenFeed.ai library
 2. Choose **Publish to Instagram**
 3. Select content type (Post/Reel/Story)
@@ -71,6 +75,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 6. Schedule or publish immediately
 
 ### Caption Tools
+
 - **Character Counter**: Track 2,200 limit
 - **Hashtag Suggestions**: AI-powered recommendations
 - **Emoji Picker**: Quick emoji insertion
@@ -78,6 +83,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 - **First Comment**: Auto-post hashtags
 
 ### Advanced Features
+
 - **Auto-Resize**: Fit any image to Instagram specs
 - **Filter Presets**: Apply consistent styling
 - **Carousel Ordering**: Drag to rearrange
@@ -87,12 +93,14 @@ Connect your Instagram Business or Creator account to publish content directly f
 ## Best Practices
 
 ### Optimal Posting Times
+
 - **Weekdays**: 11 AM - 1 PM, 5 PM - 7 PM
 - **Weekends**: 10 AM - 11 AM
 - **Time Zones**: Post when your audience is active
 - **Consistency**: Same times daily for best reach
 
 ### Hashtag Strategy
+
 - **Maximum**: 30 hashtags per post
 - **Mix**: Combine popular and niche tags
 - **Placement**: In caption or first comment
@@ -100,6 +108,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 - **Branded**: Create unique campaign hashtags
 
 ### Content Strategy
+
 1. **Visual Consistency**: Maintain brand aesthetic
 2. **Caption Length**: Longer captions (1000+ chars) perform well
 3. **Call-to-Action**: Encourage saves, shares, comments
@@ -109,6 +118,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 ## Analytics Dashboard
 
 ### Post Insights
+
 - **Reach**: Unique accounts reached
 - **Impressions**: Total views
 - **Engagement**: Likes, comments, saves, shares
@@ -116,12 +126,14 @@ Connect your Instagram Business or Creator account to publish content directly f
 - **Profile Activity**: Actions from your post
 
 ### Audience Analytics
+
 - **Demographics**: Age, gender, location
 - **Active Times**: When followers are online
 - **Growth**: Follower changes over time
 - **Content Preferences**: Top performing post types
 
 ### Reels Insights
+
 - **Plays**: Total video views
 - **Accounts Reached**: Unique viewers
 - **Likes & Comments**: Engagement metrics
@@ -131,12 +143,14 @@ Connect your Instagram Business or Creator account to publish content directly f
 ## Instagram Shopping
 
 ### Setup Requirements
+
 - Business account
 - Compliant with commerce policies
 - Facebook catalog connected
 - Website with product pages
 
 ### Features
+
 - Product tags in posts
 - Shopping stickers in Stories
 - Shop tab on profile
@@ -145,6 +159,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 ## Algorithm Optimization
 
 ### Ranking Factors
+
 1. **Relationship**: User's past interactions
 2. **Interest**: Likelihood of engagement
 3. **Timeliness**: How recent the post is
@@ -153,6 +168,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 6. **Usage**: Session duration
 
 ### Growth Tactics
+
 - Post when audience is most active
 - Encourage meaningful interactions
 - Use all content formats (Posts, Reels, Stories)
@@ -164,28 +180,33 @@ Connect your Instagram Business or Creator account to publish content directly f
 ### Common Issues
 
 **Connection Failed**
+
 - Verify Facebook Page connection
 - Check Instagram account type
 - Ensure you're a Page admin
 - Try reconnecting through Facebook
 
 **Publishing Errors**
+
 - Check content meets Instagram guidelines
 - Verify file sizes and formats
 - Ensure caption isn't too long
 - Check for restricted hashtags
 
 **Limited Features**
+
 - Some features require minimum followers
 - Check account standing for violations
 - Verify all permissions granted
 
 **API Limits**
+
 - 25 API calls per hour
 - Content publishing: 25 per day
 - Story publishing: 100 per day
 
 ### Error Codes
+
 - Error 9: Rate limit exceeded
 - Error 24: Account restricted
 - Error 100: Invalid parameter
@@ -194,6 +215,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 ## Content Guidelines
 
 ### Prohibited Content
+
 - Copyrighted material without permission
 - Misleading or false information
 - Spam or repetitive content
@@ -201,6 +223,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 - Regulated goods
 
 ### Best Quality Practices
+
 - High-resolution images only
 - Good lighting and composition
 - Authentic, original content
@@ -210,6 +233,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 ## Advanced Tips
 
 ### Growth Hacking
+
 1. **Collaborate**: Partner with similar accounts
 2. **IGTV Series**: Create episodic content
 3. **Live Sessions**: Real-time engagement
@@ -217,6 +241,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 5. **Badges**: Enable fan support features
 
 ### Automation Rules
+
 - Schedule posts for optimal times
 - Auto-reply to common DMs
 - Set up welcome messages
@@ -234,6 +259,7 @@ Connect your Instagram Business or Creator account to publish content directly f
 ## Platform Updates
 
 Instagram frequently updates features. Stay current:
+
 - Follow @creators on Instagram
 - Check Instagram Blog
 - Join creator communities

@@ -66,6 +66,7 @@ Create multi-step content pipelines:
 ### Workflow Templates
 
 **Product Launch**
+
 ```
 1. Generate product images (multiple angles)
 2. Create lifestyle scenes
@@ -75,6 +76,7 @@ Create multi-step content pipelines:
 ```
 
 **Content Series**
+
 ```
 1. Generate episode script
 2. Create thumbnail image
@@ -176,9 +178,9 @@ Train models on your brand style:
 Combine multiple styles:
 
 ```
-"Corporate photography style" + 
-"Vintage film aesthetic" + 
-"High contrast lighting" = 
+"Corporate photography style" +
+"Vintage film aesthetic" +
+"High contrast lighting" =
 Unique brand look
 ```
 
@@ -196,12 +198,14 @@ Save and share brand-specific settings:
 ### Workspace Management
 
 **Roles & Permissions**
+
 - **Owner**: Full access, billing, team management
 - **Admin**: Manage content, users, settings
 - **Creator**: Generate and publish content
 - **Viewer**: View content and analytics
 
 **Project Organization**
+
 - Create project folders
 - Tag assets by campaign
 - Share collections with team
@@ -231,6 +235,7 @@ Save and share brand-specific settings:
 ### Custom Dashboards
 
 Build dashboards showing:
+
 - Generation trends
 - Model performance
 - Publishing success rates
@@ -240,6 +245,7 @@ Build dashboards showing:
 ### Data Export
 
 Export analytics data:
+
 - CSV/Excel formats
 - API access
 - Automated reports
@@ -248,6 +254,7 @@ Export analytics data:
 ### Performance Optimization
 
 Track and improve:
+
 - Generation success rates
 - Average processing time
 - Credit efficiency
@@ -258,18 +265,21 @@ Track and improve:
 ### Third-Party Integrations
 
 **Creative Tools**
+
 - Adobe Creative Cloud
 - Canva
 - Figma
 - Sketch
 
 **Marketing Platforms**
+
 - HubSpot
 - Mailchimp
 - Buffer
 - Hootsuite
 
 **Storage Services**
+
 - Google Drive
 - Dropbox
 - AWS S3
@@ -292,6 +302,7 @@ Action 4: Schedule social media post
 ### A/B Testing
 
 Test variations:
+
 1. Generate multiple versions
 2. Publish to different segments
 3. Track performance
@@ -300,6 +311,7 @@ Test variations:
 ### SEO Optimization
 
 For published content:
+
 - Auto-generate meta descriptions
 - Optimize titles for search
 - Create alt text for images
@@ -308,6 +320,7 @@ For published content:
 ### Performance Monitoring
 
 Real-time metrics:
+
 - Generation queue status
 - Processing speeds
 - Error rates
@@ -342,6 +355,7 @@ Real-time metrics:
 ### Multi-Scene Videos
 
 Create complex videos:
+
 1. Define scene sequence
 2. Set transitions
 3. Add audio tracks
@@ -350,25 +364,26 @@ Create complex videos:
 ### Video Templates
 
 ```yaml
-template: "Product Showcase"
+template: 'Product Showcase'
 scenes:
-  - type: "intro"
+  - type: 'intro'
     duration: 3
-    content: "logo animation"
-  - type: "main"
+    content: 'logo animation'
+  - type: 'main'
     duration: 10
-    content: "product 360 view"
-  - type: "features"
+    content: 'product 360 view'
+  - type: 'features'
     duration: 8
-    content: "highlight reel"
-  - type: "cta"
+    content: 'highlight reel'
+  - type: 'cta'
     duration: 2
-    content: "call to action"
+    content: 'call to action'
 ```
 
 ### Dynamic Elements
 
 Add to videos:
+
 - Text overlays
 - Logo watermarks
 - Progress bars
@@ -380,6 +395,7 @@ Add to videos:
 ### Beta Access
 
 Early access to:
+
 - New AI models
 - Experimental features
 - Priority processing
@@ -388,6 +404,7 @@ Early access to:
 ### Feature Requests
 
 Submit and vote on:
+
 - New model additions
 - Feature improvements
 - Integration requests

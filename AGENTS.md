@@ -21,7 +21,7 @@ All project-specific documentation is in the `.agent/` folder:
 
 Also read workspace-level docs (applies to ALL projects):
 
-- `../.agent/SYSTEM/CROSS-PROJECT-RULES.md` - Workspace rules
+- `../.agent/SYSTEM/critical/CROSS-PROJECT-RULES.md` - Workspace rules
 - `../.agent/SYSTEM/WORKSPACE-ARCHITECTURE.md` - Overall system
 - `../.agent/SOP/` - Standard procedures
 

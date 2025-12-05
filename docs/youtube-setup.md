@@ -27,6 +27,7 @@ Connect your YouTube channel to GenFeed.ai for seamless video publishing and man
 ## Content Types
 
 ### Regular Videos
+
 - **Length**: Up to 12 hours (verified accounts)
 - **Resolution**: Up to 8K supported
 - **Aspect Ratio**: 16:9 recommended
@@ -34,6 +35,7 @@ Connect your YouTube channel to GenFeed.ai for seamless video publishing and man
 - **Formats**: MP4, MOV, AVI, FLV, and more
 
 ### YouTube Shorts
+
 - **Length**: Maximum 60 seconds
 - **Aspect Ratio**: 9:16 (vertical required)
 - **Resolution**: 1920x1080 recommended
@@ -42,6 +44,7 @@ Connect your YouTube channel to GenFeed.ai for seamless video publishing and man
 ## Publishing Features
 
 ### Video Upload
+
 1. Select video from your GenFeed.ai library
 2. Click **Publish to YouTube**
 3. Configure:
@@ -52,12 +55,14 @@ Connect your YouTube channel to GenFeed.ai for seamless video publishing and man
    - Thumbnail selection/upload
 
 ### Optimization Tools
+
 - **SEO Assistant**: Suggests titles and tags
 - **Thumbnail Generator**: AI-powered thumbnail creation
 - **Description Templates**: Pre-formatted descriptions
 - **End Screen Generator**: Automatic end screen elements
 
 ### Scheduling Options
+
 - Publish immediately
 - Schedule for specific date/time
 - Set as premiere
@@ -66,21 +71,24 @@ Connect your YouTube channel to GenFeed.ai for seamless video publishing and man
 ## Best Practices
 
 ### Video Optimization
+
 1. **Titles**: Include main keyword in first 60 characters
 2. **Thumbnails**: Use high contrast, clear faces, and text
-3. **Descriptions**: 
+3. **Descriptions**:
    - First 125 characters are crucial
    - Include timestamps for chapters
    - Add relevant links and CTAs
 4. **Tags**: Mix broad and specific keywords
 
 ### Posting Strategy
+
 - **Consistency**: Same day/time weekly
 - **Best Times**: 2-4 PM on weekdays
 - **Frequency**: 1-3 videos per week for most channels
 - **Series**: Create playlists for related content
 
 ### Engagement Tactics
+
 - Ask questions to encourage comments
 - Create community posts between videos
 - Use cards and end screens
@@ -92,6 +100,7 @@ Connect your YouTube channel to GenFeed.ai for seamless video publishing and man
 Track your YouTube performance directly in GenFeed.ai:
 
 ### Key Metrics
+
 - **Views & Watch Time**: Track video performance
 - **Audience Retention**: See where viewers drop off
 - **Traffic Sources**: Understand discovery methods
@@ -99,6 +108,7 @@ Track your YouTube performance directly in GenFeed.ai:
 - **Revenue**: Monitor monetization (if enabled)
 
 ### Performance Reports
+
 - Daily/Weekly/Monthly summaries
 - Best performing videos
 - Subscriber growth trends
@@ -107,12 +117,14 @@ Track your YouTube performance directly in GenFeed.ai:
 ## Monetization Support
 
 ### Requirements
+
 - 1,000 subscribers
 - 4,000 watch hours (past 12 months)
 - AdSense account linked
 - Follow YouTube monetization policies
 
 ### Features
+
 - Revenue tracking
 - Ad placement optimization
 - Sponsorship management tools
@@ -123,27 +135,32 @@ Track your YouTube performance directly in GenFeed.ai:
 ### Common Issues
 
 **Upload Failed**
+
 - Check file format and size
 - Verify channel standing
 - Review content for policy violations
 - Check internet connection stability
 
 **Processing Stuck**
+
 - Large files may take hours
 - HD processing happens after upload
 - Check YouTube Studio for status
 
 **Thumbnail Not Showing**
+
 - Must be 1280x720 pixels
 - Under 2MB file size
 - JPG, GIF, or PNG format
 
 **Limited Features**
+
 - Verify your channel
 - Check channel strikes/warnings
 - Some features require minimum subscribers
 
 ### Error Messages
+
 - "Daily upload limit reached": Wait 24 hours
 - "Invalid file format": Convert to MP4
 - "Copyright claim": Review and dispute if needed
@@ -151,12 +168,14 @@ Track your YouTube performance directly in GenFeed.ai:
 ## Advanced Features
 
 ### Bulk Operations
+
 - Upload multiple videos at once
 - Batch edit descriptions/tags
 - Mass schedule uploads
 - Playlist management
 
 ### API Integration
+
 - Custom workflows
 - Automated responses
 - Advanced analytics

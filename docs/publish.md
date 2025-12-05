@@ -20,13 +20,17 @@ We currently support direct publishing to these major platforms:
 ## Quick Start
 
 ### 1. Connect Your Accounts
+
 Navigate to **Accounts** → **Add Account** and select the platforms you want to connect. Each platform has its own authentication process to ensure secure access.
 
 ### 2. Create Content
+
 Use GenFeed.ai's AI tools to generate images, videos, audio, or text content. All content is automatically optimized for each platform's specifications.
 
 ### 3. Publish
+
 Select your content and choose where to publish. You can:
+
 - Publish immediately to one or multiple platforms
 - Schedule posts for optimal times
 - Customize content for each platform
@@ -35,13 +39,16 @@ Select your content and choose where to publish. You can:
 ## Multi-Platform Publishing
 
 ### One-Click Distribution
+
 - Select content from your library
 - Choose target platforms
 - Customize per platform
 - Publish or schedule
 
 ### Platform Optimization
+
 GenFeed.ai automatically:
+
 - Resizes images and videos
 - Adjusts aspect ratios
 - Optimizes file formats
@@ -49,6 +56,7 @@ GenFeed.ai automatically:
 - Suggests relevant hashtags
 
 ### Smart Scheduling
+
 - AI-powered optimal timing
 - Time zone management
 - Avoid platform conflicts
@@ -57,12 +65,14 @@ GenFeed.ai automatically:
 ## Content Management
 
 ### Centralized Library
+
 - All generated content in one place
 - Organized by type and platform
 - Easy search and filtering
 - Bulk operations support
 
 ### Version Control
+
 - Platform-specific versions
 - Edit history tracking
 - Revert changes easily
@@ -73,6 +83,7 @@ GenFeed.ai automatically:
 Track performance across all platforms:
 
 ### Unified Metrics
+
 - Total reach and impressions
 - Engagement rates
 - Follower growth
@@ -80,6 +91,7 @@ Track performance across all platforms:
 - ROI tracking
 
 ### Platform Insights
+
 - Platform-specific analytics
 - Comparative performance
 - Audience overlap analysis
@@ -88,6 +100,7 @@ Track performance across all platforms:
 ## Best Practices
 
 ### Content Strategy
+
 1. **Consistency**: Maintain regular posting schedule
 2. **Quality**: High-quality content performs better
 3. **Adaptation**: Customize for each platform
@@ -95,6 +108,7 @@ Track performance across all platforms:
 5. **Engagement**: Respond to comments quickly
 
 ### Platform Considerations
+
 - Each platform has unique audiences
 - Adapt tone and style accordingly
 - Respect platform-specific features
@@ -104,12 +118,14 @@ Track performance across all platforms:
 ## Workflow Automation
 
 ### Templates
+
 - Save posting templates
 - Reuse successful formats
 - Quick customization
 - Brand consistency
 
 ### Rules & Triggers
+
 - Auto-publish conditions
 - Content approval workflows
 - Team collaboration
@@ -118,12 +134,14 @@ Track performance across all platforms:
 ## Team Collaboration
 
 ### Roles & Permissions
+
 - Content creators
 - Publishers
 - Reviewers
 - Analytics viewers
 
 ### Workflow Features
+
 - Content approval process
 - Team notifications
 - Activity logs
@@ -132,12 +150,14 @@ Track performance across all platforms:
 ## Security & Compliance
 
 ### Authentication
+
 - OAuth 2.0 for all platforms
 - No password storage
 - Encrypted connections
 - Regular security audits
 
 ### Content Rights
+
 - Copyright compliance tools
 - Usage rights tracking
 - Attribution management

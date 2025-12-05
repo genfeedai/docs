@@ -16,12 +16,14 @@ Connect your LinkedIn profile or company page to share professional content dire
 ## Account Types
 
 ### Personal Profile
+
 - Share as individual professional
 - Build thought leadership
 - Network expansion
 - Personal branding
 
 ### Company Page
+
 - Represent your organization
 - Share company updates
 - Recruit talent
@@ -45,6 +47,7 @@ Connect your LinkedIn profile or company page to share professional content dire
    - Manage company pages (if applicable)
 
 ### Multiple Accounts
+
 - Connect multiple profiles
 - Manage company pages
 - Switch between accounts
@@ -53,6 +56,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 ## Content Types
 
 ### Text Posts
+
 - **Length**: Up to 3,000 characters
 - **Best Practice**: 150-300 characters
 - **Formatting**: Bold, italic, lists
@@ -60,6 +64,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 - **Hashtags**: 3-5 recommended
 
 ### Image Posts
+
 - **Formats**: JPG, PNG, GIF
 - **Size**: Max 10MB
 - **Dimensions**: 1200x627px recommended
@@ -67,16 +72,18 @@ Connect your LinkedIn profile or company page to share professional content dire
 - **Alt Text**: Accessibility feature
 
 ### Video Posts
+
 - **Duration**: 10 seconds to 10 minutes
 - **Size**: Max 5GB
 - **Format**: MP4 recommended
-- **Aspect Ratios**: 
+- **Aspect Ratios**:
   - Square: 1:1
   - Landscape: 16:9
   - Vertical: 9:16
 - **Captions**: Auto-generated available
 
 ### Articles
+
 - **Length**: Unlimited
 - **Formatting**: Rich text editor
 - **Media**: Embed images, videos
@@ -84,6 +91,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 - **Analytics**: Detailed metrics
 
 ### Documents
+
 - **Formats**: PDF, PPT, Word
 - **Size**: Max 100MB
 - **Pages**: Up to 300
@@ -93,6 +101,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 ## Publishing Features
 
 ### Content Creation
+
 1. Create content in GenFeed.ai
 2. Select **Publish to LinkedIn**
 3. Choose post type
@@ -104,6 +113,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 6. Schedule or publish
 
 ### LinkedIn-Specific Tools
+
 - **Professional Tone Checker**: Ensure appropriate language
 - **Industry Hashtags**: Relevant tag suggestions
 - **Connection Tagger**: Mention your network
@@ -111,6 +121,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 - **Employee Advocacy**: Share to team members
 
 ### Scheduling Options
+
 - Optimal time suggestions
 - Time zone management
 - Recurring posts
@@ -120,6 +131,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 ## Best Practices
 
 ### Optimal Posting Times
+
 - **Tuesday-Thursday**: Best engagement
 - **Morning**: 7:30-9:00 AM
 - **Lunch**: 12:00-1:00 PM
@@ -127,6 +139,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 - **Time Zones**: Consider global audience
 
 ### Content Strategy
+
 1. **Value-First**: Share insights, not just promotions
 2. **Storytelling**: Personal experiences resonate
 3. **Industry News**: Comment on trends
@@ -134,6 +147,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 5. **Visual Content**: 2x more engagement
 
 ### Professional Tone
+
 - Avoid excessive emojis
 - Use proper grammar
 - Share credible sources
@@ -143,6 +157,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 ## LinkedIn Algorithm
 
 ### Key Factors
+
 1. **Dwell Time**: How long people read
 2. **Early Engagement**: First hour crucial
 3. **Comments**: Valued over likes
@@ -150,6 +165,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 5. **Content Quality**: Original insights
 
 ### Visibility Boosters
+
 - Engage with comments quickly
 - Tag relevant people (sparingly)
 - Use native video
@@ -159,6 +175,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 ## Analytics & Insights
 
 ### Post Analytics
+
 - **Impressions**: Total views
 - **Clicks**: Link and profile clicks
 - **Engagement Rate**: Interactions/impressions
@@ -166,6 +183,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 - **Discovery**: How people found your post
 
 ### Page Analytics (Company)
+
 - **Followers**: Growth and demographics
 - **Visitors**: Page view trends
 - **Updates**: Post performance
@@ -173,6 +191,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 - **Talent Brand**: Job seeker interest
 
 ### Article Metrics
+
 - **Views**: Reader count
 - **Read Time**: Average duration
 - **Reader Demographics**: Industries, titles
@@ -182,7 +201,8 @@ Connect your LinkedIn profile or company page to share professional content dire
 ## Advanced Features
 
 ### LinkedIn Live
-- **Requirements**: 
+
+- **Requirements**:
   - 150+ followers/connections
   - Recent activity
   - Good standing
@@ -193,6 +213,7 @@ Connect your LinkedIn profile or company page to share professional content dire
   - Analytics provided
 
 ### LinkedIn Events
+
 - Create and promote events
 - Track RSVPs
 - Send reminders
@@ -200,6 +221,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 - Post-event follow-up
 
 ### Newsletter
+
 - **Requirements**: Creator mode enabled
 - **Benefits**:
   - Direct subscriber notifications
@@ -208,6 +230,7 @@ Connect your LinkedIn profile or company page to share professional content dire
   - Analytics dashboard
 
 ### Employee Advocacy
+
 - Share company content
 - Track employee engagement
 - Amplify reach
@@ -217,6 +240,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 ## Content Ideas
 
 ### For Professionals
+
 1. Industry insights and trends
 2. Career advice and tips
 3. Success stories and lessons
@@ -224,6 +248,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 5. Thought leadership pieces
 
 ### For Companies
+
 1. Company culture highlights
 2. Product launches
 3. Industry expertise
@@ -233,6 +258,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 ## Compliance & Guidelines
 
 ### Professional Standards
+
 - No spam or excessive self-promotion
 - Respect intellectual property
 - Maintain professional decorum
@@ -240,6 +266,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 - Follow LinkedIn terms
 
 ### Content Guidelines
+
 - Authentic, original content
 - Respectful discussions
 - No misleading information
@@ -251,30 +278,35 @@ Connect your LinkedIn profile or company page to share professional content dire
 ### Common Issues
 
 **Connection Failed**
+
 - Verify LinkedIn login
 - Check account permissions
 - Ensure active account
 - Try incognito mode
 
 **Posting Errors**
+
 - Check content length
 - Verify media formats
 - Review for restricted content
 - Check posting frequency
 
 **Limited Reach**
+
 - Improve content quality
 - Post at optimal times
 - Engage with network
 - Use relevant hashtags
 
 **Analytics Not Showing**
+
 - Wait 24-48 hours
 - Check privacy settings
 - Verify page admin access
 - Clear browser cache
 
 ### API Limitations
+
 - Rate limits apply
 - 100 shares per day
 - 1000 API calls daily
@@ -283,6 +315,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 ## Growth Strategies
 
 ### Network Expansion
+
 1. **Connect Strategically**: Quality over quantity
 2. **Engage Regularly**: Comment on others' posts
 3. **Share Value**: Helpful content gets shared
@@ -290,6 +323,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 5. **Consistency**: Regular posting schedule
 
 ### Thought Leadership
+
 - Share unique perspectives
 - Create original research
 - Host webinars
@@ -307,6 +341,7 @@ Connect your LinkedIn profile or company page to share professional content dire
 ## Platform Updates
 
 Stay current with LinkedIn:
+
 - LinkedIn Official Blog
 - Creator Newsletter
 - Platform announcements

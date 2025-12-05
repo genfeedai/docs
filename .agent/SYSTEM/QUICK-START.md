@@ -7,7 +7,7 @@
 ### 1. Critical Rules (3K tokens)
 
 ```bash
-cat ../../.agent/SYSTEM/CROSS-PROJECT-RULES.md    # 3K tokens
+cat ../../.agent/SYSTEM/critical/CROSS-PROJECT-RULES.md    # 3K tokens
 ```
 
 **Key takeaways for docs:**
