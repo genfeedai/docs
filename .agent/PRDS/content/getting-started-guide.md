@@ -6,15 +6,15 @@
 
 ## User Story
 
-As a new GenFeed user, I want a comprehensive getting started guide that helps me understand the platform, set up my account, and create my first content, so I can quickly become productive with GenFeed.
+As a new Genfeed user, I want a comprehensive getting started guide that helps me understand the platform, set up my account, and create my first content, so I can quickly become productive with Genfeed.
 
 ## Description
 
-Create a comprehensive getting started guide that serves as the entry point for new GenFeed users. The guide should cover account setup, key concepts, navigation, and first content creation with clear step-by-step instructions and visual aids.
+Create a comprehensive getting started guide that serves as the entry point for new Genfeed users. The guide should cover account setup, key concepts, navigation, and first content creation with clear step-by-step instructions and visual aids.
 
 ## Context
 
-New users need guidance to understand GenFeed's capabilities and get started quickly. This guide will be the first thing users see and should provide a smooth onboarding experience.
+New users need guidance to understand Genfeed's capabilities and get started quickly. This guide will be the first thing users see and should provide a smooth onboarding experience.
 
 ## Tasks
 
@@ -27,7 +27,7 @@ New users need guidance to understand GenFeed's capabilities and get started qui
 
 ### Phase 2: Key Concepts
 
-- What is GenFeed?
+- What is Genfeed?
 - Core concepts (ingredients, content, publications)
 - Platform overview
 - Navigation basics
@@ -69,11 +69,11 @@ New users need guidance to understand GenFeed's capabilities and get started qui
 ### Content Structure
 
 ```markdown
-# Getting Started with GenFeed
+# Getting Started with Genfeed
 
 ## Introduction
 
-Brief overview of GenFeed
+Brief overview of Genfeed
 
 ## Account Setup
 

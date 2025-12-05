@@ -1,6 +1,6 @@
-# GenFeed Documentation Site (`docs.genfeed.ai`)
+# Genfeed Documentation Site (`docs.genfeed.ai`)
 
-Docusaurus 3 project aggregating all GenFeed documentation: platform architecture, service guides, MCP onboarding, extension/mobile quickstarts, and migration notes.
+Docusaurus 3 project aggregating all Genfeed documentation: platform architecture, service guides, MCP onboarding, extension/mobile quickstarts, and migration notes.
 
 ## Responsibilities
 

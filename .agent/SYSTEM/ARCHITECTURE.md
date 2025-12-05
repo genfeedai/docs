@@ -11,7 +11,7 @@
 
 ## Overview
 
-User documentation and guides for GenFeed platform. Built with Docusaurus for easy content management and versioning.
+User documentation and guides for Genfeed platform. Built with Docusaurus for easy content management and versioning.
 
 ## Tech Stack
 

@@ -7,7 +7,7 @@
 
 ## Purpose
 
-Standard operating procedures for testing the GenFeed documentation site.
+Standard operating procedures for testing the Genfeed documentation site.
 
 ## Testing Types
 

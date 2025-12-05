@@ -7,7 +7,7 @@
 
 ## Purpose
 
-This document defines what should and should NOT be documented in the GenFeed user documentation site.
+This document defines what should and should NOT be documented in the Genfeed user documentation site.
 
 ## Scope of Documentation
 
@@ -42,7 +42,7 @@ This document defines what should and should NOT be documented in the GenFeed us
 
 1. **Help users use the apps effectively**
 2. **Improve user prompting skills**
-3. **Get better results from GenFeed**
+3. **Get better results from Genfeed**
 4. **Understand features and workflows**
 
 ### Content Types

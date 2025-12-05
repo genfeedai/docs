@@ -7,7 +7,7 @@
 
 ## Overview
 
-This guide covers deployment procedures for the GenFeed documentation site on Vercel.
+This guide covers deployment procedures for the Genfeed documentation site on Vercel.
 
 ## Prerequisites
 

@@ -7,7 +7,7 @@
 
 ## Purpose
 
-Standard operating procedures for developing and maintaining the GenFeed documentation site.
+Standard operating procedures for developing and maintaining the Genfeed documentation site.
 
 ## Workflow
 

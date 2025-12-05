@@ -6,15 +6,15 @@
 
 ## User Story
 
-As a GenFeed user, I want comprehensive documentation for all features so I can understand and use the platform effectively.
+As a Genfeed user, I want comprehensive documentation for all features so I can understand and use the platform effectively.
 
 ## Description
 
-Create comprehensive documentation for all GenFeed features including Studio, Manager, Publisher, Analytics, Automation, Dashboard, Admin, and other apps with usage examples, screenshots, and best practices.
+Create comprehensive documentation for all Genfeed features including Studio, Manager, Publisher, Analytics, Automation, Dashboard, Admin, and other apps with usage examples, screenshots, and best practices.
 
 ## Context
 
-Users need detailed documentation for all features to maximize their use of GenFeed. This documentation should cover all major features across all apps.
+Users need detailed documentation for all features to maximize their use of Genfeed. This documentation should cover all major features across all apps.
 
 ## Tasks
 

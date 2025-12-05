@@ -1,11 +1,11 @@
-# Cursor Rules - GenFeed Docs
+# Cursor Rules - Genfeed Docs
 
 **Project:** Documentation (`docs.genfeed.ai`)  
 **Framework:** Docusaurus + React + TypeScript
 
 ## 📁 Documentation Structure
 
-This project uses the **GenFeed multi-project .agent/ system**:
+This project uses the **Genfeed multi-project .agent/ system**:
 
 ### 🎯 Start Here
 

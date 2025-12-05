@@ -21,7 +21,7 @@
 ### 1. Content Development (In Progress)
 
 - Getting started guides for new users
-- Feature documentation for all GenFeed apps
+- Feature documentation for all Genfeed apps
 - API reference documentation (future)
 - Video tutorial integration
 - Best practices and guides
@@ -57,7 +57,7 @@
 - **Total Pages:** 20+ markdown files
 - **Sections:** Getting Started, Features, Guides, API (future)
 - **Coverage:** Basic coverage of main features
-- **Target:** Comprehensive documentation for all GenFeed features
+- **Target:** Comprehensive documentation for all Genfeed features
 
 ### Content Organization
 

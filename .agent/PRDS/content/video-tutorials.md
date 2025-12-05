@@ -6,7 +6,7 @@
 
 ## User Story
 
-As a GenFeed user, I want video tutorials embedded in documentation so I can learn features visually and follow along with step-by-step video guides.
+As a Genfeed user, I want video tutorials embedded in documentation so I can learn features visually and follow along with step-by-step video guides.
 
 ## Description
 

@@ -6,15 +6,15 @@
 
 ## User Story
 
-As a GenFeed user, I want to access documentation for the version I'm using, so I can find accurate information that matches my current platform version.
+As a Genfeed user, I want to access documentation for the version I'm using, so I can find accurate information that matches my current platform version.
 
 ## Description
 
-Implement Docusaurus versioning feature to maintain documentation for multiple GenFeed versions, allowing users to switch between versions and access version-specific content.
+Implement Docusaurus versioning feature to maintain documentation for multiple Genfeed versions, allowing users to switch between versions and access version-specific content.
 
 ## Context
 
-As GenFeed evolves, documentation needs to reflect different versions. Versioning allows maintaining documentation for current and previous versions while preparing for future versions.
+As Genfeed evolves, documentation needs to reflect different versions. Versioning allows maintaining documentation for current and previous versions while preparing for future versions.
 
 ## Tasks
 

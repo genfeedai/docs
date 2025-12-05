@@ -6,7 +6,7 @@
 
 ## User Story
 
-As a developer integrating with GenFeed, I want comprehensive API reference documentation so I can understand and use the API effectively.
+As a developer integrating with Genfeed, I want comprehensive API reference documentation so I can understand and use the API effectively.
 
 ## Description
 
@@ -14,7 +14,7 @@ Create comprehensive API reference documentation integrated from api.genfeed.ai 
 
 ## Context
 
-Developers need detailed API documentation to integrate with GenFeed. This should be automatically generated from the OpenAPI spec to stay in sync with the API.
+Developers need detailed API documentation to integrate with Genfeed. This should be automatically generated from the OpenAPI spec to stay in sync with the API.
 
 ## Tasks
 

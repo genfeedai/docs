@@ -2,7 +2,7 @@
 
 **ID:** docs-feature-documentation
 **Label:** Documentation: Feature Documentation
-**Description:** Document all GenFeed features comprehensively
+**Description:** Document all Genfeed features comprehensively
 **Type:** Feature
 **Status:** To Do
 **Priority:** High
@@ -14,7 +14,7 @@
 
 ## Overview
 
-Create comprehensive documentation for all GenFeed features including Studio, Manager, Publisher, Analytics, and other apps.
+Create comprehensive documentation for all Genfeed features including Studio, Manager, Publisher, Analytics, and other apps.
 
 ## Scope
 

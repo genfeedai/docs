@@ -5,7 +5,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'GenFeed.ai Documentation',
+  title: 'Genfeed.ai Documentation',
   tagline: 'Generate AI-powered content for your business',
   favicon: 'img/favicon.ico',
 
@@ -89,9 +89,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'https://cdn.genfeed.ai/assets/cards/default.jpg',
     navbar: {
-      title: 'GenFeed.ai',
+      title: 'Genfeed.ai',
       logo: {
-        alt: 'GenFeed.ai',
+        alt: 'Genfeed.ai',
         src: 'https://cdn.genfeed.ai/assets/branding/logo-dark.png',
         srcDark: 'https://cdn.genfeed.ai/assets/branding/logo-white.png',
       },
@@ -110,7 +110,7 @@ const config: Config = {
         },
         {
           href: 'https://genfeed.ai',
-          label: 'Back to GenFeed.ai',
+          label: 'Back to Genfeed.ai',
           position: 'right',
         },
       ],
@@ -160,7 +160,7 @@ const config: Config = {
               to: '/faq',
             },
             {
-              label: 'GenFeed.ai',
+              label: 'Genfeed.ai',
               href: 'https://genfeed.ai',
             },
           ],
@@ -191,7 +191,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} GenFeed.ai. All rights reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Genfeed.ai. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,

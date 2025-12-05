@@ -6,7 +6,7 @@ import 'swagger-ui-react/swagger-ui.css';
 
 export default function ApiPage() {
   return (
-    <Layout title="API Documentation" description="GenFeed.ai API Documentation">
+    <Layout title="API Documentation" description="Genfeed.ai API Documentation">
       <BrowserOnly fallback={<div>Loading...</div>}>
         {() => <SwaggerUI url="https://api.genfeed.ai/v1/openapi.json" />}
       </BrowserOnly>

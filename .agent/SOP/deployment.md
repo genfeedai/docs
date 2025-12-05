@@ -7,7 +7,7 @@
 
 ## Purpose
 
-Standard operating procedures for deploying the GenFeed documentation site to production.
+Standard operating procedures for deploying the Genfeed documentation site to production.
 
 ## Deployment Methods
 

@@ -2,7 +2,7 @@
 
 **ID:** docs-getting-started-guide
 **Label:** Documentation: Getting Started Guide
-**Description:** Create comprehensive getting started guide for new GenFeed users
+**Description:** Create comprehensive getting started guide for new Genfeed users
 **Type:** Feature
 **Status:** To Do
 **Priority:** High
@@ -14,7 +14,7 @@
 
 ## Overview
 
-Create a comprehensive getting started guide that helps new users understand GenFeed, set up their account, and create their first content.
+Create a comprehensive getting started guide that helps new users understand Genfeed, set up their account, and create their first content.
 
 ## Scope
 

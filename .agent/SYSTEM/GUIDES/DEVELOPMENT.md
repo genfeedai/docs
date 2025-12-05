@@ -7,7 +7,7 @@
 
 ## Overview
 
-This guide covers the development workflow for the GenFeed documentation site built with Docusaurus.
+This guide covers the development workflow for the Genfeed documentation site built with Docusaurus.
 
 ## Prerequisites
 

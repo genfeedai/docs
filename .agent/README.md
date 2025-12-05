@@ -35,7 +35,7 @@ Get started quickly with essential context!
 
 ## 🎯 What is docs.genfeed.ai?
 
-**User documentation** to help people use GenFeed apps and improve their prompting skills.
+**User documentation** to help people use Genfeed apps and improve their prompting skills.
 
 ### ⚠️ Important: Documentation Scope
 

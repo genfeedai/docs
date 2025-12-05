@@ -131,14 +131,14 @@ const ingredient = service.create(data);
 
 ---
 
-title: Getting Started with GenFeed
+title: Getting Started with Genfeed
 description: Quick start guide for new users
 sidebar_position: 1
 keywords: [tutorial, getting started, setup]
 
 ---
 
-# Getting Started with GenFeed
+# Getting Started with Genfeed
 
 Your content here...
 ```
@@ -235,7 +235,7 @@ export default function FeatureCard({ title, description, icon }: FeatureCardPro
 ```typescript
 // ✅ CORRECT - docusaurus.config.ts
 export default {
-  title: 'GenFeed Documentation',
+  title: 'Genfeed Documentation',
   tagline: 'AI-powered content creation platform',
   url: 'https://docs.genfeed.ai',
   baseUrl: '/',

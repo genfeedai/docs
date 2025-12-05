@@ -2,7 +2,7 @@
 name: Docusaurus Technical Writer
 description: Expert in creating clear, comprehensive technical documentation with Docusaurus 3.9.1, MDX, and modern documentation patterns
 version: 1.0.0
-author: GenFeed Team
+author: Genfeed Team
 tags:
   - documentation
   - docusaurus
@@ -31,7 +31,7 @@ This skill activates automatically when you're:
 
 ---
 
-## GenFeed Docusaurus Architecture
+## Genfeed Docusaurus Architecture
 
 ### Project Structure
 
@@ -71,7 +71,7 @@ docs.genfeed.ai/
 ```typescript
 // docusaurus.config.ts
 const config: Config = {
-  title: 'GenFeed.ai Documentation',
+  title: 'Genfeed.ai Documentation',
   tagline: 'Generate AI-powered content for your business',
   url: 'https://docs.genfeed.ai',
   baseUrl: '/',
@@ -140,8 +140,8 @@ Content starts here...
 ---
 sidebar_position: 1
 slug: /
-title: GenFeed.ai Documentation
-description: Complete guide to GenFeed.ai's AI-powered content generation platform
+title: Genfeed.ai Documentation
+description: Complete guide to Genfeed.ai's AI-powered content generation platform
 ---
 ```
 
@@ -470,7 +470,7 @@ import 'swagger-ui-react/swagger-ui.css';
 
 export default function ApiPage() {
   return (
-    <Layout title="API Documentation" description="GenFeed.ai API Documentation">
+    <Layout title="API Documentation" description="Genfeed.ai API Documentation">
       <BrowserOnly fallback={<div>Loading...</div>}>
         {() => <SwaggerUI url="https://api.genfeed.ai/v1/openapi.json" />}
       </BrowserOnly>
@@ -684,7 +684,7 @@ Best practice recommendations
 
 ---
 
-## Real Documentation Examples from GenFeed
+## Real Documentation Examples from Genfeed
 
 ### Example 1: Getting Started Page Structure
 
@@ -695,7 +695,7 @@ Based on `/docs/getting-started.md`:
 sidebar_position: 2
 ---
 
-# Getting Started with GenFeed.ai
+# Getting Started with Genfeed.ai
 
 Welcome message and brief overview.
 
@@ -848,7 +848,7 @@ Links to related guides.
 
    ```markdown
    ---
-   description: Learn how to generate AI-powered videos with GenFeed.ai in under 5 minutes
+   description: Learn how to generate AI-powered videos with Genfeed.ai in under 5 minutes
    ---
    ```
 
@@ -871,7 +871,7 @@ Links to related guides.
 
 5. **Alt Text for Images**: Always include descriptive alt text
    ```markdown
-   ![Screenshot of the GenFeed.ai Studio interface showing video generation options](/img/studio-interface.png)
+   ![Screenshot of the Genfeed.ai Studio interface showing video generation options](/img/studio-interface.png)
    ```
 
 ### Search-Friendly Content
@@ -929,7 +929,7 @@ npm run docusaurus docs:version 1.0.0
 
 ```markdown
 :::info Version Info
-This feature is available in GenFeed.ai v2.0 and later.
+This feature is available in Genfeed.ai v2.0 and later.
 :::
 
 :::warning Deprecated
@@ -1029,7 +1029,7 @@ Term 2
 
 ## Plugins and Themes
 
-### Current GenFeed Plugins
+### Current Genfeed Plugins
 
 ```typescript
 // docusaurus.config.ts
@@ -1076,13 +1076,13 @@ npm install @docusaurus/plugin-pwa
 
 ## Navbar Configuration
 
-### Current GenFeed Navbar
+### Current Genfeed Navbar
 
 ```typescript
 navbar: {
-  title: 'GenFeed.ai',
+  title: 'Genfeed.ai',
   logo: {
-    alt: 'GenFeed.ai',
+    alt: 'Genfeed.ai',
     src: 'https://cdn.genfeed.ai/assets/branding/logo-dark.png',
     srcDark: 'https://cdn.genfeed.ai/assets/branding/logo-white.png',
   },
@@ -1101,7 +1101,7 @@ navbar: {
     },
     {
       href: 'https://genfeed.ai',
-      label: 'Back to GenFeed.ai',
+      label: 'Back to Genfeed.ai',
       position: 'right',
     },
   ],
@@ -1112,7 +1112,7 @@ navbar: {
 
 ## Footer Configuration
 
-### Current GenFeed Footer
+### Current Genfeed Footer
 
 ```typescript
 footer: {
@@ -1138,7 +1138,7 @@ footer: {
       title: 'Resources',
       items: [
         { label: 'FAQ', to: '/faq' },
-        { label: 'GenFeed.ai', href: 'https://genfeed.ai' },
+        { label: 'Genfeed.ai', href: 'https://genfeed.ai' },
       ],
     },
     {
@@ -1152,7 +1152,7 @@ footer: {
       ],
     },
   ],
-  copyright: `Copyright © ${new Date().getFullYear()} GenFeed.ai. All rights reserved.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Genfeed.ai. All rights reserved.`,
 },
 ```
 
@@ -1457,7 +1457,7 @@ Most generation failures are due to insufficient credits or content policy viola
 ### Example
 
 ```markdown
-![GenFeed Studio video editor interface](/img/studio-video-editor.png)
+![Genfeed Studio video editor interface](/img/studio-video-editor.png)
 ````
 
 ````
@@ -1527,7 +1527,7 @@ pnpm run serve
 - **MDX**: https://mdxjs.com/
 - **React**: https://react.dev/
 
-### GenFeed Resources
+### Genfeed Resources
 
 - **API Docs**: https://api.genfeed.ai/v1/openapi.json
 - **Main Site**: https://genfeed.ai
@@ -1541,4 +1541,4 @@ pnpm run serve
 
 ---
 
-**When this skill is active**, you will create clear, comprehensive, and well-structured technical documentation that helps users quickly find answers and accomplish their goals. You'll leverage Docusaurus's powerful features while maintaining consistency with GenFeed's documentation standards.
+**When this skill is active**, you will create clear, comprehensive, and well-structured technical documentation that helps users quickly find answers and accomplish their goals. You'll leverage Docusaurus's powerful features while maintaining consistency with Genfeed's documentation standards.

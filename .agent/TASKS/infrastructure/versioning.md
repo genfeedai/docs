@@ -14,7 +14,7 @@
 
 ## Overview
 
-Implement Docusaurus versioning feature to maintain documentation for multiple GenFeed versions.
+Implement Docusaurus versioning feature to maintain documentation for multiple Genfeed versions.
 
 ## Scope
 

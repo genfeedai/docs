@@ -1,10 +1,10 @@
 # Documentation Skills
 
-This directory contains Claude skills specific to technical documentation and content creation for the GenFeed.ai documentation site.
+This directory contains Claude skills specific to technical documentation and content creation for the Genfeed.ai documentation site.
 
 ## Project Overview
 
-**docs.genfeed.ai** is the official documentation site for GenFeed.ai, built with Docusaurus 3.9.1. It provides comprehensive guides, API documentation, and tutorials for users and developers.
+**docs.genfeed.ai** is the official documentation site for Genfeed.ai, built with Docusaurus 3.9.1. It provides comprehensive guides, API documentation, and tutorials for users and developers.
 
 ## Technology Stack
 
