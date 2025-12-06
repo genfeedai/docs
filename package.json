@@ -34,7 +34,7 @@
     "typescript": "~5.9.3"
   },
   "engines": {
-    "node": ">=18.0"
+    "node": "22.x"
   },
   "name": "docs.genfeed.ai",
   "packageManager": "bun@1.3.3",
