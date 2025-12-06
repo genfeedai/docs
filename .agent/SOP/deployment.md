@@ -27,7 +27,7 @@ vercel --prod
 ## Pre-Deployment Checklist
 
 - [ ] All changes tested locally
-- [ ] Build succeeds (`pnpm build`)
+- [ ] Build succeeds (`bun build`)
 - [ ] No console errors
 - [ ] Links validated (`npm run docusaurus check-links`)
 - [ ] Images optimized
@@ -40,10 +40,11 @@ vercel --prod
 
 ```bash
 # Test build
-pnpm build
+bun build
 
 # Check for errors
-pnpm serve
+bun serve
+```
 
 # Validate links
 npm run docusaurus check-links

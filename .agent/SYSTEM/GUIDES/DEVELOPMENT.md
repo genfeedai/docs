@@ -12,7 +12,7 @@ This guide covers the development workflow for the Genfeed documentation site bu
 ## Prerequisites
 
 - Node.js 18+ installed
-- pnpm installed
+- Bun installed
 - Git configured
 
 ## Setup
@@ -21,16 +21,16 @@ This guide covers the development workflow for the Genfeed documentation site bu
 
 ```bash
 # Install dependencies
-pnpm install
+bun install
 
 # Start development server
-pnpm start
+bun start
 
 # Build for production
-pnpm build
+bun build
 
 # Serve production build locally
-pnpm serve
+bun serve
 ```
 
 ## Development Workflow
@@ -40,7 +40,7 @@ pnpm serve
 1. **Create markdown file** in `docs/` directory
 2. **Add frontmatter** with metadata
 3. **Update sidebar** in `sidebars.ts`
-4. **Test locally** with `pnpm start`
+4. **Test locally** with `bun start`
 5. **Commit and push** changes
 
 ### File Structure

@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm build",
+  "buildCommand": "bun run build",
   "framework": "docusaurus",
   "outputDirectory": "build"
 }

@@ -17,7 +17,7 @@ Standard operating procedures for developing and maintaining the Genfeed documen
 2. **Add frontmatter** with required metadata
 3. **Write content** following style guide
 4. **Update sidebar** in `sidebars.ts`
-5. **Test locally** with `pnpm start`
+5. **Test locally** with `bun start`
 6. **Review content** for accuracy and clarity
 7. **Commit and push** changes
 
@@ -80,11 +80,12 @@ Before committing:
 
 ```bash
 # Start dev server
-pnpm start
+bun start
 
 # Build and test
-pnpm build
-pnpm serve
+bun build
+bun serve
+```
 
 # Check links
 npm run docusaurus check-links
@@ -101,7 +102,7 @@ npm run docusaurus check-links
 
 ## Deployment Process
 
-1. **Test locally** (`pnpm build`)
+1. **Test locally** (`bun build`)
 2. **Commit changes** with descriptive message
 3. **Push to repository**
 4. **Vercel builds automatically**

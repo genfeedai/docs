@@ -74,13 +74,13 @@ See `SYSTEM/DOCUMENTATION-GUIDELINES.md` for complete guidelines.
 
 ```bash
 # Install
-pnpm install
+bun install
 
 # Dev
-pnpm start
+bun start
 
 # Build
-pnpm build
+bun build
 ```
 
 ---

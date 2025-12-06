@@ -12,8 +12,8 @@ Docusaurus 3 project aggregating all Genfeed documentation: platform architectur
 ## Local Development
 
 ```bash
-pnpm install
-pnpm start          # dev server (default http://localhost:3007)
+bun install
+bun start          # dev server (default http://localhost:3007)
 ```
 
 Changes hot-reload in the browser. Update sidebar structure in `sidebars.ts` as new sections are added.
@@ -21,8 +21,8 @@ Changes hot-reload in the browser. Update sidebar structure in `sidebars.ts` as 
 ## Build & Preview
 
 ```bash
-pnpm build          # outputs to build/
-pnpm serve          # preview production build
+bun build          # outputs to build/
+bun serve          # preview production build
 ```
 
 Deployments run via Vercel (`vercel.json`). Ensure builds pass before merging.

@@ -43,9 +43,9 @@ vercel --prod
 ### Project Settings
 
 - **Framework Preset**: Docusaurus
-- **Build Command**: `pnpm build`
+- **Build Command**: `bun run build`
 - **Output Directory**: `build`
-- **Install Command**: `pnpm install`
+- **Install Command**: `bun install`
 
 ### Environment Variables
 
@@ -60,7 +60,7 @@ Set in Vercel dashboard:
 ### Pre-Deployment Checklist
 
 - [ ] All links work (`npm run docusaurus check-links`)
-- [ ] Build succeeds locally (`pnpm build`)
+- [ ] Build succeeds locally (`bun build`)
 - [ ] No console errors
 - [ ] Images optimized
 - [ ] Mobile responsive
@@ -70,7 +70,7 @@ Set in Vercel dashboard:
 ```json
 // vercel.json
 {
-  "buildCommand": "pnpm build",
+  "buildCommand": "bun run build",
   "outputDirectory": "build",
   "framework": "docusaurus",
   "headers": [
@@ -93,10 +93,10 @@ Set in Vercel dashboard:
 
 ```bash
 # Test build locally
-pnpm build
+bun build
 
 # Check for errors
-pnpm serve
+bun serve
 
 # Validate links
 npm run docusaurus check-links

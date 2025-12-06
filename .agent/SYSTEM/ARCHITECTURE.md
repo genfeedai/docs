@@ -331,10 +331,10 @@ themeConfig: {
 
 ```bash
 # Build
-pnpm build
+bun build
 
 # Serve locally
-pnpm serve
+bun serve
 
 # Deploy (automatic via Vercel)
 git push origin main
@@ -369,8 +369,8 @@ import TabItem from '@theme/TabItem';
   <TabItem value="npm" label="npm">
     npm install
   </TabItem>
-  <TabItem value="pnpm" label="pnpm">
-    pnpm install
+  <TabItem value="bun" label="bun">
+    bun install
   </TabItem>
 </Tabs>
 ```
