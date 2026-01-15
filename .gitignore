@@ -27,11 +27,9 @@ yarn-error.log*
 !.vscode/*.example
 # Note: .vscode/settings.json is personal, use .vscode/settings.json.example as template
 
-# IDE - Cursor
-.cursor/settings.json
-# Note: .cursor/commands/* are team-shared slash commands (committed)
-
 # IDE - Other
 .idea/
 *.swp
 *.swo
+
+.next

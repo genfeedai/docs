@@ -1,20 +1,33 @@
-# Claude AI Instructions
+# Documentation Site Project
 
-**All documentation lives in `.agent/` folders.**
+**Nextra-powered documentation site (Next.js).**
 
-👉 **Start here:** `AGENTS.md` or `.agent/README.md`
+Rules auto-load from `../.claude/rules/`. Docs in `.agent/`.
 
----
+## Tech Stack
 
-## Quick Navigation
+- Nextra 3
+- Next.js 15
+- MDX
+- Tailwind CSS (via Nextra)
 
-- **Workspace rules**: `.agent/SYSTEM/critical/CROSS-PROJECT-RULES.md`
-- **Project docs**: `[project]/.agent/README.md`
-- **Architecture**: `.agent/SYSTEM/WORKSPACE-ARCHITECTURE.md`
-- **SOPs**: `.agent/SOP/`
-- **Tasks**: `.agent/TASKS/`
-- **Sessions**: `.agent/SESSIONS/`
+## Commands
 
----
+```bash
+bun dev         # Local preview on port 3007
+bun build       # Production build
+bun start       # Start production server
+```
 
-**Single source of truth:** Everything is in `.agent/` folders - no duplication.
+## Structure
+
+- `pages/` - Documentation pages (MDX)
+- `pages/_meta.json` - Navigation structure
+- `theme.config.tsx` - Nextra theme configuration
+- `public/` - Static assets (favicon)
+- `styles/` - Custom CSS
+
+## Docs
+
+- `.agent/README.md` - Project guide
+- `.agent/SYSTEM/RULES.md` - Documentation standards

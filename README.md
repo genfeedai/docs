@@ -34,7 +34,7 @@ Deployments run via Vercel (`vercel.json`). Ensure builds pass before merging.
 - Prefer MDX for interactive examples; static assets live in `static/`.
 - Document new features (queue-based media processing, notifications migration, MCP tools, extension/mobile) as part of release notes.
 
-## Current Focus (September 2025)
+## Current Focus (January 2026)
 
 - Publish updated architecture diagrams covering all microservices and data flows.
 - Add dedicated pages: MCP quickstart, extension onboarding, mobile getting started.
@@ -43,9 +43,9 @@ Deployments run via Vercel (`vercel.json`). Ensure builds pass before merging.
 ## Useful Links
 
 - Platform README: `../README.md`
-- Migration logs: `../migrations.md`, `../notifications.md`
-- MCP repo: `../mcp.genfeed.ai`
-- Extension repo: `../extension.genfeed.ai`
-- Mobile repo: `../mobile.genfeed.ai`
+- API (includes MCP): `../api`
+- Extension: `../extension`
+- Mobile: `../mobile`
+- Frontend: `../web`
 
 Keep this README and the site content updated whenever service docs change.
