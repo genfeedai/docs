@@ -43,9 +43,9 @@
 ### Files Modified
 
 ```
-docs/... - [description]
-sidebars.ts - [description]
-docusaurus.config.ts - [description]
+pages/... - [description]
+_meta.ts - [navigation structure]
+theme.config.tsx - [Nextra theme configuration]
 ```
 
 ### New Files Created

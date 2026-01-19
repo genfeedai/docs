@@ -1,7 +1,7 @@
 # Cursor Rules - Genfeed Docs
 
 **Project:** Documentation (`docs.genfeed.ai`)  
-**Framework:** Docusaurus + React + TypeScript
+**Framework:** Nextra + Next.js + TypeScript
 
 ## 📁 Documentation Structure
 

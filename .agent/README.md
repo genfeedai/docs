@@ -1,88 +1,43 @@
-# Documentation Site - Agent Documentation
+# Documentation Site
 
-**Project:** docs.genfeed.ai  
-**Version:** v0.0.0  
-**Tech Stack:** Docusaurus
+**Project:** docs.genfeed.ai
+**Stack:** Nextra 4, Next.js 16, React 19
+**Port:** 3007
 
----
-
-## ⚡ NEW TO THIS PROJECT?
-
-**→ Start here:** `QUICK-START.md` (~3 min read, ~5K tokens)
-
-Get started quickly with essential context!
-
----
-
-## 📁 Quick Navigation
-
-### This Project
-
-- `SYSTEM/ARCHITECTURE.md` - Documentation architecture
-- `SYSTEM/SUMMARY.md` - Current state
-- `SYSTEM/DOCUMENTATION-GUIDELINES.md` - ⚠️ **READ FIRST** - What to document and what NOT to document
-- `TASKS/` - Documentation tasks
-- `SESSIONS/` - Documentation-specific session history
-- `SOP/` - Documentation-specific standard operating procedures
-
-### Workspace
-
-- [`../../.agent/SYSTEM/critical/CROSS-PROJECT-RULES.md`](../../.agent/SYSTEM/critical/CROSS-PROJECT-RULES.md)
-- [`../../.agent/SOP/`](../../.agent/SOP/) - Shared SOPs
-- [`../../.agent/SESSIONS/`](../../.agent/SESSIONS/) - Workspace sessions
-
----
-
-## 🎯 What is docs.genfeed.ai?
-
-**User documentation** to help people use Genfeed apps and improve their prompting skills.
-
-### ⚠️ Important: Documentation Scope
-
-**DO Document:**
-
-- Studio, Manager, Publisher, Analytics, Automation, Dashboard apps
-- User-facing features
-- Prompting guides and techniques
-
-**DO NOT Document:**
-
-- Login app (authentication is automatic)
-- Admin app (internal tools, not for end users)
-- Stock app (not launched yet)
-
-See `SYSTEM/DOCUMENTATION-GUIDELINES.md` for complete guidelines.
-
-### Content
-
-- Getting started guides
-- App-specific guides (Studio, Manager, Publisher, Analytics, Automation, Dashboard)
-- Prompting guides and techniques
-- Feature documentation (user-facing only)
-- Video tutorials (future)
-- FAQs
-
-### Tech Stack
-
-- **Framework**: Docusaurus
-- **Content**: Markdown
-- **Deployment**: Vercel
-
----
-
-## 🚀 Development
+## Commands
 
 ```bash
-# Install
-bun install
-
-# Dev
-bun start
-
-# Build
-bun build
+bun dev           # Start dev server
+bun build         # Production build
+bun run pre:install  # Update all packages
 ```
 
----
+## Structure
 
-**Last Updated:** 2025-10-07
+```
+docs/
+├── pages/           # MDX documentation pages
+│   ├── _meta.ts     # Navigation config
+│   └── *.mdx        # Documentation files
+├── components/      # React components (SwaggerUI, etc.)
+├── styles/          # Custom CSS
+├── theme.config.tsx # Nextra theme config
+└── next.config.mjs  # Next.js + Nextra config
+```
+
+## Key Files
+
+- `pages/_meta.ts` - Root navigation ordering
+- `theme.config.tsx` - Logo, footer, theme settings
+- `components/SwaggerUI.tsx` - API docs component
+
+## Patterns
+
+- MDX files in `pages/` for all documentation
+- `_meta.ts` files for navigation ordering in each folder
+- Components in `components/` folder
+- No `pages/api/` - reserved for Next.js API routes (use `pages/api-reference/`)
+
+## Sessions
+
+See `SESSIONS/` for migration history and past work.
