@@ -6,6 +6,7 @@ export default {
   },
   'prompting-guide': 'Prompting Guide',
   'asset-prompting-guide': 'Asset Prompting',
+  'prompt-templates': 'Prompt Templates',
   'voice-recognition': 'Voice Recognition',
   'keyboard-shortcuts': 'Keyboard Shortcuts',
   '----': {
@@ -13,4 +14,9 @@ export default {
     title: 'Publishing',
   },
   publishing: 'Publishing',
+  '-----': {
+    type: 'separator',
+    title: 'Self-Hosting',
+  },
+  'self-host-quickstart': 'Self-Host in 5 Minutes',
 }

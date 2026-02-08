@@ -20,16 +20,10 @@ const navbar = (
     logo={
       <span style={{ alignItems: 'center', display: 'flex' }}>
         <img
-          src="https://cdn.genfeed.ai/assets/branding/logo-dark.png"
+          src="https://cdn.genfeed.ai/assets/branding/logo.svg"
           alt="Genfeed.ai"
           height={24}
-          className="logo-dark"
-        />
-        <img
-          src="https://cdn.genfeed.ai/assets/branding/logo-white.png"
-          alt="Genfeed.ai"
-          height={24}
-          className="logo-white"
+          className="dark:invert"
         />
         <span style={{ fontWeight: 600, marginLeft: '.5em' }}>Genfeed.ai</span>
       </span>

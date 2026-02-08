@@ -95,22 +95,6 @@ nav img {
   width: auto;
 }
 
-/* Theme-based logo visibility */
-nav img[src*="logo-dark.png"] {
-  display: block;
-}
-
-.dark nav img[src*="logo-dark.png"] {
-  display: none !important;
-}
-
-nav img[src*="logo-white.png"] {
-  display: none;
-}
-
-.dark nav img[src*="logo-white.png"] {
-  display: block !important;
-}
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
