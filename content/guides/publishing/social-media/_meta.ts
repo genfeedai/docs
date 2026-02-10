@@ -1,6 +1,6 @@
 export default {
-  youtube: 'YouTube',
   instagram: 'Instagram',
-  tiktok: 'TikTok',
   linkedin: 'LinkedIn',
-}
+  tiktok: 'TikTok',
+  youtube: 'YouTube',
+};

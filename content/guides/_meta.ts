@@ -1,22 +1,22 @@
 export default {
-  index: 'Overview',
   '---': {
-    type: 'separator',
     title: 'Content Creation',
+    type: 'separator',
   },
-  'prompting-guide': 'Prompting Guide',
-  'asset-prompting-guide': 'Asset Prompting',
-  'prompt-templates': 'Prompt Templates',
-  'voice-recognition': 'Voice Recognition',
-  'keyboard-shortcuts': 'Keyboard Shortcuts',
   '----': {
-    type: 'separator',
     title: 'Publishing',
-  },
-  publishing: 'Publishing',
-  '-----': {
     type: 'separator',
-    title: 'Self-Hosting',
   },
+  '-----': {
+    title: 'Self-Hosting',
+    type: 'separator',
+  },
+  'asset-prompting-guide': 'Asset Prompting',
+  index: 'Overview',
+  'keyboard-shortcuts': 'Keyboard Shortcuts',
+  'prompt-templates': 'Prompt Templates',
+  'prompting-guide': 'Prompting Guide',
+  publishing: 'Publishing',
   'self-host-quickstart': 'Self-Host in 5 Minutes',
-}
+  'voice-recognition': 'Voice Recognition',
+};

@@ -1,21 +1,21 @@
 export default {
-  index: 'Overview',
   '---': {
-    type: 'separator',
     title: 'Studio',
+    type: 'separator',
   },
-  studio: 'Studio',
   '----': {
-    type: 'separator',
     title: 'Management',
-  },
-  organizations: 'Organizations',
-  brands: 'Brands',
-  team: 'Team',
-  '-----': {
     type: 'separator',
+  },
+  '-----': {
     title: 'Account',
+    type: 'separator',
   },
   billing: 'Billing & Plans',
+  brands: 'Brands',
+  index: 'Overview',
+  organizations: 'Organizations',
   settings: 'Settings',
-}
+  studio: 'Studio',
+  team: 'Team',
+};

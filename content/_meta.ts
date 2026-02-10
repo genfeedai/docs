@@ -1,25 +1,25 @@
 export default {
-  index: 'Welcome',
-  'getting-started': 'Getting Started',
   '---': {
-    type: 'separator',
     title: 'Products',
+    type: 'separator',
   },
-  core: 'Genfeed Core (OSS)',
-  cloud: 'Genfeed Cloud',
   '----': {
-    type: 'separator',
     title: 'Learn',
-  },
-  guides: 'Guides & Tutorials',
-  features: 'Features',
-  models: 'AI Models',
-  '-----': {
     type: 'separator',
-    title: 'Reference',
   },
-  'api-reference': 'API Reference',
+  '-----': {
+    title: 'Reference',
+    type: 'separator',
+  },
   advanced: 'Advanced',
+  'api-reference': 'API Reference',
+  cloud: 'Genfeed Cloud',
+  core: 'Genfeed Core (OSS)',
   deployment: 'Deployment Options',
   faq: 'FAQ',
-}
+  features: 'Features',
+  'getting-started': 'Getting Started',
+  guides: 'Guides & Tutorials',
+  index: 'Welcome',
+  models: 'AI Models',
+};

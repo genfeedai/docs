@@ -1,19 +1,19 @@
-'use client'
+'use client';
 
-import dynamic from 'next/dynamic'
-import 'swagger-ui-react/swagger-ui.css'
+import dynamic from 'next/dynamic';
+import 'swagger-ui-react/swagger-ui.css';
 
 const SwaggerUIReact = dynamic<{ url: string }>(
   () => import('swagger-ui-react') as any,
   {
-    ssr: false,
     loading: () => (
       <div style={{ padding: '2rem', textAlign: 'center' }}>
         Loading API Documentation...
       </div>
     ),
-  }
-)
+    ssr: false,
+  },
+);
 
 export default function SwaggerUI() {
   return (
@@ -43,5 +43,5 @@ export default function SwaggerUI() {
         }
       `}</style>
     </div>
-  )
+  );
 }

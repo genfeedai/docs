@@ -1,19 +1,19 @@
-import { Footer, Layout, Navbar } from 'nextra-theme-docs'
-import { Head } from 'nextra/components'
-import { getPageMap } from 'nextra/page-map'
-import 'nextra-theme-docs/style.css'
-import '../styles/globals.css'
+import { Head } from 'nextra/components';
+import { getPageMap } from 'nextra/page-map';
+import { Footer, Layout, Navbar } from 'nextra-theme-docs';
+import 'nextra-theme-docs/style.css';
+import '../styles/globals.css';
 
 export const metadata = {
-  title: 'Genfeed.ai Documentation',
   description: 'Generate AI-powered content for your business',
   icons: { icon: '/favicon.ico' },
   openGraph: {
-    title: 'Genfeed.ai Documentation',
     description: 'Generate AI-powered content for your business',
     images: ['https://cdn.genfeed.ai/assets/cards/default.jpg'],
+    title: 'Genfeed.ai Documentation',
   },
-}
+  title: 'Genfeed.ai Documentation',
+};
 
 const navbar = (
   <Navbar
@@ -44,7 +44,7 @@ const navbar = (
       Back to Genfeed.ai
     </a>
   </Navbar>
-)
+);
 
 const footer = (
   <Footer>
@@ -54,12 +54,12 @@ const footer = (
     </a>
     . All rights reserved.
   </Footer>
-)
+);
 
 export default async function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" dir="ltr" suppressHydrationWarning>
@@ -77,5 +77,5 @@ export default async function RootLayout({
         </Layout>
       </body>
     </html>
-  )
+  );
 }
