@@ -57,7 +57,7 @@ Create a new session log file for each day you work on the docs project.
 
 ## Cross-Reference
 
-For workspace-level sessions (cross-project work), see: `../../.agent/SESSIONS/`
+For workspace-level sessions (cross-project work), see: `../../.agents/SESSIONS/`
 
 ## Important Rules
 

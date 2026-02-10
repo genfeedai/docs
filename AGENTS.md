@@ -6,14 +6,12 @@
 
 ## 📁 Project Documentation
 
-**Start here:** `.agent/README.md`
+**Start here:** `.agents/README.md`
 
-All project-specific documentation is in the `.agent/` folder:
+Project-specific docs currently live in:
 
-- `.agent/SYSTEM/ARCHITECTURE.md` - Docs site architecture
-- `.agent/SYSTEM/RULES.md` - Coding standards
-- `.agent/SYSTEM/SUMMARY.md` - Current state
-- `.agent/TASKS/` - Documentation tasks
+- `.agents/README.md` - Docs project guide
+- `.agents/SESSIONS/` - Session logs and template
 
 ---
 
@@ -21,10 +19,11 @@ All project-specific documentation is in the `.agent/` folder:
 
 Also read workspace-level docs (applies to ALL projects):
 
-- `../.agent/SYSTEM/critical/CROSS-PROJECT-RULES.md` - Workspace rules
-- `../.agent/SYSTEM/WORKSPACE-ARCHITECTURE.md` - Overall system
-- `../.agent/SOP/` - Standard procedures
+- `../.agents/SYSTEM/critical/CROSS-PROJECT-RULES.md` - Workspace rules
+- `../.agents/SYSTEM/architecture/WORKSPACE-ARCHITECTURE.md` - Overall system
+- `../.agents/SOP/` - Standard procedures
+- `../.agents/SYSTEM/ai/SESSION-QUICK-START.md` - AI session bootstrap
 
 ---
 
-**Single source of truth:** Everything is in `.agent/` folders.
+**Single source of truth:** Workspace docs are in `../.agents/`; docs-project notes are in local `.agents/`.

@@ -13,7 +13,7 @@ Nextra-powered documentation site built on Next.js, aggregating all Genfeed docu
 
 ```bash
 bun install
-bun start          # dev server (default http://localhost:3007)
+bun run dev        # dev server (default http://localhost:3007)
 ```
 
 Changes hot-reload in the browser. Update navigation structure in `_meta.ts` files as new sections are added.
@@ -21,8 +21,8 @@ Changes hot-reload in the browser. Update navigation structure in `_meta.ts` fil
 ## Build & Preview
 
 ```bash
-bun build          # outputs to build/
-bun serve          # preview production build
+bun run build      # builds with Next.js (.next output)
+bun run start      # preview production build on :3007
 ```
 
 Deployments run via Vercel (`vercel.json`). Ensure builds pass before merging.
@@ -34,7 +34,7 @@ Deployments run via Vercel (`vercel.json`). Ensure builds pass before merging.
 - Prefer MDX for interactive examples; static assets live in `public/`.
 - Document new features (queue-based media processing, notifications migration, MCP tools, extension/mobile) as part of release notes.
 
-## Current Focus (January 2026)
+## Current Focus (February 2026)
 
 - Publish updated architecture diagrams covering all microservices and data flows.
 - Add dedicated pages: MCP quickstart, extension onboarding, mobile getting started.
@@ -43,9 +43,11 @@ Deployments run via Vercel (`vercel.json`). Ensure builds pass before merging.
 ## Useful Links
 
 - Platform README: `../README.md`
-- API (includes MCP): `../api`
-- Extension: `../extension`
-- Mobile: `../mobile`
-- Frontend: `../web`
+- Workspace agent hub: `../.agents/README.md`
+- Cloud monorepo: `../cloud`
+- Cloud server apps: `../cloud/apps/server`
+- Cloud web apps: `../cloud/apps/web`
+- Core (OSS): `../core`
+- CLI: `../cli`
 
 Keep this README and the site content updated whenever service docs change.

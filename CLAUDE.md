@@ -2,32 +2,36 @@
 
 **Nextra-powered documentation site (Next.js).**
 
-Rules auto-load from `../.claude/rules/`. Docs in `.agent/`.
+Rules auto-load from `../.claude/rules/`. Docs in `.agents/`.
 
 ## Tech Stack
 
-- Nextra 3
-- Next.js 15
+- Nextra 4
+- Next.js 16 (App Router)
+- React 19
 - MDX
 - Tailwind CSS (via Nextra)
 
 ## Commands
 
 ```bash
-bun dev         # Local preview on port 3007
-bun build       # Production build
-bun start       # Start production server
+bun install      # Install dependencies
+bun run dev      # Local preview on port 3007
+bun run build    # Production build (.next output)
+bun run start    # Start production server on port 3007
 ```
 
 ## Structure
 
-- `pages/` - Documentation pages (MDX)
-- `pages/_meta.json` - Navigation structure
-- `theme.config.tsx` - Nextra theme configuration
+- `app/layout.tsx` - Root docs layout and theme shell
+- `app/[[...mdxPath]]/page.tsx` - Catch-all MDX route
+- `content/` - Documentation pages and `_meta.ts` navigation files
+- `components/` - Shared React components (for example `SwaggerUI`)
 - `public/` - Static assets (favicon)
 - `styles/` - Custom CSS
 
 ## Docs
 
-- `.agent/README.md` - Project guide
-- `.agent/SYSTEM/RULES.md` - Documentation standards
+- `.agents/README.md` - Project guide
+- `.agents/SESSIONS/` - Session logs and template
+- `../.agents/` - Workspace-level architecture/rules/SOPs

@@ -42,10 +42,11 @@
 
 ### Files Modified
 
-```
-pages/... - [description]
-_meta.ts - [navigation structure]
-theme.config.tsx - [Nextra theme configuration]
+``` 
+content/... - [documentation content updates]
+content/_meta.ts - [navigation structure]
+app/layout.tsx - [layout/theme updates]
+app/[[...mdxPath]]/page.tsx - [route/page loading updates]
 ```
 
 ### New Files Created
@@ -87,9 +88,9 @@ docs/old-guide.md - [reason]
 
 ## Documentation Updates
 
-- [ ] ARCHITECTURE.md updated
-- [ ] SUMMARY.md updated
-- [ ] README updated
+- [ ] README updated (project)
+- [ ] AGENTS/CODEX/CLAUDE updated (if workflow changed)
+- [ ] Workspace docs updated in `../.agents/` (if cross-project impact)
 
 ## Known Issues / Follow-ups
 
@@ -98,7 +99,7 @@ docs/old-guide.md - [reason]
 
 ## Related Tasks
 
-- Links to task files in `.agent/TASKS/`
+- Links to relevant workspace tasks in `../.agents/TASKS/` (if applicable)
 - References to related sessions
 
 ## Notes
