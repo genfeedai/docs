@@ -2,7 +2,7 @@
 
 **Nextra-powered documentation site (Next.js).**
 
-Rules auto-load from `../.claude/rules/`. Docs in `.agents/`.
+Project guidance lives in `AGENTS.md` and `.agents/`. Docs in `.agents/`.
 
 ## Tech Stack
 
