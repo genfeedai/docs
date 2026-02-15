@@ -24,7 +24,7 @@
     "dev": "next dev -p 3007",
     "format:check": "prettier --check .",
     "format:fix": "prettier --write .",
-    "pre:install": "bunx npm-check-updates -u && bun install",
+    "deps:update": "bunx npm-check-updates -u && bun install",
     "start": "next start -p 3007"
   },
   "version": "0.0.0"
