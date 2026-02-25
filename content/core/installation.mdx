@@ -34,8 +34,8 @@ To use AI generation features, you'll need API keys from providers:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/genfeedai/genfeed-core.git
-cd genfeed-core
+git clone https://github.com/genfeedai/core.git
+cd core
 ```
 
 ### 2. Install Dependencies
@@ -101,13 +101,13 @@ redis-server
 ### 5. Run Genfeed Core
 
 ```bash
-bun run start:dev
+bun dev
 ```
 
 Or with npm:
 
 ```bash
-npm run start:dev
+npm run dev
 ```
 
 You should see:
@@ -166,8 +166,8 @@ For production deployments, we recommend Docker:
 
 ```bash
 # Clone with Docker config
-git clone https://github.com/genfeedai/genfeed-core.git
-cd genfeed-core
+git clone https://github.com/genfeedai/core.git
+cd core
 
 # Copy environment file
 cp .env.example .env
@@ -266,7 +266,7 @@ redis-cli ping
 lsof -i :3001
 
 # Use a different port
-PORT=3002 bun run start:dev
+PORT=3002 bun run dev:api
 ```
 
 ### API Keys Not Working
@@ -292,7 +292,7 @@ bun install
 bun run migrate
 
 # Restart the server
-bun run start:dev
+bun dev
 ```
 
 ---
@@ -306,7 +306,7 @@ bun run start:dev
 
 ## Need Help?
 
-- **GitHub Issues:** [github.com/genfeedai/genfeed-core/issues](https://github.com/genfeedai/genfeed-core/issues)
+- **GitHub Issues:** [github.com/genfeedai/core/issues](https://github.com/genfeedai/core/issues)
 - **Discord:** [discord.gg/TmfHg42xVb](https://discord.gg/TmfHg42xVb)
 - **Documentation:** You're here!
 
