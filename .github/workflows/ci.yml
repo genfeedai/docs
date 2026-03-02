@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main, master, develop]
+    paths-ignore:
+      - '**.md'
+      - 'docs/**'
+  push:
+    branches: [main, master]
+    paths-ignore:
+      - '**.md'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    uses: genfeedai/.github/.github/workflows/reusable-lint.yml@master
+
+  type-check:
+    uses: genfeedai/.github/.github/workflows/reusable-typecheck.yml@master
+
+  build:
+    needs: [lint, type-check]
+    uses: genfeedai/.github/.github/workflows/reusable-build.yml@master
+
