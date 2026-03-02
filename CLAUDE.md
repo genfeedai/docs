@@ -35,3 +35,11 @@ bun run start    # Start production server on port 3007
 - `.agents/README.md` - Project guide
 - `.agents/SESSIONS/` - Session logs and template
 - `../.agents/` - Workspace-level architecture/rules/SOPs
+
+## Vercel Deployments
+NEVER run `vercel` or `vercel deploy` without first confirming `.vercel/project.json` exists.
+If it doesn't exist, STOP and ask the user — do not run `vercel link` unattended.
+
+## Learned Rules
+
+<!-- Rules added by Claude after corrections. Promote stable rules (30+ days) to main sections above. -->
