@@ -14,6 +14,7 @@ export default {
   'asset-prompting-guide': 'Asset Prompting',
   index: 'Overview',
   'keyboard-shortcuts': 'Keyboard Shortcuts',
+  'package-ownership': 'Package Ownership',
   'prompt-templates': 'Prompt Templates',
   'prompting-guide': 'Prompting Guide',
   publishing: 'Publishing',
