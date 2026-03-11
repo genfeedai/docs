@@ -1,0 +1,49 @@
+import { Callout } from 'nextra/components';
+
+# Core/Cloud Product Boundary
+
+## Boundary Spec Version
+
+v1.1.0
+
+## Last Updated
+
+2026-03-11
+
+## Canonical Source
+
+- Cloud ADR (engineering source of truth): `cloud/.agents/SYSTEM/architecture/ADR-PLG-BOUNDARY-OSS-CLOUD.md`
+- Core mirror ADR: `core/.agents/SYSTEM/architecture/ADR-PLG-BOUNDARY-OSS-CLOUD.md`
+- Public canonical URL: https://docs.genfeed.ai/product/core-cloud-boundary
+
+## Summary
+
+Genfeed follows a hybrid OSS + SaaS model:
+
+- `core` remains a complete self-hosted and BYOK workflow engine.
+- `cloud` adds managed automation, publishing, analytics, and team operations.
+- The product split should create Cloud convenience, not cripple OSS basics.
+
+## Capability Split
+
+| Capability                                      | Core OSS              | Cloud SaaS             |
+| ----------------------------------------------- | --------------------- | ---------------------- |
+| Visual workflow builder                         | Yes                   | Yes                    |
+| Local/self-hosted run                           | Yes                   | N/A                    |
+| BYOK execution                                  | Yes                   | Yes                    |
+| Autonomous agent runs                           | No                    | Yes                    |
+| Scheduling and cron orchestration               | No                    | Yes                    |
+| Social publishing connectors                    | Manual export/upload  | Managed integrations   |
+| Cross-workflow analytics and optimization loops | Limited local insight | Full managed analytics |
+| Team, billing, quotas, and org controls         | No                    | Yes                    |
+
+<Callout type="info">
+  The Cloud ADR is the canonical engineering source. This page is the public mirror of the same boundary version.
+</Callout>
+
+## Synchronization Protocol
+
+1. Update the Cloud ADR version and date first.
+2. Sync the same version and date into the Core mirror ADR.
+3. Update this public docs page version and date.
+4. Run the boundary documentation checks in both `cloud/` and `core/`.
