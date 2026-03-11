@@ -22,4 +22,5 @@ export default {
   guides: 'Guides & Tutorials',
   index: 'Welcome',
   models: 'AI Models',
+  product: 'Product Boundary',
 };
