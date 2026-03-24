@@ -1,22 +1,38 @@
 # Welcome
 
-Genfeed.ai is an AI-powered content generation platform. Build workflows, connect your API keys, generate content.
+Genfeed.ai is an AI-powered content creation platform with two operating modes: self-hosted OSS (`core`) and managed SaaS (`cloud`).
+
+## Last Verified
+
+- **Date:** 2026-03-24
+- **Implemented state source:** local `cloud/`, `core/`, `cli/`, `docs/` codebases
+- **Delivery state source:** GitHub issues + Mission Control project (#11)
 
 ## Choose Your Edition
 
-| | Core (Free) | Cloud |
+| | Core (Self-Hosted) | Cloud (Managed) |
 |---|---|---|
-| **Workflow Engine** | ✅ | ✅ |
-| **AI Generation** | ✅ | ✅ |
-| **Self-Hosted** | ✅ | — |
-| **Organizations** | — | ✅ |
-| **Brands & Voices** | — | ✅ |
-| **Team Collaboration** | — | ✅ |
-| **Social Publishing** | — | ✅ |
-| **Cost** | Free + API costs | $299/mo |
-| | [**Self-Host →**](/core) | [**Start Free →**](https://genfeed.ai/signup) |
+| Workflow engine | ✅ | ✅ |
+| Self-host | ✅ | — |
+| Organizations / brands / team UX | Limited | ✅ |
+| Publishing + SaaS operations | Build yourself | ✅ |
+| Billing managed by Genfeed | — | ✅ |
+| | [**Self-Host →**](/core) | [**Cloud Docs →**](/cloud) |
 
-[Compare all features →](/features)
+---
+
+## Dual-State Snapshot
+
+### Implemented State (Code)
+
+- `core/`: open-source workflow editor and API.
+- `cloud/`: multi-app SaaS with `admin`, `app`, `chatgpt`, `marketplace`, `website`.
+- `cli/`: terminal workflows for generation and management.
+
+### Delivery State (GitHub)
+
+- Active roadmap execution is tracked in GitHub Issues and Mission Control project #11.
+- Documentation should treat project status as planning/delivery metadata, not implementation proof.
 
 ---
 
@@ -28,42 +44,22 @@ Genfeed.ai is an AI-powered content generation platform. Build workflows, connec
 git clone https://github.com/genfeedai/core.git
 cd core
 bun install
-cp .env.example .env.local  # Add your API keys
 bun dev
 ```
 
-[**Full Installation Guide →**](/core/installation)
-
 ### Cloud
 
-1. [Sign up at genfeed.ai](https://genfeed.ai/signup)
-2. Create your organization
-3. Set up your brand (logo, voice, tone)
-4. Start generating content
-
-[**Cloud Documentation →**](/cloud)
+1. Create an account on Genfeed Cloud
+2. Create organization + brand
+3. Start generating and publishing content from the app
 
 ---
 
 ## Documentation
 
-### Products
-- [**Core (OSS)**](/core) — Free, self-hosted workflow engine
-- [**Cloud**](/cloud) — Managed platform with orgs, brands, teams
-
-### Learn
-- [**Guides**](/guides) — Prompting, workflows, publishing tutorials
-- [**AI Models**](/models) — 40+ models from OpenAI, Anthropic, Replicate
-- [**Features**](/features) — Full feature comparison
-
-### Reference
-- [**API Reference**](/api-reference/overview) — REST API documentation
-- [**FAQ**](/faq) — Common questions
-
----
-
-## Need Help?
-
-- **Discord**: [discord.gg/TmfHg42xVb](https://discord.gg/TmfHg42xVb)
-- **GitHub**: [github.com/genfeedai](https://github.com/genfeedai) (Core issues)
-- **Support**: support@genfeed.ai (Cloud users)
+- [**Core**](/core)
+- [**Cloud**](/cloud)
+- [**Guides**](/guides)
+- [**Models**](/models)
+- [**API Reference**](/api-reference/overview)
+- [**FAQ**](/faq)

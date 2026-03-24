@@ -1,53 +1,45 @@
 # Genfeed Documentation Site (`docs.genfeed.ai`)
 
-Nextra-powered documentation site built on Next.js, aggregating all Genfeed documentation: platform architecture, service guides, MCP onboarding, extension/mobile quickstarts, and migration notes.
+Nextra-powered documentation site built on Next.js.
+
+## Last Verified
+
+- **Date:** 2026-03-24
+- **Implemented state source:** local docs content + local repo architecture
+- **Delivery state source:** GitHub issues/projects
 
 ## Responsibilities
 
-- Provide up-to-date guides for every microservice (API, Files, Notifications, Frontend, MCP, Extension, Mobile).
-- Host architecture diagrams (C4) and migration timelines.
-- Surface quickstarts for MCP setup, browser extension installation, and mobile onboarding.
-- Serve as the canonical reference for developers, operators, and AI agents.
+- Document current platform behavior and setup paths.
+- Reflect architecture reality without relying on stale assumptions.
+- Separate implemented behavior from planned/project-tracked work.
 
 ## Local Development
 
 ```bash
 bun install
-bun run dev        # dev server (default http://localhost:3007)
+bun run dev    # http://localhost:3007
 ```
 
-Changes hot-reload in the browser. Update navigation structure in `_meta.ts` files as new sections are added.
-
-## Build & Preview
+## Build
 
 ```bash
-bun run build      # builds with Next.js (.next output)
-bun run start      # preview production build on :3007
+bun run build
+bun run start  # :3007
 ```
 
-Deployments run via Vercel (`vercel.json`). Ensure builds pass before merging.
+## Content Policy
 
-## Content Guidelines
+1. Prefer code-verified statements over aspirational copy.
+2. When roadmap status is relevant, include delivery-state notes.
+3. Do not reference non-existent tracker files (e.g., missing local TODO files).
+4. Keep pricing, app counts, and product claims synced with `cloud` and workspace docs.
 
-- Keep docs in sync with service READMEs/AGENTS; duplicate critical steps so readers never dig through repos.
-- Use placeholders (`TBD`) when final URLs (extension store, mobile app, MCP endpoints) are pending, and track them in `TODO.md`.
-- Prefer MDX for interactive examples; static assets live in `public/`.
-- Document new features (queue-based media processing, notifications migration, MCP tools, extension/mobile) as part of release notes.
+## Canonical Cross-Links
 
-## Current Focus (February 2026)
-
-- Publish updated architecture diagrams covering all microservices and data flows.
-- Add dedicated pages: MCP quickstart, extension onboarding, mobile getting started.
-- Set up automated Vercel preview comments for documentation PRs.
-
-## Useful Links
-
-- Platform README: `../README.md`
-- Workspace agent hub: `../.agents/README.md`
+- Workspace hub: `../.agents/README.md`
 - Cloud monorepo: `../cloud`
-- Cloud server apps: `../cloud/apps/server`
-- Cloud web apps: `../cloud/apps/web`
-- Core (OSS): `../core`
+- Core OSS: `../core`
 - CLI: `../cli`
 
-Keep this README and the site content updated whenever service docs change.
+Update this README whenever docs scope or governance changes.
